@@ -1,0 +1,71 @@
+﻿@page
+@model OnlineSupermarket.Views.Login.IndexModel
+@{
+    ViewData["Title"] = "Registrace - Online Supermarket";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white text-center">
+                    <h2>Vytvořte si účet</h2>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <div class="form-group mb-3">
+                            <label for="username">Uživatelské jméno</label>
+                            <input type="text" id="username" name="username" class="form-control" placeholder="Zadejte uživatelské jméno" required />
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="Zadejte váš email" required />
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="password">Heslo</label>
+                            <input type="password" id="password" name="password" class="form-control" placeholder="Zadejte heslo" required />
+                        </div>
+                        <div class="form-group mb-4">
+                            <label for="confirmPassword">Potvrďte heslo</label>
+                            <input type="password" id="confirmPassword" name="confirmPassword" class="form-control" placeholder="Potvrďte heslo" required />
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Registrovat se</button>
+                    </form>
+                </div>
+                <div class="card-footer text-center">
+                    <p>Již máte účet? <a href="/Login">Přihlaste se zde</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f8f9fa;
+    }
+
+    .card {
+        margin-top: 20px;
+    }
+
+    .card-header {
+        background-color: #007bff;
+        color: white;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        border: none;
+        padding: 10px;
+    }
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+
+    .form-group label {
+        font-weight: bold;
+    }
+</style>
