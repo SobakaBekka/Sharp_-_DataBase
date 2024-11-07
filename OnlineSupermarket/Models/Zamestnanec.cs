@@ -1,7 +1,10 @@
-﻿namespace OnlineSupermarket.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace OnlineSupermarket.Models
 {
     public class Zamestnanec
     {
+        [Key]
         public int IdZamestnance { get; set; }
         public string Jmeno { get; set; }
         public string Prijmeni { get; set; }

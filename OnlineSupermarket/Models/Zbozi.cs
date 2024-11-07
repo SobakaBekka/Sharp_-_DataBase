@@ -1,7 +1,10 @@
-﻿namespace OnlineSupermarket.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace OnlineSupermarket.Models
 {
     public class Zbozi
     {
+        [Key]
         public int IdZbozi { get; set; }
         public string Nazev { get; set; }
         public decimal AktualniCena { get; set; }

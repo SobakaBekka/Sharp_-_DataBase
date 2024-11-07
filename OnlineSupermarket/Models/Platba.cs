@@ -1,7 +1,10 @@
-﻿namespace OnlineSupermarket.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace OnlineSupermarket.Models
 {
     public class Platba
     {
+        [Key]
         public int IdTranzakce { get; set; }
         public decimal CelkovaCena { get; set; }
         public int ProdejIdProdeje { get; set; }

@@ -27,7 +27,7 @@ namespace OnlineSupermarket.Data
         public DbSet<RegisUzivatel> RegisUzivatele { get; set; }
         public DbSet<Role> Role { get; set; }
         public DbSet<Sklad> Sklady { get; set; }
-        public DbSet<Soubor> Soubory { get; set; } // Використовуємо клас Soubor
+        public DbSet<Soubor> Soubory { get; set; }
         public DbSet<Zamestnanec> Zamestnanci { get; set; }
         public DbSet<Zbozi> Zbozi { get; set; }
         public DbSet<ZboziNaPulte> ZboziNaPulte { get; set; }
@@ -35,5 +35,51 @@ namespace OnlineSupermarket.Data
         public DbSet<UserAuditLog> UserAuditLogs { get; set; }
         public DbSet<PasswordChangeLog> PasswordChangeLogs { get; set; }
         public DbSet<SalaryResult> SalaryResults { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            // Настройка точности и масштаба для decimal полей
+            modelBuilder.Entity<Platba>()
+                .Property(p => p.CelkovaCena)
+                .HasPrecision(18, 2);
+
+            modelBuilder.Entity<Pozice>()
+                .Property(p => p.Mzda)
+                .HasPrecision(18, 2);
+
+            modelBuilder.Entity<ProdaneZbozi>()
+                .Property(p => p.ProdejniCena)
+                .HasPrecision(18, 2);
+
+            modelBuilder.Entity<Prodej>()
+                .Property(p => p.CelkovaCena)
+                .HasPrecision(18, 2);
+
+            // Конфигурация для SalaryResult
+            modelBuilder.Entity<SalaryResult>()
+                .HasKey(sr => sr.Id); // Используем Id как первичный ключ
+
+            modelBuilder.Entity<SalaryResult>()
+                .Property(sr => sr.Mzda)
+                .HasPrecision(18, 2); // Настраиваем точность для Mzda, но оно не является частью ключа
+
+            modelBuilder.Entity<Zbozi>()
+                .Property(p => p.AktualniCena)
+                .HasPrecision(18, 2);
+
+            modelBuilder.Entity<Zbozi>()
+                .Property(p => p.Cena)
+                .HasPrecision(18, 2);
+
+            modelBuilder.Entity<Zbozi>()
+                .Property(p => p.CenaZeKlubKartou)
+                .HasPrecision(18, 2);
+
+            modelBuilder.Entity<Zbozi>()
+                .Property(p => p.Hmotnost)
+                .HasPrecision(18, 2);
+
+            // Другие настройки модели, если есть
+        }
     }
 }

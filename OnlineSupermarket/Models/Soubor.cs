@@ -1,9 +1,11 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace OnlineSupermarket.Models
 {
     public class Soubor
     {
+        [Key]
         public int IdSoubor { get; set; }
         public string Nazev { get; set; }
         public byte[] FileData { get; set; }
