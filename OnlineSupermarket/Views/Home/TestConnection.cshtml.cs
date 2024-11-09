@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace OnlineSupermarket.Views.Login
+namespace OnlineSupermarket.Views.Home
 {
-    public class IndexModel : PageModel
+    public class TestConnectionModel : PageModel
     {
         public void OnGet()
         {

@@ -1,35 +1,25 @@
-﻿using Microsoft.EntityFrameworkCore;
-using OnlineSupermarket.Data;
-using Oracle.ManagedDataAccess.Client; // Импорт Oracle драйвера
+﻿using OnlineSupermarket.Models;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddControllersWithViews();
+// Налаштування логування для детального перегляду SQL-запитів (опціонально)
+builder.Logging.ClearProviders();
+builder.Logging.AddConsole();
 
-// Configure the database context
-builder.Services.AddDbContext<OnlineSupermarketContext>(options =>
-    options.UseOracle(builder.Configuration.GetConnectionString("DefaultConnection")));
+// Додаємо AppDbContext до служб
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseOracle(builder.Configuration.GetConnectionString("DefaultConnection"))
+           .EnableSensitiveDataLogging() // Включає логування конфіденційних даних для відлагодження
+           .EnableDetailedErrors());     // Включає детальні повідомлення про помилки
+
+// Додаємо інші служби
+builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
-// Проверка подключения к базе данных
-using (var scope = app.Services.CreateScope())
-{
-    var context = scope.ServiceProvider.GetRequiredService<OnlineSupermarketContext>();
-    try
-    {
-        context.Database.OpenConnection();  // Попытка открытия соединения
-        Console.WriteLine("Подключение к базе данных установлено успешно!");
-        context.Database.CloseConnection(); // Закрытие соединения
-    }
-    catch (Exception ex)
-    {
-        Console.WriteLine($"Ошибка подключения к базе данных: {ex.Message}");
-    }
-}
-
-// Configure the HTTP request pipeline.
+// Налаштування конвеєра запитів HTTP
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -42,6 +32,21 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
+// Перевірка підключення до бази даних при запуску (опціонально)
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    try
+    {
+        dbContext.Database.CanConnect();
+        Console.WriteLine("Підключення до бази даних успішне.");
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"Помилка підключення до бази даних: {ex.Message}");
+    }
+}
 
 app.MapControllerRoute(
     name: "default",
