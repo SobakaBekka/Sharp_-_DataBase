@@ -1,0 +1,31 @@
+﻿@model IEnumerable<OnlineSupermarket.Models.Soubor>
+
+<h1>Seznam Soubory</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID Souboru</th>
+            <th>Název</th>
+            <th>Přípona</th>
+            <th>Datum Uploadu</th>
+            <th>Akce</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.IdSouboru</td>
+                <td>@item.Nazev</td>
+                <td>@item.Pripona</td>
+                <td>@item.UploadDate.ToShortDateString()</td>
+                <td>
+                    <a asp-action="Download" asp-route-id="@item.IdSouboru">Stáhnout</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Upload">Nahrát nový soubor</a>

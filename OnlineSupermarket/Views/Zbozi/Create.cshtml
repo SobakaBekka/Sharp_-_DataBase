@@ -1,0 +1,39 @@
+﻿@model OnlineSupermarket.Models.Zbozi
+
+<h1>Nové Zboží</h1>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label for="Nazev">Název:</label>
+        <input type="text" id="Nazev" name="Nazev" value="@Model.Nazev" required maxlength="20" />
+        <span asp-validation-for="Nazev" class="text-danger"></span>
+    </div>
+    <div>
+        <label for="AktualniCena">Aktuální Cena:</label>
+        <input type="number" id="AktualniCena" name="AktualniCena" value="@Model.AktualniCena" step="0.01" required />
+        <span asp-validation-for="AktualniCena" class="text-danger"></span>
+    </div>
+    <div>
+        <label for="CenaZeKlubKartou">Cena se Klubovou Kartou (volitelná):</label>
+        <input type="number" id="CenaZeKlubKartou" name="CenaZeKlubKartou" value="@Model.CenaZeKlubKartou" step="0.01" />
+        <span asp-validation-for="CenaZeKlubKartou" class="text-danger"></span>
+    </div>
+    <div>
+        <label for="Hmotnost">Hmotnost:</label>
+        <input type="number" id="Hmotnost" name="Hmotnost" value="@Model.Hmotnost" step="0.01" required />
+        <span asp-validation-for="Hmotnost" class="text-danger"></span>
+    </div>
+    <div>
+        <label for="Slozeni">Složení:</label>
+        <input type="text" id="Slozeni" name="Slozeni" value="@Model.Slozeni" required maxlength="100" />
+        <span asp-validation-for="Slozeni" class="text-danger"></span>
+    </div>
+    <div>
+        <label for="KategorieIdKategorii">Kategorie ID:</label>
+        <input type="number" id="KategorieIdKategorii" name="KategorieIdKategorii" value="@Model.KategorieIdKategorii" required />
+        <span asp-validation-for="KategorieIdKategorii" class="text-danger"></span>
+    </div>
+    <button type="submit">Přidat</button>
+</form>
+
+<a asp-action="Index">Zpět na seznam</a>

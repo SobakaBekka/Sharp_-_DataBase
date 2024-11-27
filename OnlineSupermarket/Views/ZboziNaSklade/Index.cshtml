@@ -1,0 +1,29 @@
+﻿@model IEnumerable<OnlineSupermarket.Models.ZboziNaSklade>
+
+<h1>Seznam Zboží na Skladě</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Zboží ID</th>
+            <th>Sklad ID</th>
+            <th>Počet</th>
+            <th>Adresa ID</th>
+            <th>Kategorie ID</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+                <tr>
+                    <td>@item.ZboziIdZbozi</td>
+                    <td>@item.SkladIdSkladu</td>
+                    <td>@item.Pocet</td>
+                    <td>@item.AdresaIdAdresy</td>
+                    <td>@item.KategorieIdKategorii</td>
+                </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create">Přidat nové zboží na sklad</a>

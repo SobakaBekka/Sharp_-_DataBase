@@ -1,0 +1,22 @@
+﻿@model OnlineSupermarket.Models.Prodejna
+
+<h1>Nová Prodejna</h1>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label for="KontaktniCislo">Kontaktní Číslo:</label>
+        <input type="text" id="KontaktniCislo" name="KontaktniCislo" value="@Model.KontaktniCislo" required maxlength="15" minlength="9" />
+        <span asp-validation-for="KontaktniCislo" class="text-danger"></span>
+    </div>
+    <div>
+        <label for="Plocha">Plocha:</label>
+        <input type="number" id="Plocha" name="Plocha" value="@Model.Plocha" required step="0.01" />
+        <span asp-validation-for="Plocha" class="text-danger"></span>
+    </div>
+    <div>
+        <label for="PokladnaIdPokladny">ID Pokladny (volitelné):</label>
+        <input type="number" id="PokladnaIdPokladny" name="PokladnaIdPokladny" value="@Model.PokladnaIdPokladny" />
+        <span asp-validation-for="PokladnaIdPokladny" class="text-danger"></span>
+    </div>
+    <button type="submit">Založit</button>
+</form>

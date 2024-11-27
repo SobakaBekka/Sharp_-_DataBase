@@ -1,0 +1,29 @@
+﻿@model IEnumerable<OnlineSupermarket.Models.Pult>
+
+<h1>Seznam Pultů</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID Pultu</th>
+            <th>Číslo</th>
+            <th>Počet Poiček</th>
+            <th>ID Prodejny</th>
+            <th>ID Kategorie</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+                <tr>
+                    <td>@item.IdPultu</td>
+                    <td>@item.Cislo</td>
+                    <td>@item.PocetPoicek</td>
+                    <td>@item.ProdejnaIdProdejny</td>
+                    <td>@item.IdKategorii</td>
+                </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create">Vytvořit nový pult</a>

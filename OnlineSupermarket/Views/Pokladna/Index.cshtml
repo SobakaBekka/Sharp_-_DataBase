@@ -1,0 +1,23 @@
+﻿@model IEnumerable<OnlineSupermarket.Models.Pokladna>
+
+<h1>Seznam Pokladen</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID Pokladny</th>
+            <th>Samoobslužná</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.IdPokladny</td>
+                <td>@(item.Samoobsluzna ? "Ano" : "Ne")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create">Vytvořit novou pokladnu</a>

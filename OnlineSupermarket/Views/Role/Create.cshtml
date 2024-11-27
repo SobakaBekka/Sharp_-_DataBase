@@ -1,0 +1,14 @@
+﻿@model OnlineSupermarket.Models.Role
+
+<h1>Nová Role</h1>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label for="Nazev">Název:</label>
+        <input type="text" id="Nazev" name="Nazev" value="@Model.Nazev" required maxlength="50" />
+        <span asp-validation-for="Nazev" class="text-danger"></span>
+    </div>
+    <button type="submit">Založit</button>
+</form>
+
+<a asp-action="Index">Zpět na seznam</a>

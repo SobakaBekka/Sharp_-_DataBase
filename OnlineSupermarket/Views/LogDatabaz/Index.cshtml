@@ -1,0 +1,29 @@
+﻿@model IEnumerable<OnlineSupermarket.Models.LogDatabaz>
+
+<h1>Seznam Záznamů Logů</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID Logu</th>
+            <th>Tabulka</th>
+            <th>Operace</th>
+            <th>Datum</th>
+            <th>Uživatel</th>
+            <th>Změny</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.IdLogDatabaz</td>
+                <td>@item.Tabulka</td>
+                <td>@item.Operace</td>
+                <td>@item.Datum.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                <td>@item.Uzivatel</td>
+                <td>@item.Zmeny</td>
+            </tr>
+        }
+    </tbody>
+</table>

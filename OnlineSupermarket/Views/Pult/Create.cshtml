@@ -1,0 +1,25 @@
+﻿@model OnlineSupermarket.Models.Pult
+
+<h1>Nový Pult</h1>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label for="Cislo">Číslo:</label>
+        <input type="text" id="Cislo" name="Cislo" value="@Model.Cislo" required maxlength="10" />
+        <span asp-validation-for="Cislo" class="text-danger"></span>
+    </div>
+    <div>
+        <label for="PocetPoicek">Počet Poiček:</label>
+        <input type="number" id="PocetPoicek" name="PocetPoicek" value="@Model.PocetPoicek" required />
+        <span asp-validation-for="PocetPoicek" class="text-danger"></span>
+    </div>
+    <div>
+        <label for="ProdejnaIdProdejny">ID Prodejny (volitelné):</label>
+        <input type="number" id="ProdejnaIdProdejny" name="ProdejnaIdProdejny" value="@Model.ProdejnaIdProdejny" />
+    </div>
+    <div>
+        <label for="IdKategorii">ID Kategorie (volitelné):</label>
+        <input type="number" id="IdKategorii" name="IdKategorii" value="@Model.IdKategorii" />
+    </div>
+    <button type="submit">Založit</button>
+</form>

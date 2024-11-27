@@ -1,33 +1,22 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace OnlineSupermarket.Models
 {
     public class Prodej
     {
         [Key]
-        [Column(Order = 1)]
-        public int IdProdeje { get; set; }  // відповідає колонці "IDPRODEJE"
+        public int IdProdeje { get; set; }
 
         [Required]
-        public DateTime Datum { get; set; }  // відповідає колонці "DATUM"
+        public DateTime Datum { get; set; } = DateTime.Now; // Set default to current date
 
         [Required]
-        public decimal CelkovaCena { get; set; }  // відповідає колонці "CELKOVACENA"
-
-        [Key]
-        [Column(Order = 2)]
-        public int ZboziIdZbozi { get; set; }  // відповідає колонці "ZBOZI_IDZBOZI"
+        public decimal CelkovaCena { get; set; }
 
         [Required]
-        public int PlatbaIdTranzakce { get; set; }  // відповідає колонці "PLATBA_IDTRANZAKCE"
+        public int ZboziIdZbozi { get; set; }
 
-        // Навігаційні властивості
-        [ForeignKey("ZboziIdZbozi")]
-        public virtual Zbozi Zbozi { get; set; }
-
-        [ForeignKey("PlatbaIdTranzakce")]
-        public virtual Platba Platba { get; set; }
+        public int? PlatbaIdTranzakce { get; set; }
     }
 }

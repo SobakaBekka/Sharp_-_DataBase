@@ -1,0 +1,31 @@
+﻿@model IEnumerable<OnlineSupermarket.Models.Adresa>
+
+<h1>Addresses</h1>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>City (Mesto)</th>
+            <th>Street (Ulice)</th>
+            <th>Prodejna (ID Prodejny)</th>
+            <th>Zamestnanec (ID Zamestnance)</th>
+            <th>Sklad (ID Skladu)</th>
+
+            <!-- Add more columns as needed -->
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var adresa in Model)
+        {
+            <tr>
+                <td>@adresa.IdAdresy</td>
+                <td>@adresa.Mesto</td>
+                <td>@adresa.Ulice</td>
+                <td>@adresa.ProdejnaIdProdejny</td>
+                <td>@adresa.ZamestnanecIdZamestance</td>
+                <td>@adresa.SkladIdSkladu</td>
+                <!-- Add more columns as needed -->
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,44 @@
+﻿@model OnlineSupermarket.Models.RegisUzivatel
+
+<h1>Nový Registrovaný Uživatel</h1>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label for="Jmeno">Jméno:</label>
+        <input type="text" id="Jmeno" name="Jmeno" value="@Model.Jmeno" required maxlength="30" />
+        <span asp-validation-for="Jmeno" class="text-danger"></span>
+    </div>
+    <div>
+        <label for="Prijmeni">Příjmení:</label>
+        <input type="text" id="Prijmeni" name="Prijmeni" value="@Model.Prijmeni" required maxlength="30" />
+        <span asp-validation-for="Prijmeni" class="text-danger"></span>
+    </div>
+    <div>
+        <label for="HesloHash">Heslo Hash:</label>
+        <input type="text" id="HesloHash" name="HesloHash" value="@Model.HesloHash" required maxlength="100" />
+        <span asp-validation-for="HesloHash" class="text-danger"></span>
+    </div>
+    <div>
+        <label for="HesloSul">Heslo Sůl:</label>
+        <input type="text" id="HesloSul" name="HesloSul" value="@Model.HesloSul" required maxlength="100" />
+        <span asp-validation-for="HesloSul" class="text-danger"></span>
+    </div>
+    <div>
+        <label for="RoleIdRole">Role ID:</label>
+        <input type="number" id="RoleIdRole" name="RoleIdRole" value="@Model.RoleIdRole" required />
+        <span asp-validation-for="RoleIdRole" class="text-danger"></span>
+    </div>
+    <div>
+        <label for="SouborIdSouboru">Soubor ID:</label>
+        <input type="number" id="SouborIdSouboru" name="SouborIdSouboru" value="@Model.SouborIdSouboru" required />
+        <span asp-validation-for="SouborIdSouboru" class="text-danger"></span>
+    </div>
+    <div>
+        <label for="IdSouboru">ID Souboru:</label>
+        <input type="number" id="IdSouboru" name="IdSouboru" value="@Model.IdSouboru" required />
+        <span asp-validation-for="IdSouboru" class="text-danger"></span>
+    </div>
+    <button type="submit">Založit</button>
+</form>
+
+<a asp-action="Index">Zpět na seznam</a>

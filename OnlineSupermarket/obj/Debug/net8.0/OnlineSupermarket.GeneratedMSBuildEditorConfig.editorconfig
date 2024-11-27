@@ -1,0 +1,219 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = OnlineSupermarket
+build_property.RootNamespace = OnlineSupermarket
+build_property.ProjectDir = C:\Users\Pavlo Zubov\Documents\UPCE\BCSH2\OnlineSupermarket\OnlineSupermarket\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Pavlo Zubov\Documents\UPCE\BCSH2\OnlineSupermarket\OnlineSupermarket
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Adresa/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRyZXNhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Hotove/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90b3ZlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Hotove/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90b3ZlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Karta/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2FydGFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Karta/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2FydGFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Kategorie/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmllXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Kategorie/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmllXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Kategorie/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmllXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Kupon/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3Vwb25cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Kupon/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3Vwb25cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Kupon/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3Vwb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/LogDatabaz/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nRGF0YWJhelxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Platba/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhdGJhXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Platba/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhdGJhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Pokladna/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9rbGFkbmFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Pokladna/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9rbGFkbmFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Pozice/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG96aWNlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Pozice/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG96aWNlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/ProdaneZbozi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZGFuZVpib3ppXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Prodejna/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZGVqbmFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Prodejna/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZGVqbmFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Prodej/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZGVqXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Prodej/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZGVqXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Pult/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVsdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Pult/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVsdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/RegisUzivatel/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXNVeml2YXRlbFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/RegisUzivatel/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXNVeml2YXRlbFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Role/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Role/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Sklad/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2tsYWRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Sklad/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2tsYWRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Soubor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU291Ym9yXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Soubor/Upload.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU291Ym9yXFVwbG9hZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Test/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Zamestnanec/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFtZXN0bmFuZWNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Zamestnanec/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFtZXN0bmFuZWNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/ZboziNaPulte/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmJvemlOYVB1bHRlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/ZboziNaPulte/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmJvemlOYVB1bHRlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/ZboziNaSklade/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmJvemlOYVNrbGFkZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/ZboziNaSklade/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmJvemlOYVNrbGFkZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Zbozi/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmJvemlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Zbozi/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmJvemlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Zbozi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmJvemlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pavlo Zubov/Documents/UPCE/BCSH2/OnlineSupermarket/OnlineSupermarket/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-v4u3i389xt

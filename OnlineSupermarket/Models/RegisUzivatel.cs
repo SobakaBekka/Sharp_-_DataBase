@@ -1,43 +1,35 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace OnlineSupermarket.Models
 {
     public class RegisUzivatel
     {
         [Key]
-        public int IdRegisUzivatele { get; set; }  // відповідає колонці "IDREGISUZIVATELU"
+        public int IdRegisUzivatele { get; set; }
 
         [Required]
-        [StringLength(30)]
-        public string Jmeno { get; set; }  // відповідає колонці "JMENO"
+        [StringLength(30, ErrorMessage = "Jméno musí mít maximálně 30 znaků.")]
+        public string Jmeno { get; set; }
 
         [Required]
-        [StringLength(30)]
-        public string Prijmeni { get; set; }  // відповідає колонці "PRIJMENI"
+        [StringLength(30, ErrorMessage = "Příjmení musí mít maximálně 30 znaků.")]
+        public string Prijmeni { get; set; }
 
         [Required]
-        [StringLength(100)]
-        public string HesloHash { get; set; }  // відповідає колонці "HESLOHASH"
+        [StringLength(100, ErrorMessage = "Heslo hash musí mít maximálně 100 znaků.")]
+        public string HesloHash { get; set; }
 
         [Required]
-        [StringLength(100)]
-        public string HesloSul { get; set; }  // відповідає колонці "HESLOSUL"
+        [StringLength(100, ErrorMessage = "Heslo sůl musí mít maximálně 100 znaků.")]
+        public string HesloSul { get; set; }
 
         [Required]
-        public int RoleIdRole { get; set; }  // відповідає колонці "ROLE_IDROLE"
+        public int RoleIdRole { get; set; }
 
         [Required]
-        public int SouborIdSouboru { get; set; }  // відповідає колонці "SOUBOR_IDSOUBORU"
+        public int SouborIdSouboru { get; set; }
 
         [Required]
-        public int IdSouboru { get; set; }  // відповідає колонці "IDSOUBORU"
-
-        // Навігаційні властивості
-        [ForeignKey("RoleIdRole")]
-        public virtual Role Role { get; set; }
-
-        [ForeignKey("SouborIdSouboru")]
-        public virtual Soubor Soubor { get; set; }
+        public int IdSouboru { get; set; }
     }
 }

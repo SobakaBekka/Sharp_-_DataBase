@@ -1,0 +1,29 @@
+﻿@model IEnumerable<OnlineSupermarket.Models.RegisUzivatel>
+
+<h1>Seznam Registrovaných Uživatelů</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID Uživatele</th>
+            <th>Jméno</th>
+            <th>Příjmení</th>
+            <th>Role ID</th>
+            <th>Soubor ID</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.IdRegisUzivatele</td>
+                <td>@item.Jmeno</td>
+                <td>@item.Prijmeni</td>
+                <td>@item.RoleIdRole</td>
+                <td>@item.SouborIdSouboru</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create">Vytvořit nového uživatele</a>

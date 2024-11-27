@@ -1,0 +1,18 @@
+﻿@model OnlineSupermarket.Models.Soubor
+
+<h1>Nahrát Nový Soubor</h1>
+
+<form asp-action="Upload" method="post" enctype="multipart/form-data">
+    <div>
+        <label for="Nazev">Název:</label>
+        <input type="text" id="Nazev" name="Nazev" value="@Model?.Nazev" required maxlength="100" />
+        <span asp-validation-for="Nazev" class="text-danger"></span>
+    </div>
+    <div>
+        <label for="file">Soubor:</label>
+        <input type="file" id="file" name="file" required />
+    </div>
+    <button type="submit">Nahrát</button>
+</form>
+
+<a asp-action="Index">Zpět na seznam</a>

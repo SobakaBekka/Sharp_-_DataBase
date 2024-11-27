@@ -1,0 +1,23 @@
+﻿@model OnlineSupermarket.Models.Platba
+
+<h1>Nová Platba</h1>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label for="CelkovaCena">Celková Cena:</label>
+        <input type="number" id="CelkovaCena" name="CelkovaCena" required step="0.01" />
+    </div>
+    <div>
+        <label for="ProdejIdProdeje">ID Prodeje:</label>
+        <input type="number" id="ProdejIdProdeje" name="ProdejIdProdeje" required />
+    </div>
+    <div>
+        <label for="ProdejZboziIdZbozi">ID Zboží:</label>
+        <input type="number" id="ProdejZboziIdZbozi" name="ProdejZboziIdZbozi" required />
+    </div>
+    <div>
+        <label for="Typ">Typ:</label>
+        <input type="text" id="Typ" name="Typ" required maxlength="10" />
+    </div>
+    <button type="submit">Založit</button>
+</form>

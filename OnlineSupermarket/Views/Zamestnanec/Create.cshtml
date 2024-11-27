@@ -1,0 +1,44 @@
+﻿@model OnlineSupermarket.Models.Zamestnanec
+
+<h1>Nový Zaměstnanec</h1>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label for="Jmeno">Jméno:</label>
+        <input type="text" id="Jmeno" name="Jmeno" value="@Model.Jmeno" required maxlength="20" />
+        <span asp-validation-for="Jmeno" class="text-danger"></span>
+    </div>
+    <div>
+        <label for="Prijmeni">Příjmení:</label>
+        <input type="text" id="Prijmeni" name="Prijmeni" value="@Model.Prijmeni" required maxlength="30" />
+        <span asp-validation-for="Prijmeni" class="text-danger"></span>
+    </div>
+    <div>
+        <label for="RodneCislo">Rodné Číslo:</label>
+        <input type="text" id="RodneCislo" name="RodneCislo" value="@Model.RodneCislo" required maxlength="20" />
+        <span asp-validation-for="RodneCislo" class="text-danger"></span>
+    </div>
+    <div>
+        <label for="TelefonniCislo">Telefonní Číslo:</label>
+        <input type="text" id="TelefonniCislo" name="TelefonniCislo" value="@Model.TelefonniCislo" required maxlength="20" />
+        <span asp-validation-for="TelefonniCislo" class="text-danger"></span>
+    </div>
+    <div>
+        <label for="PoziceIdPozice">Pozice ID:</label>
+        <input type="number" id="PoziceIdPozice" name="PoziceIdPozice" value="@Model.PoziceIdPozice" required />
+        <span asp-validation-for="PoziceIdPozice" class="text-danger"></span>
+    </div>
+    <div>
+        <label for="ProdejnaIdProdejny">Prodejna ID:</label>
+        <input type="number" id="ProdejnaIdProdejny" name="ProdejnaIdProdejny" value="@Model.ProdejnaIdProdejny" required />
+        <span asp-validation-for="ProdejnaIdProdejny" class="text-danger"></span>
+    </div>
+    <div>
+        <label for="IdNadrezene">ID Nadřízeného (volitelné):</label>
+        <input type="number" id="IdNadrezene" name="IdNadrezene" value="@Model.IdNadrezene" />
+        <span asp-validation-for="IdNadrezene" class="text-danger"></span>
+    </div>
+    <button type="submit">Přidat</button>
+</form>
+
+<a asp-action="Index">Zpět na seznam</a>

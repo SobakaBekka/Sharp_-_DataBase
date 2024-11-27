@@ -1,0 +1,11 @@
+﻿@model OnlineSupermarket.Models.Kategorie
+
+<h1>Nová Kategorie</h1>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label for="Nazev">Název:</label>
+        <input type="text" id="Nazev" name="Nazev" required maxlength="20" />
+    </div>
+    <button type="submit">Založit</button>
+</form>

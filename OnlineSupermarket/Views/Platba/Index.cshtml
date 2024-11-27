@@ -1,0 +1,29 @@
+﻿@model IEnumerable<OnlineSupermarket.Models.Platba>
+
+<h1>Seznam Plateb</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID Tranzakce</th>
+            <th>Celková Cena</th>
+            <th>ID Prodeje</th>
+            <th>ID Zboží</th>
+            <th>Typ</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.IdTranzakce</td>
+                <td>@item.CelkovaCena</td>
+                <td>@item.ProdejIdProdeje</td>
+                <td>@item.ProdejZboziIdZbozi</td>
+                <td>@item.Typ</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create">Vytvořit novou platbu</a>

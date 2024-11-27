@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF21811F-08B7-4878-8CDA-0632A0A0FA32}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF21811F-08B7-4878-8CDA-0632A0A0FA32}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF21811F-08B7-4878-8CDA-0632A0A0FA32}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AF21811F-08B7-4878-8CDA-0632A0A0FA32}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF21811F-08B7-4878-8CDA-0632A0A0FA32}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AF21811F-08B7-4878-8CDA-0632A0A0FA32}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF21811F-08B7-4878-8CDA-0632A0A0FA32}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AF21811F-08B7-4878-8CDA-0632A0A0FA32}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF21811F-08B7-4878-8CDA-0632A0A0FA32}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF21811F-08B7-4878-8CDA-0632A0A0FA32}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF21811F-08B7-4878-8CDA-0632A0A0FA32}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\databasetester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF21811F-08B7-4878-8CDA-0632A0A0FA32}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\databasetester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "OnlineSupermarket\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "OnlineSupermarket\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-26T18:10:34.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "OnlineSupermarket\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "OnlineSupermarket\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-26T18:10:31.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "OnlineSupermarket\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "OnlineSupermarket\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T18:07:12.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DatabaseTester.cs",
+              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\DatabaseTester.cs",
+              "RelativeDocumentMoniker": "OnlineSupermarket\\DatabaseTester.cs",
+              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\DatabaseTester.cs",
+              "RelativeToolTip": "OnlineSupermarket\\DatabaseTester.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T18:02:47.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Program.cs",
+              "RelativeDocumentMoniker": "OnlineSupermarket\\Program.cs",
+              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Program.cs",
+              "RelativeToolTip": "OnlineSupermarket\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T18:02:43.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "OnlineSupermarket\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Properties\\launchSettings.json",
+              "RelativeToolTip": "OnlineSupermarket\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-26T18:00:57.129Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

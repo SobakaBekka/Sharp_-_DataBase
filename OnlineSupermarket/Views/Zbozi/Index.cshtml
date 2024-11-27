@@ -1,0 +1,38 @@
+﻿@model IEnumerable<OnlineSupermarket.Models.Zbozi>
+
+<h1>Seznam Zboží</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID Zboží</th>
+            <th>Název</th>
+            <th>Aktuální Cena</th>
+            <th>Cena se Klubovou Kartou</th>
+            <th>Hmotnost</th>
+            <th>Složení</th>
+            <th>Kategorie ID</th>
+            <th>Akce</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.IdZbozi</td>
+                <td>@item.Nazev</td>
+                <td>@item.AktualniCena</td>
+                <td>@item.CenaZeKlubKartou</td>
+                <td>@item.Hmotnost</td>
+                <td>@item.Slozeni</td>
+                <td>@item.KategorieIdKategorii</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdZbozi">Upravit</a> |
+                    <a asp-action="Delete" asp-route-id="@item.IdZbozi">Smazat</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create">Přidat nové zboží</a>

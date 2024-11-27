@@ -1,0 +1,25 @@
+﻿@model IEnumerable<OnlineSupermarket.Models.Sklad>
+
+<h1>Seznam Skladů</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID Skladu</th>
+            <th>Počet Políček</th>
+            <th>Plocha</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.IdSkladu</td>
+                <td>@item.PocetPolicek</td>
+                <td>@item.Plocha</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create">Vytvořit nový sklad</a>

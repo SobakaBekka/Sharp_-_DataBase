@@ -1,0 +1,23 @@
+﻿@model IEnumerable<OnlineSupermarket.Models.Role>
+
+<h1>Seznam Rolí</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID Role</th>
+            <th>Název</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.IdRole</td>
+                <td>@item.Nazev</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create">Vytvořit novou roli</a>

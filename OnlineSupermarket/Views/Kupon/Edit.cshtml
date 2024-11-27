@@ -1,0 +1,12 @@
+﻿@model OnlineSupermarket.Models.Kupon
+
+<h1>Upravit Kupon</h1>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" id="IdTranzakce" name="IdTranzakce" value="@Model.IdTranzakce" />
+    <div>
+        <label for="Cislo">Číslo:</label>
+        <input type="text" id="Cislo" name="Cislo" value="@Model.Cislo" required maxlength="20" />
+    </div>
+    <button type="submit">Uložit změny</button>
+</form>

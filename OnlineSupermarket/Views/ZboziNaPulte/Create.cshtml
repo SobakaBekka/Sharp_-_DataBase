@@ -1,0 +1,24 @@
+﻿@model OnlineSupermarket.Models.ZboziNaPulte
+
+<h1>Přidat Zboží na Pult</h1>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label for="PultIdPultu">Pult ID:</label>
+        <input type="number" id="PultIdPultu" name="PultIdPultu" value="@Model.PultIdPultu" required />
+        <span asp-validation-for="PultIdPultu" class="text-danger"></span>
+    </div>
+    <div>
+        <label for="ZboziIdZbozi">Zboží ID:</label>
+        <input type="number" id="ZboziIdZbozi" name="ZboziIdZbozi" value="@Model.ZboziIdZbozi" required />
+        <span asp-validation-for="ZboziIdZbozi" class="text-danger"></span>
+    </div>
+    <div>
+        <label for="Pocet">Počet:</label>
+        <input type="number" id="Pocet" name="Pocet" value="@Model.Pocet" required />
+        <span asp-validation-for="Pocet" class="text-danger"></span>
+    </div>
+    <button type="submit">Přidat</button>
+</form>
+
+<a asp-action="Index">Zpět na seznam</a>

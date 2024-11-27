@@ -1,28 +1,38 @@
-﻿using OnlineSupermarket.Models;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
+using OnlineSupermarket.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Налаштування логування для детального перегляду SQL-запитів (опціонально)
-builder.Logging.ClearProviders();
-builder.Logging.AddConsole();
-
-// Додаємо AppDbContext до служб
-builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseOracle(builder.Configuration.GetConnectionString("DefaultConnection"))
-           .EnableSensitiveDataLogging() // Включає логування конфіденційних даних для відлагодження
-           .EnableDetailedErrors());     // Включає детальні повідомлення про помилки
-
-// Додаємо інші служби
+// Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddTransient<DatabaseHelper>();
+builder.Services.AddTransient<Adresa>();
+builder.Services.AddTransient<Karta>();
+builder.Services.AddTransient<Kategorie>();
+builder.Services.AddTransient<Kupon>();
+builder.Services.AddTransient<LogDatabaz>();
+builder.Services.AddTransient<Platba>();
+builder.Services.AddTransient<Pokladna>();
+builder.Services.AddTransient<Pozice>();
+builder.Services.AddTransient<ProdaneZbozi>();
+builder.Services.AddTransient<Prodej>();
+builder.Services.AddTransient<Prodejna>();
+builder.Services.AddTransient<Pult>();
+builder.Services.AddTransient<RegisUzivatel>();
+builder.Services.AddTransient<Role>();
+builder.Services.AddTransient<Sklad>();
+builder.Services.AddTransient<Soubor>();
+builder.Services.AddTransient<Zamestnanec>();
+builder.Services.AddTransient<Zbozi>();
+builder.Services.AddTransient<ZboziNaPulte>();
+builder.Services.AddTransient<ZboziNaSklade>();
 
 var app = builder.Build();
 
-// Налаштування конвеєра запитів HTTP
+// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
+    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
@@ -32,21 +42,6 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
-
-// Перевірка підключення до бази даних при запуску (опціонально)
-using (var scope = app.Services.CreateScope())
-{
-    var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-    try
-    {
-        dbContext.Database.CanConnect();
-        Console.WriteLine("Підключення до бази даних успішне.");
-    }
-    catch (Exception ex)
-    {
-        Console.WriteLine($"Помилка підключення до бази даних: {ex.Message}");
-    }
-}
 
 app.MapControllerRoute(
     name: "default",

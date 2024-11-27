@@ -1,0 +1,22 @@
+﻿@model IEnumerable<OnlineSupermarket.Models.Hotove>
+
+<h1>Hotovostní transakce</h1>
+<table>
+    <thead>
+        <tr>
+            <th>ID Tranzakce</th>
+            <th>Vrácení</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.IdTranzakce</td>
+                <td>@item.Vraceni</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create">Vytvořit нову транзакцію</a>

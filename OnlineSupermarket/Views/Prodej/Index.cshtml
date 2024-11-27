@@ -1,0 +1,29 @@
+﻿@model IEnumerable<OnlineSupermarket.Models.Prodej>
+
+<h1>Seznam Prodejů</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID Prodeje</th>
+            <th>Datum</th>
+            <th>Celková Cena</th>
+            <th>ID Zboží</th>
+            <th>ID Tranzakce</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.IdProdeje</td>
+                <td>@item.Datum.ToString("yyyy-MM-dd")</td>
+                <td>@item.CelkovaCena</td>
+                <td>@item.ZboziIdZbozi</td>
+                <td>@item.PlatbaIdTranzakce</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create">Vytvořit nový prodej</a>

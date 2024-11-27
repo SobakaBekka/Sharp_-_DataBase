@@ -1,18 +1,20 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace OnlineSupermarket.Models
 {
     public class Pozice
     {
         [Key]
-        public int IdPozice { get; set; }  // відповідає колонці "IDPOZICE"
+        public int IdPozice { get; set; }
 
         [Required]
         [StringLength(20)]
-        public string Nazev { get; set; }  // відповідає колонці "NAZEV"
+        public string Nazev { get; set; }
 
         [Required]
-        public decimal Mzda { get; set; }  // відповідає колонці "MZDA"
+        [Range(0, double.MaxValue, ErrorMessage = "Mzda musí být nezáporná.")]
+        public decimal Mzda { get; set; }
+
     }
+
 }

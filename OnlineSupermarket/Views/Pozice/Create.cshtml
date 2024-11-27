@@ -1,0 +1,15 @@
+﻿@model OnlineSupermarket.Models.Pozice
+
+<h1>Nová Pozice</h1>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label for="Nazev">Název:</label>
+        <input type="text" id="Nazev" name="Nazev" value="@Model?.Nazev" required maxlength="20" />
+    </div>
+    <div>
+        <label for="Mzda">Mzda:</label>
+        <input type="number" id="Mzda" name="Mzda" value="@Model?.Mzda" required step="0.01" />
+    </div>
+    <button type="submit">Založit</button>
+</form>

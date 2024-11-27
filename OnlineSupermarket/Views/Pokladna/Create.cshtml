@@ -1,0 +1,14 @@
+﻿@model OnlineSupermarket.Models.Pokladna
+
+<h1>Nová Pokladna</h1>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label for="Samoobsluzna">Samoobslužná:</label>
+        <select id="Samoobsluzna" name="Samoobsluzna" required>
+            <option value="true">Ano</option>
+            <option value="false">Ne</option>
+        </select>
+    </div>
+    <button type="submit">Založit</button>
+</form>

@@ -1,34 +1,31 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace OnlineSupermarket.Models
 {
     public class Zbozi
     {
         [Key]
-        public int IdZbozi { get; set; }  // відповідає колонці "IDZBOZI"
+        public int IdZbozi { get; set; }
 
         [Required]
-        [StringLength(20)]
-        public string Nazev { get; set; }  // відповідає колонці "NAZEV"
+        [StringLength(20, ErrorMessage = "Název musí mít maximálně 20 znaků.")]
+        public string Nazev { get; set; }
 
         [Required]
-        public decimal AktualniCena { get; set; }  // відповідає колонці "AKTUALNICENA"
+        [Range(0, double.MaxValue, ErrorMessage = "Cena musí být kladná.")]
+        public decimal AktualniCena { get; set; }
 
-        public decimal? CenaZeKlubKartou { get; set; }  // відповідає колонці "CENAZEKLUBKARTOU"
-
-        [Required]
-        public decimal Hmotnost { get; set; }  // відповідає колонці "HMOTNOST"
+        public decimal? CenaZeKlubKartou { get; set; }
 
         [Required]
-        [StringLength(100)]
-        public string Slozeni { get; set; }  // відповідає колонці "SLOZENI"
+        [Range(0, double.MaxValue, ErrorMessage = "Hmotnost musí být kladná.")]
+        public decimal Hmotnost { get; set; }
 
         [Required]
-        public int KategorieIdKategorii { get; set; }  // відповідає колонці "KATEGORIE_IDKATEGORII"
+        [StringLength(100, ErrorMessage = "Složení musí mít maximálně 100 znaků.")]
+        public string Slozeni { get; set; }
 
-        // Навігаційна властивість для зв’язку з таблицею "KATEGORIE"
-        [ForeignKey("KategorieIdKategorii")]
-        public virtual Kategorie Kategorie { get; set; }
+        [Required]
+        public int KategorieIdKategorii { get; set; }
     }
 }

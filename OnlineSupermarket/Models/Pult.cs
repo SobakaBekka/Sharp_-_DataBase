@@ -1,23 +1,22 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace OnlineSupermarket.Models
 {
     public class Pult
     {
         [Key]
-        public int IdPultu { get; set; }  // відповідає колонці "IDPULTU"
+        public int IdPultu { get; set; }
 
         [Required]
-        public int Cislo { get; set; }  // відповідає колонці "CISLO"
+        [StringLength(10, ErrorMessage = "Číslo musí mít maximálně 10 znaků.")]
+        public string Cislo { get; set; }
 
         [Required]
-        public int PocetPoicek { get; set; }  // відповідає колонці "POCETPOICEK"
+        [Range(1, int.MaxValue, ErrorMessage = "Počet poiček musí být kladný.")]
+        public int PocetPoicek { get; set; }
 
-        public int? ProdejnaIdProdejny { get; set; }  // відповідає колонці "PRODEJNA_IDPRODEJNY"
+        public int? ProdejnaIdProdejny { get; set; } // Nullable foreign key
 
-        // Навігаційна властивість для зв’язку з таблицею "PRODEJNA"
-        [ForeignKey("ProdejnaIdProdejny")]
-        public virtual Prodejna? Prodejna { get; set; }
+        public int? IdKategorii { get; set; } // Nullable foreign key
     }
 }

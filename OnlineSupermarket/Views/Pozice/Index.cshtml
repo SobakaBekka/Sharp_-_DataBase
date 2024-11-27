@@ -1,0 +1,25 @@
+﻿@model IEnumerable<OnlineSupermarket.Models.Pozice>
+
+<h1>Seznam Pozic</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID Pozice</th>
+            <th>Název</th>
+            <th>Mzda</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.IdPozice</td>
+                <td>@item.Nazev</td>
+                <td>@item.Mzda</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create">Vytvořit novou pozici</a>

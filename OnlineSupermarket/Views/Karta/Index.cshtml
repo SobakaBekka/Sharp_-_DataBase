@@ -1,0 +1,24 @@
+﻿@model IEnumerable<OnlineSupermarket.Models.Karta>
+
+<h1>Platby kartou</h1>
+<table>
+    <thead>
+        <tr>
+            <th>ID Tranzakce</th>
+            <th>Autorizační Kód</th>
+            <th>Číslo</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.IdTranzakce</td>
+                <td>@item.AutorizacniKod</td>
+                <td>@item.Cislo</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create">Vytvořit нову транзакцію</a>

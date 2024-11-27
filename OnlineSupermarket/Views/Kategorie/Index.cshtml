@@ -1,0 +1,27 @@
+﻿@model IEnumerable<OnlineSupermarket.Models.Kategorie>
+
+<h1>Seznam Kategorií</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID Kategorie</th>
+            <th>Název</th>
+            <th>Akce</th> <!-- Add a column for actions -->
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.IdKategorii</td>
+                <td>@item.Nazev</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdKategorii">Editovat</a>
+                </td> <!-- Add Edit link for each row -->
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create">Vytvořit novou kategorii</a>

@@ -1,0 +1,15 @@
+﻿@model OnlineSupermarket.Models.Kupon
+
+<h1>Nový Kupon</h1>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label for="IdTranzakce">ID Tranzakce:</label>
+        <input type="number" id="IdTranzakce" name="IdTranzakce" required />
+    </div>
+    <div>
+        <label for="Cislo">Číslo:</label>
+        <input type="text" id="Cislo" name="Cislo" required maxlength="20" />
+    </div>
+    <button type="submit">Založit</button>
+</form>

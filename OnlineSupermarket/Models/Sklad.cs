@@ -1,16 +1,17 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace OnlineSupermarket.Models
 {
     public class Sklad
     {
         [Key]
-        public int IdSkladu { get; set; }  // відповідає колонці "IDSKLADU"
+        public int IdSkladu { get; set; }
 
         [Required]
-        public int PocetPolicek { get; set; }  // відповідає колонці "POCETPOLICEK"
+        [Range(1, int.MaxValue, ErrorMessage = "Počet políček musí být kladný.")]
+        public int PocetPolicek { get; set; }
 
-        public int? Plocha { get; set; }  // відповідає колонці "PLOCHA"
+        [Range(0, double.MaxValue, ErrorMessage = "Plocha musí být kladná nebo nula.")]
+        public decimal? Plocha { get; set; }
     }
 }

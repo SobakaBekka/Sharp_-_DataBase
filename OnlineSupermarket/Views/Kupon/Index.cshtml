@@ -1,0 +1,26 @@
+﻿@model IEnumerable<OnlineSupermarket.Models.Kupon>
+
+<h1>Seznam Kuponů</h1>
+<table>
+    <thead>
+        <tr>
+            <th>ID Tranzakce</th>
+            <th>Číslo</th>
+            <th>Akce</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.IdTranzakce</td>
+                <td>@item.Cislo</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdTranzakce">Editovat</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create">Vytvořit nový kupon</a>

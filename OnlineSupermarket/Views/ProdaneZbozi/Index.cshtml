@@ -1,0 +1,27 @@
+﻿@model IEnumerable<OnlineSupermarket.Models.ProdaneZbozi>
+
+<h1>Seznam Prodaneho Zboží</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Počet</th>
+            <th>Prodejní Cena</th>
+            <th>ID Zboží</th>
+            <th>ID Prodeje</th>
+            <th>ID Tranzakce</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Pocet</td>
+                <td>@item.ProdejniCena</td>
+                <td>@item.ZboziIdZbozi</td>
+                <td>@item.ProdejIdProdeje</td>
+                <td>@item.IdTranzakce</td>
+            </tr>
+        }
+    </tbody>
+</table>

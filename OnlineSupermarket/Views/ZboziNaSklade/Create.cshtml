@@ -1,0 +1,29 @@
+﻿@model OnlineSupermarket.Models.ZboziNaSklade
+
+<h1>Přidat Zboží na Sklad</h1>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label for="ZboziIdZbozi">Zboží ID:</label>
+        <input type="number" id="ZboziIdZbozi" name="ZboziIdZbozi" value="@Model.ZboziIdZbozi" required />
+    </div>
+    <div>
+        <label for="SkladIdSkladu">Sklad ID:</label>
+        <input type="number" id="SkladIdSkladu" name="SkladIdSkladu" value="@Model.SkladIdSkladu" required />
+    </div>
+    <div>
+        <label for="Pocet">Počet:</label>
+        <input type="number" id="Pocet" name="Pocet" value="@Model.Pocet" required />
+    </div>
+    <div>
+        <label for="AdresaIdAdresy">Adresa ID (volitelná):</label>
+        <input type="number" id="AdresaIdAdresy" name="AdresaIdAdresy" value="@Model.AdresaIdAdresy" />
+    </div>
+    <div>
+        <label for="KategorieIdKategorii">Kategorie ID:</label>
+        <input type="number" id="KategorieIdKategorii" name="KategorieIdKategorii" value="@Model.KategorieIdKategorii" required />
+    </div>
+    <button type="submit">Přidat</button>
+</form>
+
+<a asp-action="Index">Zpět na seznam</a>
