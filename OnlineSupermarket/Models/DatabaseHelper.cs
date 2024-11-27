@@ -18,17 +18,37 @@ namespace OnlineSupermarket.Models
         // Method to execute a non-query SQL command (INSERT, UPDATE, DELETE)
         public int ExecuteNonQuery(string sql, OracleParameter[] parameters = null)
         {
-            using (var connection = new OracleConnection(_connectionString))
-            using (var command = new OracleCommand(sql, connection))
+            try
             {
-                if (parameters != null)
+                using (var connection = new OracleConnection(_connectionString))
+                using (var command = new OracleCommand(sql, connection))
                 {
-                    command.Parameters.AddRange(parameters);
+                    if (parameters != null)
+                    {
+                        command.Parameters.AddRange(parameters);
+                    }
+                    connection.Open();
+                    int result = command.ExecuteNonQuery();
+
+                    // Если есть выходные параметры, обновите их значения
+                    foreach (OracleParameter param in command.Parameters)
+                    {
+                        if (param.Direction == ParameterDirection.Output)
+                        {
+                            param.Value = command.Parameters[param.ParameterName].Value;
+                        }
+                    }
+
+                    return result;
                 }
-                connection.Open();
-                return command.ExecuteNonQuery();
+            }
+            catch (OracleException ex)
+            {
+                // Логирование ошибки
+                throw; // Повторно выбросить исключение для обработки в контроллере
             }
         }
+
 
         // Method to execute a scalar SQL command (e.g., SELECT COUNT(*))
         public object ExecuteScalar(string sql, OracleParameter[] parameters = null)
@@ -333,6 +353,7 @@ namespace OnlineSupermarket.Models
 
             return regisUzivatelList;
         }
+
         public List<Role> MapRole(DataTable dataTable)
         {
             var roleList = new List<Role>();

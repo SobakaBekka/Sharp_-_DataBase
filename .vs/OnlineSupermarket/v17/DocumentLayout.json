@@ -1,30 +1,82 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\",
+  "WorkspaceRootPath": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF21811F-08B7-4878-8CDA-0632A0A0FA32}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF21811F-08B7-4878-8CDA-0632A0A0FA32}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\controllers\\regisuzivatelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\controllers\\regisuzivatelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF21811F-08B7-4878-8CDA-0632A0A0FA32}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{AF21811F-08B7-4878-8CDA-0632A0A0FA32}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\models\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\models\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF21811F-08B7-4878-8CDA-0632A0A0FA32}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{AF21811F-08B7-4878-8CDA-0632A0A0FA32}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\models\\regisuzivatel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\models\\regisuzivatel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF21811F-08B7-4878-8CDA-0632A0A0FA32}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{AF21811F-08B7-4878-8CDA-0632A0A0FA32}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\regisuzivatel\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\regisuzivatel\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF21811F-08B7-4878-8CDA-0632A0A0FA32}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF21811F-08B7-4878-8CDA-0632A0A0FA32}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF21811F-08B7-4878-8CDA-0632A0A0FA32}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\databasetester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF21811F-08B7-4878-8CDA-0632A0A0FA32}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\databasetester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\controllers\\zbozinapultecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\controllers\\zbozinapultecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\models\\adresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\models\\adresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\hotove\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\hotove\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\models\\platba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\models\\platba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\models\\kupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\models\\kupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\models\\kategorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\models\\kategorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\models\\karta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\models\\karta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\models\\hotove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\models\\hotove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\pult\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1E04469-F5C2-4349-B17F-FB52DA872296}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\pult\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,80 +86,254 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "OnlineSupermarket\\wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "OnlineSupermarket\\wwwroot\\js\\site.js",
+              "DocumentIndex": 8,
+              "Title": "ZboziNaPulteController.cs",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\ZboziNaPulteController.cs",
+              "RelativeDocumentMoniker": "OnlineSupermarket\\Controllers\\ZboziNaPulteController.cs",
+              "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\ZboziNaPulteController.cs",
+              "RelativeToolTip": "OnlineSupermarket\\Controllers\\ZboziNaPulteController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-26T18:10:34.293Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T22:38:02.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "OnlineSupermarket\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\appsettings.Development.json",
+              "RelativeToolTip": "OnlineSupermarket\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-27T21:03:43.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "OnlineSupermarket\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "OnlineSupermarket\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T20:54:32.504Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "OnlineSupermarket\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "OnlineSupermarket\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-26T18:10:31.387Z"
+              "Title": "RegisUzivatel.cs",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Models\\RegisUzivatel.cs",
+              "RelativeDocumentMoniker": "OnlineSupermarket\\Models\\RegisUzivatel.cs",
+              "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Models\\RegisUzivatel.cs",
+              "RelativeToolTip": "OnlineSupermarket\\Models\\RegisUzivatel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T20:53:15.559Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "OnlineSupermarket\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "OnlineSupermarket\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAkwCcAAAAAAAAAAAAAAA==",
+              "Title": "RegisUzivatelController.cs",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\RegisUzivatelController.cs",
+              "RelativeDocumentMoniker": "OnlineSupermarket\\Controllers\\RegisUzivatelController.cs",
+              "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\RegisUzivatelController.cs",
+              "RelativeToolTip": "OnlineSupermarket\\Controllers\\RegisUzivatelController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAqwJ8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T18:07:12.373Z",
+              "WhenOpened": "2024-11-27T20:52:46.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\RegisUzivatel\\Create.cshtml",
+              "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\RegisUzivatel\\Create.cshtml",
+              "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\RegisUzivatel\\Create.cshtml",
+              "RelativeToolTip": "OnlineSupermarket\\Views\\RegisUzivatel\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T20:51:08.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Hotove\\Create.cshtml",
+              "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Hotove\\Create.cshtml",
+              "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Hotove\\Create.cshtml",
+              "RelativeToolTip": "OnlineSupermarket\\Views\\Hotove\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T20:27:54.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "OnlineSupermarket\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAIwGcAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T20:13:02.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Platba.cs",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Models\\Platba.cs",
+              "RelativeDocumentMoniker": "OnlineSupermarket\\Models\\Platba.cs",
+              "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Models\\Platba.cs",
+              "RelativeToolTip": "OnlineSupermarket\\Models\\Platba.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T20:12:47.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Kupon.cs",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Models\\Kupon.cs",
+              "RelativeDocumentMoniker": "OnlineSupermarket\\Models\\Kupon.cs",
+              "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Models\\Kupon.cs",
+              "RelativeToolTip": "OnlineSupermarket\\Models\\Kupon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T20:12:46.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Kategorie.cs",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Models\\Kategorie.cs",
+              "RelativeDocumentMoniker": "OnlineSupermarket\\Models\\Kategorie.cs",
+              "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Models\\Kategorie.cs",
+              "RelativeToolTip": "OnlineSupermarket\\Models\\Kategorie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T20:12:45.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Karta.cs",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Models\\Karta.cs",
+              "RelativeDocumentMoniker": "OnlineSupermarket\\Models\\Karta.cs",
+              "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Models\\Karta.cs",
+              "RelativeToolTip": "OnlineSupermarket\\Models\\Karta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T20:12:45.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "OnlineSupermarket\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "OnlineSupermarket\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T20:11:17.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Hotove.cs",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Models\\Hotove.cs",
+              "RelativeDocumentMoniker": "OnlineSupermarket\\Models\\Hotove.cs",
+              "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Models\\Hotove.cs",
+              "RelativeToolTip": "OnlineSupermarket\\Models\\Hotove.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T20:11:16.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Adresa.cs",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Models\\Adresa.cs",
+              "RelativeDocumentMoniker": "OnlineSupermarket\\Models\\Adresa.cs",
+              "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Models\\Adresa.cs",
+              "RelativeToolTip": "OnlineSupermarket\\Models\\Adresa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T20:10:29.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Models\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "OnlineSupermarket\\Models\\DatabaseHelper.cs",
+              "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Models\\DatabaseHelper.cs",
+              "RelativeToolTip": "OnlineSupermarket\\Models\\DatabaseHelper.cs",
+              "ViewState": "AgIAAD8BAAAAAAAAAAAQwEwBAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T20:10:28.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Pult\\Create.cshtml",
+              "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Pult\\Create.cshtml",
+              "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Pult\\Create.cshtml",
+              "RelativeToolTip": "OnlineSupermarket\\Views\\Pult\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T16:45:39.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Program.cs",
+              "RelativeDocumentMoniker": "OnlineSupermarket\\Program.cs",
+              "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Program.cs",
+              "RelativeToolTip": "OnlineSupermarket\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwB8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T12:28:39.753Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "DatabaseTester.cs",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\DatabaseTester.cs",
-              "RelativeDocumentMoniker": "OnlineSupermarket\\DatabaseTester.cs",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\DatabaseTester.cs",
-              "RelativeToolTip": "OnlineSupermarket\\DatabaseTester.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T18:02:47.43Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Program.cs",
-              "RelativeDocumentMoniker": "OnlineSupermarket\\Program.cs",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Program.cs",
-              "RelativeToolTip": "OnlineSupermarket\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T18:02:43.093Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "OnlineSupermarket\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Properties\\launchSettings.json",
-              "RelativeToolTip": "OnlineSupermarket\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\appsettings.json",
+              "RelativeDocumentMoniker": "OnlineSupermarket\\appsettings.json",
+              "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\appsettings.json",
+              "RelativeToolTip": "OnlineSupermarket\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-26T18:00:57.129Z"
+              "WhenOpened": "2024-11-07T12:09:05.093Z",
+              "EditorCaption": ""
             }
           ]
         }

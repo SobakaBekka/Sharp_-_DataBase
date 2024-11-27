@@ -10,4 +10,8 @@
     <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="23.6.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\Authorizace\" />
+  </ItemGroup>
+
 </Project>

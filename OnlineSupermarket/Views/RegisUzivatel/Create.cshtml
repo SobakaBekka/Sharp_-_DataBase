@@ -1,44 +1,40 @@
 ﻿@model OnlineSupermarket.Models.RegisUzivatel
 
-<h1>Nový Registrovaný Uživatel</h1>
+@{
+    ViewData["Title"] = "Registrovat Nového Uživatele";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
 
-<form asp-action="Create" method="post">
-    <div>
-        <label for="Jmeno">Jméno:</label>
-        <input type="text" id="Jmeno" name="Jmeno" value="@Model.Jmeno" required maxlength="30" />
-        <span asp-validation-for="Jmeno" class="text-danger"></span>
+<section id="registration" class="mt-5 fade-in">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="registration-form">
+                <h2>Registrace</h2>
+                <form asp-action="Create" method="post">
+                    @Html.AntiForgeryToken()
+                    <div class="form-group">
+                        <label asp-for="Jmeno">Jméno:</label>
+                        <input asp-for="Jmeno" class="form-control" placeholder="Zadejte jméno" required maxlength="30" />
+                        <span asp-validation-for="Jmeno" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Prijmeni">Příjmení:</label>
+                        <input asp-for="Prijmeni" class="form-control" placeholder="Zadejte příjmení" required maxlength="30" />
+                        <span asp-validation-for="Prijmeni" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="HesloHash">Heslo:</label>
+                        <input asp-for="HesloHash" class="form-control" placeholder="Zadejte heslo" type="password" required maxlength="100" />
+                        <span asp-validation-for="HesloHash" class="text-danger"></span>
+                    </div>
+                    <!-- Если хотите, можете добавить поля для RoleIdRole, SouborIdSouboru, IdSouboru -->
+                    <!-- Либо устанавливайте их значения по умолчанию в контроллере -->
+                    <button type="submit" class="btn btn-primary btn-block">Registrovat</button>
+                </form>
+                <div class="mt-3 text-center">
+                    <a asp-action="Index" asp-controller="RegisUzivatel" class="btn btn-secondary">&larr; Zpět na seznam</a>
+                </div>
+            </div>
+        </div>
     </div>
-    <div>
-        <label for="Prijmeni">Příjmení:</label>
-        <input type="text" id="Prijmeni" name="Prijmeni" value="@Model.Prijmeni" required maxlength="30" />
-        <span asp-validation-for="Prijmeni" class="text-danger"></span>
-    </div>
-    <div>
-        <label for="HesloHash">Heslo Hash:</label>
-        <input type="text" id="HesloHash" name="HesloHash" value="@Model.HesloHash" required maxlength="100" />
-        <span asp-validation-for="HesloHash" class="text-danger"></span>
-    </div>
-    <div>
-        <label for="HesloSul">Heslo Sůl:</label>
-        <input type="text" id="HesloSul" name="HesloSul" value="@Model.HesloSul" required maxlength="100" />
-        <span asp-validation-for="HesloSul" class="text-danger"></span>
-    </div>
-    <div>
-        <label for="RoleIdRole">Role ID:</label>
-        <input type="number" id="RoleIdRole" name="RoleIdRole" value="@Model.RoleIdRole" required />
-        <span asp-validation-for="RoleIdRole" class="text-danger"></span>
-    </div>
-    <div>
-        <label for="SouborIdSouboru">Soubor ID:</label>
-        <input type="number" id="SouborIdSouboru" name="SouborIdSouboru" value="@Model.SouborIdSouboru" required />
-        <span asp-validation-for="SouborIdSouboru" class="text-danger"></span>
-    </div>
-    <div>
-        <label for="IdSouboru">ID Souboru:</label>
-        <input type="number" id="IdSouboru" name="IdSouboru" value="@Model.IdSouboru" required />
-        <span asp-validation-for="IdSouboru" class="text-danger"></span>
-    </div>
-    <button type="submit">Založit</button>
-</form>
-
-<a asp-action="Index">Zpět na seznam</a>
+</section>

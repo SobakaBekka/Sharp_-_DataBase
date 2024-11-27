@@ -4,23 +4,22 @@ namespace OnlineSupermarket.Models
 {
     public class RegisUzivatel
     {
-        [Key]
         public int IdRegisUzivatele { get; set; }
 
         [Required]
-        [StringLength(30, ErrorMessage = "Jméno musí mít maximálně 30 znaků.")]
+        [MaxLength(30)]
         public string Jmeno { get; set; }
 
         [Required]
-        [StringLength(30, ErrorMessage = "Příjmení musí mít maximálně 30 znaků.")]
+        [MaxLength(30)]
         public string Prijmeni { get; set; }
 
         [Required]
-        [StringLength(100, ErrorMessage = "Heslo hash musí mít maximálně 100 znaků.")]
+        [MaxLength(100)]
         public string HesloHash { get; set; }
 
         [Required]
-        [StringLength(100, ErrorMessage = "Heslo sůl musí mít maximálně 100 znaků.")]
+        [MaxLength(100)]
         public string HesloSul { get; set; }
 
         [Required]

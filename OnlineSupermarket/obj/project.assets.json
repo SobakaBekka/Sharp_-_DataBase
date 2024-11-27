@@ -456,23 +456,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Pavlo Zubov\\.nuget\\packages\\": {},
+    "C:\\Users\\SobakaBekka\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pavlo Zubov\\Documents\\UPCE\\BCSH2\\OnlineSupermarket\\OnlineSupermarket\\OnlineSupermarket.csproj",
+      "projectUniqueName": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\OnlineSupermarket.csproj",
       "projectName": "OnlineSupermarket",
-      "projectPath": "C:\\Users\\Pavlo Zubov\\Documents\\UPCE\\BCSH2\\OnlineSupermarket\\OnlineSupermarket\\OnlineSupermarket.csproj",
-      "packagesPath": "C:\\Users\\Pavlo Zubov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pavlo Zubov\\Documents\\UPCE\\BCSH2\\OnlineSupermarket\\OnlineSupermarket\\obj\\",
+      "projectPath": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\OnlineSupermarket.csproj",
+      "packagesPath": "C:\\Users\\SobakaBekka\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Pavlo Zubov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\SobakaBekka\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -529,7 +529,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
