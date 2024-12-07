@@ -1,23 +1,89 @@
 ﻿@model IEnumerable<OnlineSupermarket.Models.Pokladna>
 
-<h1>Seznam Pokladen</h1>
+@{
+    ViewData["Title"] = "Pokladna";
+}
 
-<table>
+<h1>Pokladna</h1>
+<p>
+    <a asp-action="Create" class="btn btn-success">Create New</a>
+</p>
+
+<!-- Добавляем скрытое поле с Anti-Forgery Token для AJAX-запросов -->
+@Html.AntiForgeryToken()
+
+<table class="table">
     <thead>
         <tr>
-            <th>ID Pokladny</th>
-            <th>Samoobslužná</th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdPokladny)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Samoobsluzna)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Datum_Vytvoreni)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Datum_Aktualizace)
+            </th>
+            <th></th>
         </tr>
     </thead>
     <tbody>
         @foreach (var item in Model)
         {
             <tr>
-                <td>@item.IdPokladny</td>
-                <td>@(item.Samoobsluzna ? "Ano" : "Ne")</td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdPokladny)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Samoobsluzna)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Datum_Vytvoreni)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Datum_Aktualizace)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdPokladny" class="btn btn-primary">Edit</a>
+                    <button class="btn btn-danger" onclick="deletePokladna(@item.IdPokladny)">Delete</button>
+                </td>
             </tr>
         }
     </tbody>
 </table>
 
-<a asp-action="Create">Vytvořit novou pokladnu</a>
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        // Функция для получения Anti-Forgery Token из скрытого поля
+        function getAntiForgeryToken() {
+            return $('input[name="__RequestVerificationToken"]').val();
+        }
+
+        function deletePokladna(id) {
+            if (confirm("Are you sure you want to delete this pokladna?")) {
+                $.ajax({
+                    url: '@Url.Action("DeleteConfirmed", "Pokladna")',
+                    type: 'POST',
+                    data: {
+                        __RequestVerificationToken: getAntiForgeryToken(),
+                        id: id
+                    },
+                    success: function (result) {
+                        if (result.success) {
+                            location.reload();
+                        } else {
+                            alert("Error deleting pokladna: " + result.message);
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        alert("Error deleting pokladna: " + error);
+                    }
+                });
+            }
+        }
+    </script>
+}

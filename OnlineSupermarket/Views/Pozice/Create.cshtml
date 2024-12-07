@@ -1,15 +1,29 @@
 ﻿@model OnlineSupermarket.Models.Pozice
 
-<h1>Nová Pozice</h1>
+@{
+    ViewData["Title"] = "Create Pozice";
+}
 
-<form asp-action="Create" method="post">
-    <div>
-        <label for="Nazev">Název:</label>
-        <input type="text" id="Nazev" name="Nazev" value="@Model?.Nazev" required maxlength="20" />
+<h1>Create Pozice</h1>
+
+<h4>Pozice</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div class="form-group">
+                <label asp-for="Nazev" class="control-label"></label>
+                <input asp-for="Nazev" class="form-control" />
+                <span asp-validation-for="Nazev" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Mzda" class="control-label"></label>
+                <input asp-for="Mzda" class="form-control" />
+                <span asp-validation-for="Mzda" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
     </div>
-    <div>
-        <label for="Mzda">Mzda:</label>
-        <input type="number" id="Mzda" name="Mzda" value="@Model?.Mzda" required step="0.01" />
-    </div>
-    <button type="submit">Založit</button>
-</form>
+</div>

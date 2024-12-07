@@ -1,38 +1,121 @@
 ﻿@model IEnumerable<OnlineSupermarket.Models.Zbozi>
 
-<h1>Seznam Zboží</h1>
+@{
+    ViewData["Title"] = "Zbozi";
+}
 
-<table>
+<h1>Zbozi</h1>
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
+
+<!-- Добавляем скрытое поле с Anti-Forgery Token для AJAX-запросов -->
+@Html.AntiForgeryToken()
+
+<table class="table">
     <thead>
         <tr>
-            <th>ID Zboží</th>
-            <th>Název</th>
-            <th>Aktuální Cena</th>
-            <th>Cena se Klubovou Kartou</th>
-            <th>Hmotnost</th>
-            <th>Složení</th>
-            <th>Kategorie ID</th>
-            <th>Akce</th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdZbozi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nazev)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AktualniCena)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CenaZeKlubKartou)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Hmotnost)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Slozeni)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.KategorieIdKategorie)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DatumVytvoreni)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DatumAktualizace)
+            </th>
+            <th></th>
         </tr>
     </thead>
     <tbody>
         @foreach (var item in Model)
         {
             <tr>
-                <td>@item.IdZbozi</td>
-                <td>@item.Nazev</td>
-                <td>@item.AktualniCena</td>
-                <td>@item.CenaZeKlubKartou</td>
-                <td>@item.Hmotnost</td>
-                <td>@item.Slozeni</td>
-                <td>@item.KategorieIdKategorii</td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.IdZbozi">Upravit</a> |
-                    <a asp-action="Delete" asp-route-id="@item.IdZbozi">Smazat</a>
+                    @Html.DisplayFor(modelItem => item.IdZbozi)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nazev)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AktualniCena)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CenaZeKlubKartou)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Hmotnost)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Slozeni)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.KategorieIdKategorie)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DatumVytvoreni)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DatumAktualizace)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdZbozi" class="btn btn-primary">Edit</a>
+                    <button class="btn btn-danger" onclick="deleteZbozi(@item.IdZbozi)">Delete</button>
                 </td>
             </tr>
         }
     </tbody>
 </table>
 
-<a asp-action="Create">Přidat nové zboží</a>
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        // Функция для получения Anti-Forgery Token из скрытого поля
+        function getAntiForgeryToken() {
+            return $('input[name="__RequestVerificationToken"]').val();
+        }
+
+        function deleteZbozi(id) {
+            if (confirm("Are you sure you want to delete this zbozi?")) {
+                $.ajax({
+                    url: '@Url.Action("Delete", "Zbozi")',
+                    type: 'POST',
+                    data: {
+                        __RequestVerificationToken: getAntiForgeryToken(),
+                        id: id
+                    },
+                    success: function (result) {
+                        if (result.success) {
+                            location.reload();
+                        } else {
+                            alert("Error deleting zbozi: " + result.message);
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        alert("Error deleting zbozi: " + error);
+                    }
+                });
+            }
+        }
+    </script>
+}
+
+

@@ -1,25 +1,14 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
 
 namespace OnlineSupermarket.Models
 {
     public class ProdaneZbozi
     {
-        [Required]
         public int Pocet { get; set; }
-
-        [Required]
-        public decimal ProdejniCena { get; set; }
-
-        [Required]
+        public decimal Prodejnicena { get; set; }
         public int ZboziIdZbozi { get; set; }
-
-        [Required]
-        public int ProdejIdProdeje { get; set; }
-
-        [Required]
-        public int ProdejZboziIdZbozi { get; set; }
-
-        [Required]
         public int IdTranzakce { get; set; }
+        public DateTime DatumVytvoreni { get; set; }
+        public DateTime DatumAktualizace { get; set; }
     }
 }

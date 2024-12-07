@@ -1,21 +1,26 @@
-﻿using OnlineSupermarket.Models;
-using Microsoft.AspNetCore.Identity;
+﻿using OnlineSupermarket.Controllers;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-// Register DatabaseHelper (чтобы он создавался на каждый запрос)
-builder.Services.AddScoped<DatabaseHelper>();
+// Register HomeController as a service
+builder.Services.AddTransient<HomeController>();
 
-// Register IPasswordHasher for RegisUzivatel
-builder.Services.AddScoped<IPasswordHasher<RegisUzivatel>, PasswordHasher<RegisUzivatel>>();
+// Add services for session state
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30);
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
 
-// Если есть какие-то настройки логирования или конфигурации, добавьте их здесь.
-// Например, настройка логирования
+// Configure logging
 builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
+builder.Logging.AddDebug();
 
 var app = builder.Build();
 
@@ -32,6 +37,15 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+app.UseSession(); // Add this line to enable session state
+
+// Register application stopping event
+var lifetime = app.Lifetime;
+lifetime.ApplicationStopping.Register(() =>
+{
+    var homeController = app.Services.GetRequiredService<HomeController>();
+    homeController.SmazatHostUzivatele().GetAwaiter().GetResult();
+});
 
 app.MapControllerRoute(
     name: "default",

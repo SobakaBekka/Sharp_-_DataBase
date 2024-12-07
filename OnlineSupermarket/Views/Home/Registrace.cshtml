@@ -1,0 +1,151 @@
+﻿@model OnlineSupermarket.Models.RegisUzivatel
+
+@{
+    ViewData["Title"] = "Регистрация пользователя";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<!-- Блок для отображения ошибок валидации -->
+@if (!ViewData.ModelState.IsValid && ViewData.ModelState.ErrorCount > 0)
+{
+    <div class="alert alert-danger">
+        <h4>Ошибки валидации:</h4>
+        <ul>
+            @foreach (var modelError in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <li>@modelError.ErrorMessage</li>
+            }
+        </ul>
+    </div>
+}
+
+<!-- Временный блок для отображения полученных данных (отладка) -->
+@if (Model != null)
+{
+    <div class="alert alert-info mt-4">
+        <h4>Отладка Полученных Данных:</h4>
+
+        @if (!string.IsNullOrEmpty(Model.Username))
+        {
+            <p><strong>Имя пользователя (Username):</strong> @Model.Username</p>
+        }
+        else
+        {
+            <p><strong>Имя пользователя (Username):</strong> <span class="text-danger">Не указано</span></p>
+        }
+
+        @if (!string.IsNullOrEmpty(Model.Email))
+        {
+            <p><strong>Электронная почта (Email):</strong> @Model.Email</p>
+        }
+        else
+        {
+            <p><strong>Электронная почта (Email):</strong> <span class="text-danger">Не указано</span></p>
+        }
+
+        @if (!string.IsNullOrEmpty(Model.Jmeno))
+        {
+            <p><strong>Имя (Jmeno):</strong> @Model.Jmeno</p>
+        }
+        else
+        {
+            <p><strong>Имя (Jmeno):</strong> <span class="text-danger">Не указано</span></p>
+        }
+
+        @if (!string.IsNullOrEmpty(Model.Prijmeni))
+        {
+            <p><strong>Фамилия (Prijmeni):</strong> @Model.Prijmeni</p>
+        }
+        else
+        {
+            <p><strong>Фамилия (Prijmeni):</strong> <span class="text-danger">Не указано</span></p>
+        }
+
+        @if (!string.IsNullOrEmpty(Model.Heslo))
+        {
+            <p><strong>Пароль (Heslo):</strong> [Зашифровано]</p> <!-- Не выводим пароль в явном виде, для безопасности -->
+        }
+        else
+        {
+            <p><strong>Пароль (Heslo):</strong> <span class="text-danger">Не указано</span></p>
+        }
+
+        @if (!string.IsNullOrEmpty(Model.Rolenazev))
+        {
+            <p><strong>Роль (Rolenazev):</strong> @Model.Rolenazev</p>
+        }
+        else
+        {
+            <p><strong>Роль (Rolenazev):</strong> <span class="text-danger">Не указано</span></p>
+        }
+
+        @if (Model.RoleIdRole != null)
+        {
+            <p><strong>ID Роли (RoleIdRole):</strong> @Model.RoleIdRole</p>
+        }
+        else
+        {
+            <p><strong>ID Роли (RoleIdRole):</strong> <span class="text-danger">Не указано</span></p>
+        }
+
+        <p><strong>Дата создания (Datum_Vytvoreni):</strong> @Model.DatumVytvoreni.ToString("g")</p>
+        <p><strong>Дата обновления (Datum_Aktualizace):</strong> @Model.DatumAktualizace.ToString("g")</p>
+    </div>
+}
+
+<form asp-action="Registrace" method="post">
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        <label asp-for="Username" class="control-label">Имя пользователя</label>
+        <input asp-for="Username" class="form-control" />
+        <span asp-validation-for="Username" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Email" class="control-label">Электронная почта</label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Jmeno" class="control-label">Имя</label>
+        <input asp-for="Jmeno" class="form-control" />
+        <span asp-validation-for="Jmeno" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Prijmeni" class="control-label">Фамилия</label>
+        <input asp-for="Prijmeni" class="form-control" />
+        <span asp-validation-for="Prijmeni" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Heslo" class="control-label">Пароль</label>
+        <input asp-for="Heslo" type="password" class="form-control" />
+        <span asp-validation-for="Heslo" class="text-danger"></span>
+    </div>
+
+    <!-- Скрытое поле для Rolenazev -->
+    <input asp-for="Rolenazev" type="hidden" value="Regis" />
+
+    <div class="form-group mt-3">
+        <input type="submit" value="Зарегистрировать" class="btn btn-primary" />
+        <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Назад</a>
+    </div>
+</form>
+
+<!-- Временный блок для отображения сообщений об ошибках или успехе -->
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success mt-4">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger mt-4">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

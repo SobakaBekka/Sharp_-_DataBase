@@ -1,34 +1,20 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
 
 namespace OnlineSupermarket.Models
 {
     public class RegisUzivatel
     {
-        public int IdRegisUzivatele { get; set; }
-
-        [Required]
-        [MaxLength(30)]
+        public int IdRegisUzivatelu { get; set; }
+        public string Username { get; set; }
+        public string Email { get; set; }
         public string Jmeno { get; set; }
-
-        [Required]
-        [MaxLength(30)]
         public string Prijmeni { get; set; }
-
-        [Required]
-        [MaxLength(100)]
-        public string HesloHash { get; set; }
-
-        [Required]
-        [MaxLength(100)]
-        public string HesloSul { get; set; }
-
-        [Required]
+        public string Heslo { get; set; }
+        public DateTime DatumVytvoreni { get; set; }
+        public DateTime DatumAktualizace { get; set; }
+        public DateTime? PosledniPrihlaseni { get; set; }
+        public int NeuspesnePrihlaseni { get; set; }
         public int RoleIdRole { get; set; }
-
-        [Required]
-        public int SouborIdSouboru { get; set; }
-
-        [Required]
-        public int IdSouboru { get; set; }
+        public string Rolenazev { get; set; }
     }
 }

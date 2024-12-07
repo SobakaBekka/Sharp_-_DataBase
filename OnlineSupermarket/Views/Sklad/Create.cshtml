@@ -1,19 +1,24 @@
 ﻿@model OnlineSupermarket.Models.Sklad
 
-<h1>Nový Sklad</h1>
+<h2>Create New Sklad</h2>
 
 <form asp-action="Create" method="post">
-    <div>
-        <label for="PocetPolicek">Počet Políček:</label>
-        <input type="number" id="PocetPolicek" name="PocetPolicek" value="@Model.PocetPolicek" required />
+    <div class="form-group">
+        <label asp-for="NazevSkladu" class="control-label"></label>
+        <input asp-for="NazevSkladu" class="form-control" />
+        <span asp-validation-for="NazevSkladu" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="PocetPolicek" class="control-label"></label>
+        <input asp-for="PocetPolicek" class="form-control" />
         <span asp-validation-for="PocetPolicek" class="text-danger"></span>
     </div>
-    <div>
-        <label for="Plocha">Plocha (volitelná):</label>
-        <input type="number" id="Plocha" name="Plocha" value="@Model.Plocha" step="0.01" />
+    <div class="form-group">
+        <label asp-for="Plocha" class="control-label"></label>
+        <input asp-for="Plocha" class="form-control" />
         <span asp-validation-for="Plocha" class="text-danger"></span>
     </div>
-    <button type="submit">Založit</button>
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" />
+    </div>
 </form>
-
-<a asp-action="Index">Zpět na seznam</a>

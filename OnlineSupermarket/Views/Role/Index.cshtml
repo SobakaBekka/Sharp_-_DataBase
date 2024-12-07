@@ -1,23 +1,77 @@
 ﻿@model IEnumerable<OnlineSupermarket.Models.Role>
 
-<h1>Seznam Rolí</h1>
+@{
+    ViewData["Title"] = "Список ролей";
+}
 
-<table>
+<h2>@ViewData["Title"]</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Добавить роль</a>
+</p>
+
+<!-- Добавляем скрытое поле с Anti-Forgery Token для AJAX-запросов -->
+@Html.AntiForgeryToken()
+
+<table class="table table-striped">
     <thead>
         <tr>
-            <th>ID Role</th>
-            <th>Název</th>
+            <th>ID Роли</th>
+            <th>Название</th>
+            <th>Описание</th>
+            <th>Дата создания</th>
+            <th>Дата обновления</th>
+            <th>Действия</th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model)
+        @foreach (var role in Model)
         {
             <tr>
-                <td>@item.IdRole</td>
-                <td>@item.Nazev</td>
+                <td>@role.IdRole</td>
+                <td>@role.Nazev</td>
+                <td>@role.Popis</td>
+                <td>@role.DatumVytvoreni.ToString("dd.MM.yyyy HH:mm")</td>
+                <td>@role.DatumAktualizace.ToString("dd.MM.yyyy HH:mm")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-idRole="@role.IdRole" class="btn btn-sm btn-warning">Изменить</a>
+                    <button class="btn btn-sm btn-danger" onclick="deleteRole(@role.IdRole)">Удалить</button>
+                </td>
             </tr>
         }
     </tbody>
 </table>
 
-<a asp-action="Create">Vytvořit novou roli</a>
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        // Функция для получения Anti-Forgery Token из скрытого поля
+        function getAntiForgeryToken() {
+            return $('input[name="__RequestVerificationToken"]').val();
+        }
+
+        function deleteRole(idRole) {
+            if (confirm("Вы уверены, что хотите удалить эту роль?")) {
+                $.ajax({
+                    url: '@Url.Action("Delete", "Role")',
+                    type: 'POST',
+                    data: { idRole: idRole },
+                    headers: {
+                        'RequestVerificationToken': getAntiForgeryToken()
+                    },
+                    success: function (response) {
+                        if (response.success) {
+                            // Перезагрузить страницу после успешного удаления
+                            location.reload();
+                        } else {
+                            alert(response.message);
+                        }
+                    },
+                    error: function () {
+                        alert("Произошла ошибка при удалении роли.");
+                    }
+                });
+            }
+        }
+    </script>
+}

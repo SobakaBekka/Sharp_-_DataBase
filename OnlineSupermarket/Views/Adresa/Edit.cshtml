@@ -1,0 +1,60 @@
+﻿@model OnlineSupermarket.Models.Adresa
+
+@{
+    ViewData["Title"] = "Редактировать адрес";
+}
+
+<h2>Редактировать адрес</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="IdAdresy" />
+    <div class="form-group">
+        <label asp-for="Mesto" class="control-label"></label>
+        <input asp-for="Mesto" class="form-control" />
+        <span asp-validation-for="Mesto" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Ulice" class="control-label"></label>
+        <input asp-for="Ulice" class="form-control" />
+        <span asp-validation-for="Ulice" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Psc" class="control-label"></label>
+        <input asp-for="Psc" class="form-control" />
+        <span asp-validation-for="Psc" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ProdejnaIdProdejny" class="control-label"></label>
+        <input asp-for="ProdejnaIdProdejny" class="form-control" />
+        <span asp-validation-for="ProdejnaIdProdejny" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ZamestnanecIdZamestance" class="control-label"></label>
+        <input asp-for="ZamestnanecIdZamestance" class="form-control" />
+        <span asp-validation-for="ZamestnanecIdZamestance" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="SkladIdSkladu" class="control-label"></label>
+        <input asp-for="SkladIdSkladu" class="form-control" />
+        <span asp-validation-for="SkladIdSkladu" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Сохранить изменения" class="btn btn-primary" />
+        <a asp-action="Index" class="btn btn-secondary">Отмена</a>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        $(document).ready(function () {
+            $('form').on('submit', function () {
+                if ($('form').valid()) {
+                    $(this).find('input[type="submit"]').prop('disabled', true);
+                }
+            });
+        });
+    </script>
+}

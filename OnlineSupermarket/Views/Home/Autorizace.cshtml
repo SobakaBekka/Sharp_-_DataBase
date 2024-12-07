@@ -1,0 +1,79 @@
+﻿@model OnlineSupermarket.Models.Autorizace
+
+@{
+    ViewData["Title"] = "Авторизация пользователя";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<!-- Блок для отображения сообщений об успешной регистрации -->
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+<!-- Блок для отображения ошибок валидации -->
+@if (!ViewData.ModelState.IsValid && ViewData.ModelState.ErrorCount > 0)
+{
+    <div class="alert alert-danger">
+        <h4>Ошибки валидации:</h4>
+        <ul>
+            @foreach (var modelError in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <li>@modelError.ErrorMessage</li>
+            }
+        </ul>
+    </div>
+}
+
+<!-- Временный блок для отображения полученных данных (отладка) -->
+@if (Model != null)
+{
+    <div class="alert alert-info mt-4">
+        <h4>Отладка Полученных Данных:</h4>
+
+        @if (!string.IsNullOrEmpty(Model.Username))
+        {
+            <p><strong>Имя пользователя (Username):</strong> @Model.Username</p>
+        }
+        else
+        {
+            <p><strong>Имя пользователя (Username):</strong> <span class="text-danger">Не указано</span></p>
+        }
+
+        @if (!string.IsNullOrEmpty(Model.Heslo))
+        {
+            <p><strong>Пароль (Heslo):</strong> [Зашифровано]</p> <!-- Не выводим пароль в явном виде, для безопасности -->
+        }
+        else
+        {
+            <p><strong>Пароль (Heslo):</strong> <span class="text-danger">Не указано</span></p>
+        }
+    </div>
+}
+
+<form asp-action="Autorizace" method="post">
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        <label asp-for="Username" class="control-label">Имя пользователя</label>
+        <input asp-for="Username" class="form-control" />
+        <span asp-validation-for="Username" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Heslo" class="control-label">Пароль</label>
+        <input asp-for="Heslo" type="password" class="form-control" />
+        <span asp-validation-for="Heslo" class="text-danger"></span>
+    </div>
+    <div class="form-group mt-3">
+        <input type="submit" value="Войти" class="btn btn-primary" />
+        <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Назад</a>
+    </div>
+</form>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}
+
+

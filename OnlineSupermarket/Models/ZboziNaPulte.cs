@@ -1,17 +1,15 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
 
 namespace OnlineSupermarket.Models
 {
     public class ZboziNaPulte
     {
-        [Required]
-        public int PultIdPultu { get; set; }
-
-        [Required]
-        public int ZboziIdZbozi { get; set; }
-
-        [Required]
-        [Range(0, int.MaxValue, ErrorMessage = "Počet musí být kladné číslo.")]
         public int Pocet { get; set; }
+        public int ZboziIdZbozi { get; set; }
+        public int PultIdPultu { get; set; }
+        public DateTime DatumVytvoreni { get; set; }
+        public DateTime DatumAktualizace { get; set; }
     }
 }
+
+

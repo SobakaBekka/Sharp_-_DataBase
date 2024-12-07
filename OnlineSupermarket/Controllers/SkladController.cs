@@ -2,58 +2,163 @@
 using OnlineSupermarket.Models;
 using Oracle.ManagedDataAccess.Client;
 using System.Collections.Generic;
+using System.Data;
 
 namespace OnlineSupermarket.Controllers
 {
     public class SkladController : Controller
     {
-        private readonly DatabaseHelper _dbHelper;
+        private readonly string _connectionString;
 
-        public SkladController(DatabaseHelper dbHelper)
+        public SkladController(IConfiguration configuration)
         {
-            _dbHelper = dbHelper;
+            _connectionString = configuration.GetConnectionString("DefaultConnection");
         }
 
         public IActionResult Index()
         {
-            string sql = "SELECT * FROM SKLAD";
-            var dataTable = _dbHelper.ExecuteQuery(sql);
-            var skladList = _dbHelper.MapSklad(dataTable);
+            List<Sklad> sklady = new List<Sklad>();
 
-            return View(skladList);
+            using (var connection = new OracleConnection(_connectionString))
+            {
+                connection.Open();
+                using (var command = new OracleCommand("ZOBRAZ_SKLAD", connection))
+                {
+                    command.CommandType = CommandType.StoredProcedure;
+                    command.Parameters.Add("p_cursor", OracleDbType.RefCursor).Direction = ParameterDirection.Output;
+
+                    using (var reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            sklady.Add(new Sklad
+                            {
+                                IdSkladu = reader.GetInt32(0),
+                                NazevSkladu = reader.GetString(1),
+                                PocetPolicek = reader.GetInt32(2),
+                                Plocha = reader.IsDBNull(3) ? (int?)null : reader.GetInt32(3),
+                                DatumVytvoreni = reader.GetDateTime(4),
+                                DatumAktualizace = reader.GetDateTime(5)
+                            });
+                        }
+                    }
+                }
+            }
+
+            return View(sklady);
         }
 
+        [HttpGet]
         public IActionResult Create()
         {
-            return View(new Sklad());
+            return View();
         }
 
         [HttpPost]
         public IActionResult Create(Sklad sklad)
         {
-            if (!ModelState.IsValid)
+            if (ModelState.IsValid)
             {
-                return View(sklad);
-            }
-
-            try
-            {
-                string sql = "INSERT INTO SKLAD (POCETPOLICEK, PLOCHA) VALUES (:PocetPolicek, :Plocha)";
-                var parameters = new OracleParameter[]
+                using (var connection = new OracleConnection(_connectionString))
                 {
-                    new OracleParameter("PocetPolicek", OracleDbType.Int32) { Value = sklad.PocetPolicek },
-                    new OracleParameter("Plocha", OracleDbType.Decimal) { Value = (object)sklad.Plocha ?? DBNull.Value }
-                };
+                    connection.Open();
+                    using (var command = new OracleCommand("VLOZ_SKLAD", connection))
+                    {
+                        command.CommandType = CommandType.StoredProcedure;
+                        command.Parameters.Add("p_nazevSkladu", OracleDbType.Varchar2).Value = sklad.NazevSkladu;
+                        command.Parameters.Add("p_pocetPolicek", OracleDbType.Int32).Value = sklad.PocetPolicek;
+                        command.Parameters.Add("p_plocha", OracleDbType.Int32).Value = sklad.Plocha;
 
-                _dbHelper.ExecuteNonQuery(sql, parameters);
+                        command.ExecuteNonQuery();
+                    }
+                }
 
-                return RedirectToAction("Index");
+                return RedirectToAction(nameof(Index));
             }
-            catch (Exception ex)
+
+            return View(sklad);
+        }
+
+        [HttpGet]
+        public IActionResult Edit(int id)
+        {
+            Sklad sklad = null;
+
+            using (var connection = new OracleConnection(_connectionString))
             {
-                ViewBag.ErrorMessage = ex.Message;
-                return View(sklad);
+                connection.Open();
+                using (var command = new OracleCommand("SELECT * FROM ST67136.SKLAD WHERE IDSKLADU = :id", connection))
+                {
+                    command.Parameters.Add("id", OracleDbType.Int32).Value = id;
+
+                    using (var reader = command.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            sklad = new Sklad
+                            {
+                                IdSkladu = reader.GetInt32(0),
+                                NazevSkladu = reader.GetString(1),
+                                PocetPolicek = reader.GetInt32(2),
+                                Plocha = reader.IsDBNull(3) ? (int?)null : reader.GetInt32(3),
+                                DatumVytvoreni = reader.GetDateTime(4),
+                                DatumAktualizace = reader.GetDateTime(5)
+                            };
+                        }
+                    }
+                }
             }
+
+            if (sklad == null)
+            {
+                return NotFound();
+            }
+
+            return View(sklad);
+        }
+
+        [HttpPost]
+        public IActionResult Edit(Sklad sklad)
+        {
+            if (ModelState.IsValid)
+            {
+                using (var connection = new OracleConnection(_connectionString))
+                {
+                    connection.Open();
+                    using (var command = new OracleCommand("AKTUALIZUJ_SKLAD", connection))
+                    {
+                        command.CommandType = CommandType.StoredProcedure;
+                        command.Parameters.Add("p_idSkladu", OracleDbType.Int32).Value = sklad.IdSkladu;
+                        command.Parameters.Add("p_nazevSkladu", OracleDbType.Varchar2).Value = sklad.NazevSkladu;
+                        command.Parameters.Add("p_pocetPolicek", OracleDbType.Int32).Value = sklad.PocetPolicek;
+                        command.Parameters.Add("p_plocha", OracleDbType.Int32).Value = sklad.Plocha;
+
+                        command.ExecuteNonQuery();
+                    }
+                }
+
+                return RedirectToAction(nameof(Index));
+            }
+
+            return View(sklad);
+        }
+
+        [HttpPost]
+        public IActionResult Delete(int id)
+        {
+            using (var connection = new OracleConnection(_connectionString))
+            {
+                connection.Open();
+                using (var command = new OracleCommand("SMAZ_SKLAD", connection))
+                {
+                    command.CommandType = CommandType.StoredProcedure;
+                    command.Parameters.Add("p_idSkladu", OracleDbType.Int32).Value = id;
+
+                    command.ExecuteNonQuery();
+                }
+            }
+
+            return RedirectToAction(nameof(Index));
         }
     }
 }

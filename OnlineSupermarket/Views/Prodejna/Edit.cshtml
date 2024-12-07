@@ -1,0 +1,35 @@
+﻿@model OnlineSupermarket.Models.Prodejna
+
+@{
+	ViewData["Title"] = "Изменить магазин";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Edit" method="post">
+	@Html.AntiForgeryToken()
+	<input type="hidden" asp-for="IdProdejny" />
+	<div class="form-group">
+		<label asp-for="Kontaktnicislo" class="control-label">Контактный номер</label>
+		<input asp-for="Kontaktnicislo" class="form-control" />
+		<span asp-validation-for="Kontaktnicislo" class="text-danger"></span>
+	</div>
+	<div class="form-group">
+		<label asp-for="Plocha" class="control-label">Площадь</label>
+		<input asp-for="Plocha" class="form-control" />
+		<span asp-validation-for="Plocha" class="text-danger"></span>
+	</div>
+	<div class="form-group">
+		<label asp-for="PokladnaIdPokladny" class="control-label">ID Кассы</label>
+		<input asp-for="PokladnaIdPokladny" class="form-control" />
+		<span asp-validation-for="PokladnaIdPokladny" class="text-danger"></span>
+	</div>
+	<div class="form-group mt-3">
+		<input type="submit" value="Сохранить" class="btn btn-primary" />
+		<a href="@Url.Action("Index")" class="btn btn-secondary">Назад</a>
+	</div>
+</form>
+
+@section Scripts {
+	@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

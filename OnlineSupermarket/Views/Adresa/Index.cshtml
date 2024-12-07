@@ -1,31 +1,96 @@
 ﻿@model IEnumerable<OnlineSupermarket.Models.Adresa>
 
-<h1>Addresses</h1>
-<table>
+@{
+    ViewData["Title"] = "Список адресов";
+}
+
+<h2>Список адресов</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Добавить адрес</a>
+</p>
+
+<table class="table table-striped">
     <thead>
         <tr>
-            <th>ID</th>
-            <th>City (Mesto)</th>
-            <th>Street (Ulice)</th>
-            <th>Prodejna (ID Prodejny)</th>
-            <th>Zamestnanec (ID Zamestnance)</th>
-            <th>Sklad (ID Skladu)</th>
-
-            <!-- Add more columns as needed -->
+            <th>
+                @Html.DisplayNameFor(model => model.IdAdresy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Mesto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ulice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Psc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProdejnaIdProdejny)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ZamestnanecIdZamestance)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SkladIdSkladu)
+            </th>
+            <th></th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var adresa in Model)
+        @foreach (var item in Model)
         {
-            <tr>
-                <td>@adresa.IdAdresy</td>
-                <td>@adresa.Mesto</td>
-                <td>@adresa.Ulice</td>
-                <td>@adresa.ProdejnaIdProdejny</td>
-                <td>@adresa.ZamestnanecIdZamestance</td>
-                <td>@adresa.SkladIdSkladu</td>
-                <!-- Add more columns as needed -->
+            <tr id="row-@item.IdAdresy">
+                <td>@Html.DisplayFor(modelItem => item.IdAdresy)</td>
+                <td>@Html.DisplayFor(modelItem => item.Mesto)</td>
+                <td>@Html.DisplayFor(modelItem => item.Ulice)</td>
+                <td>@Html.DisplayFor(modelItem => item.Psc)</td>
+                <td>@Html.DisplayFor(modelItem => item.ProdejnaIdProdejny)</td>
+                <td>@Html.DisplayFor(modelItem => item.ZamestnanecIdZamestance)</td>
+                <td>@Html.DisplayFor(modelItem => item.SkladIdSkladu)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-idAdresy="@item.IdAdresy" class="btn btn-warning">Изменить</a>
+                    <form asp-action="Delete" asp-route-idAdresy="@item.IdAdresy" method="post" class="delete-form" style="display:inline-block">
+                        <button type="submit" class="btn btn-danger delete-button">Удалить</button>
+                    </form>
+                </td>
             </tr>
         }
     </tbody>
 </table>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.delete-form').submit(function(e) {
+                e.preventDefault(); // Предотвращаем стандартное поведение отправки формы
+
+                if (confirm('Вы уверены, что хотите удалить этот адрес?')) {
+                    var form = $(this);
+                    var actionUrl = form.attr('action');
+                    var row = form.closest('tr');
+
+                    $.ajax({
+                        url: actionUrl,
+                        type: 'POST',
+                        data: form.serialize(),
+                        success: function(response) {
+                            if (response.success) {
+                                row.remove(); // Удаляем строку из таблицы без перезагрузки страницы
+                            } else {
+                                alert(response.message);
+                            }
+                        },
+                        error: function() {
+                            alert('Произошла ошибка при попытке удалить адрес.');
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+}

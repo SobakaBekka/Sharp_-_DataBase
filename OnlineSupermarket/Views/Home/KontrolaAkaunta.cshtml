@@ -1,0 +1,29 @@
+﻿@{
+	ViewData["Title"] = "Проверка аккаунта";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+@if (TempData["AccountCheckMessage"] != null)
+{
+	<div class="alert alert-info">
+		@TempData["AccountCheckMessage"]
+	</div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+	<div class="alert alert-danger">
+		@TempData["ErrorMessage"]
+	</div>
+}
+
+<form asp-action="KontrolaAkaunta" method="post">
+	<div class="form-group">
+		<label>У вас есть аккаунт?</label>
+		<div class="mt-3">
+			<button type="submit" name="hasAccount" value="yes" class="btn btn-primary">Да</button>
+			<button type="submit" name="hasAccount" value="no" class="btn btn-secondary">Нет</button>
+		</div>
+	</div>
+</form>

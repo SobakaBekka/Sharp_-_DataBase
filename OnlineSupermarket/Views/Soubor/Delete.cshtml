@@ -1,0 +1,63 @@
+﻿@model OnlineSupermarket.Models.Soubor
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Soubor</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.IDSOUBORU)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.IDSOUBORU)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NAZEV_SOUBORU)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NAZEV_SOUBORU)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TYP_SOUBORU)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TYP_SOUBORU)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PRIPONA_SOUBORU)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PRIPONA_SOUBORU)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DATUM_NAHRANI)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DATUM_NAHRANI)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DATUM_MODIFIKACE)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DATUM_MODIFIKACE)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ID_REGISUZIVATELU)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ID_REGISUZIVATELU)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="IDSOUBORU" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

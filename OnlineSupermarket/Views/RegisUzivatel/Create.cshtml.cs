@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace OnlineSupermarket.Views.RegisUzivatel
+namespace OnlineSupermarket.Views.User
 {
     public class CreateModel : PageModel
     {

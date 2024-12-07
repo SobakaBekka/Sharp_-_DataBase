@@ -1,29 +1,33 @@
 ﻿@model OnlineSupermarket.Models.ZboziNaSklade
 
-<h1>Přidat Zboží na Sklad</h1>
+<h2>Create</h2>
 
-<form asp-action="Create" method="post">
-    <div>
-        <label for="ZboziIdZbozi">Zboží ID:</label>
-        <input type="number" id="ZboziIdZbozi" name="ZboziIdZbozi" value="@Model.ZboziIdZbozi" required />
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="Pocet" class="control-label"></label>
+        <input asp-for="Pocet" class="form-control" />
     </div>
-    <div>
-        <label for="SkladIdSkladu">Sklad ID:</label>
-        <input type="number" id="SkladIdSkladu" name="SkladIdSkladu" value="@Model.SkladIdSkladu" required />
+    <div class="form-group">
+        <label asp-for="ZboziIdZbozi" class="control-label"></label>
+        <input asp-for="ZboziIdZbozi" class="form-control" />
     </div>
-    <div>
-        <label for="Pocet">Počet:</label>
-        <input type="number" id="Pocet" name="Pocet" value="@Model.Pocet" required />
+    <div class="form-group">
+        <label asp-for="SkladIdSkladu" class="control-label"></label>
+        <input asp-for="SkladIdSkladu" class="form-control" />
     </div>
-    <div>
-        <label for="AdresaIdAdresy">Adresa ID (volitelná):</label>
-        <input type="number" id="AdresaIdAdresy" name="AdresaIdAdresy" value="@Model.AdresaIdAdresy" />
+    <div class="form-group">
+        <label asp-for="AdresaIdAdresy" class="control-label"></label>
+        <input asp-for="AdresaIdAdresy" class="form-control" />
     </div>
-    <div>
-        <label for="KategorieIdKategorii">Kategorie ID:</label>
-        <input type="number" id="KategorieIdKategorii" name="KategorieIdKategorii" value="@Model.KategorieIdKategorii" required />
+    <div class="form-group">
+        <label asp-for="KategorieIdKategorii" class="control-label"></label>
+        <input asp-for="KategorieIdKategorii" class="form-control" />
     </div>
-    <button type="submit">Přidat</button>
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" />
+    </div>
 </form>
 
-<a asp-action="Index">Zpět na seznam</a>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

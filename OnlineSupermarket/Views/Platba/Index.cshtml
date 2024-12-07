@@ -1,29 +1,79 @@
 ﻿@model IEnumerable<OnlineSupermarket.Models.Platba>
 
-<h1>Seznam Plateb</h1>
+@{
+    ViewData["Title"] = "Список платежей";
+}
 
-<table>
+<h2>@ViewData["Title"]</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Создать Новый Платеж</a>
+</p>
+
+<!-- Добавляем скрытое поле с Anti-Forgery Token для AJAX-запросов -->
+@Html.AntiForgeryToken()
+
+<table class="table table-striped">
     <thead>
         <tr>
-            <th>ID Tranzakce</th>
-            <th>Celková Cena</th>
-            <th>ID Prodeje</th>
-            <th>ID Zboží</th>
-            <th>Typ</th>
+            <th>ID Транзакции</th>
+            <th>Общая Цена</th>
+            <th>Тип</th>
+            <th>Дата Создания</th>
+            <th>Дата Обновления</th>
+            <th>ID Товара</th>
+            <th>Действия</th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model)
+        @foreach (var platba in Model)
         {
             <tr>
-                <td>@item.IdTranzakce</td>
-                <td>@item.CelkovaCena</td>
-                <td>@item.ProdejIdProdeje</td>
-                <td>@item.ProdejZboziIdZbozi</td>
-                <td>@item.Typ</td>
+                <td>@platba.IdTranzakce</td>
+                <td>@platba.CelkovaCena</td>
+                <td>@platba.Typ</td>
+                <td>@platba.DatumVytvoreni.ToString("dd.MM.yyyy HH:mm")</td>
+                <td>@platba.DatumAktualizace.ToString("dd.MM.yyyy HH:mm")</td>
+                <td>@platba.ZboziIdZbozi</td>
+                <td>
+                    <a asp-action="Edit" asp-route-idTranzakce="@platba.IdTranzakce" class="btn btn-sm btn-warning">Изменить</a>
+                    <button class="btn btn-sm btn-danger" onclick="deletePlatba(@platba.IdTranzakce)">Удалить</button>
+                </td>
             </tr>
         }
     </tbody>
 </table>
 
-<a asp-action="Create">Vytvořit novou platbu</a>
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        // Функция для получения Anti-Forgery Token из скрытого поля
+        function getAntiForgeryToken() {
+            return $('input[name="__RequestVerificationToken"]').val();
+        }
+
+        function deletePlatba(idTranzakce) {
+            if (confirm("Вы уверены, что хотите удалить этот платеж?")) {
+                $.ajax({
+                    url: '@Url.Action("Delete", "Platba")',
+                    type: 'POST',
+                    data: { idTranzakce: idTranzakce },
+                    headers: {
+                        'RequestVerificationToken': getAntiForgeryToken()
+                    },
+                    success: function (response) {
+                        if (response.success) {
+                            // Перезагрузить страницу после успешного удаления
+                            location.reload();
+                        } else {
+                            alert(response.message);
+                        }
+                    },
+                    error: function () {
+                        alert("Произошла ошибка при удалении платежа.");
+                    }
+                });
+            }
+        }
+    </script>
+}

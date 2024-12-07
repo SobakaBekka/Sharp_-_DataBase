@@ -1,132 +1,160 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using OnlineSupermarket.Models;
-using Oracle.ManagedDataAccess.Client;
 using System.Collections.Generic;
+using System.Data;
+using Oracle.ManagedDataAccess.Client;
 
 namespace OnlineSupermarket.Controllers
 {
     public class PoziceController : Controller
     {
-        private readonly DatabaseHelper _dbHelper;
+        private readonly string _connectionString;
 
-        public PoziceController(DatabaseHelper dbHelper)
+        public PoziceController(IConfiguration configuration)
         {
-            _dbHelper = dbHelper;
+            _connectionString = configuration.GetConnectionString("DefaultConnection") ?? throw new ArgumentNullException(nameof(configuration), "Connection string cannot be null");
         }
 
-        // Display all Pozice records
         public IActionResult Index()
         {
-            try
-            {
-                string sql = "SELECT * FROM POZICE";
-                var dataTable = _dbHelper.ExecuteQuery(sql);
-                var poziceList = _dbHelper.MapPozice(dataTable);
+            List<Pozice> poziceList = new List<Pozice>();
 
-                return View(poziceList);
-            }
-            catch (Exception ex)
+            using (OracleConnection connection = new OracleConnection(_connectionString))
             {
-                ViewBag.ErrorMessage = "Error fetching data: " + ex.Message;
-                return View(new List<Pozice>());
+                connection.Open();
+                using (OracleCommand command = new OracleCommand("ZOBRAZ_VSE_POZICE", connection))
+                {
+                    command.CommandType = CommandType.StoredProcedure;
+                    command.Parameters.Add("p_cursor", OracleDbType.RefCursor).Direction = ParameterDirection.Output;
+
+                    using (OracleDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            poziceList.Add(new Pozice
+                            {
+                                IdPozice = reader.GetInt32(0),
+                                Nazev = reader.GetString(1),
+                                Mzda = reader.GetDecimal(2),
+                                DatumVytvoreni = reader.GetDateTime(3),
+                                DatumAktualizace = reader.GetDateTime(4)
+                            });
+                        }
+                    }
+                }
             }
+
+            return View(poziceList);
         }
 
-        // GET: Create Pozice
+        [HttpGet]
         public IActionResult Create()
         {
-            // Pass a new instance of Pozice to prevent null reference errors
-            return View(new Pozice());
+            return View();
         }
 
-        // POST: Create Pozice
         [HttpPost]
         public IActionResult Create(Pozice pozice)
         {
-            if (!ModelState.IsValid)
+            if (ModelState.IsValid)
             {
-                // If model validation fails, return to the view with the current model
-                return View(pozice);
-            }
-
-            try
-            {
-                string sql = "INSERT INTO POZICE (NAZEV, MZDA) VALUES (:Nazev, :Mzda)";
-                var parameters = new OracleParameter[]
+                using (OracleConnection connection = new OracleConnection(_connectionString))
                 {
-                    new OracleParameter("Nazev", OracleDbType.Varchar2) { Value = pozice.Nazev },
-                    new OracleParameter("Mzda", OracleDbType.Decimal) { Value = pozice.Mzda }
-                };
+                    connection.Open();
+                    using (OracleCommand command = new OracleCommand("VLOZ_POZICI", connection))
+                    {
+                        command.CommandType = CommandType.StoredProcedure;
+                        command.Parameters.Add("p_nazev", OracleDbType.Varchar2).Value = pozice.Nazev;
+                        command.Parameters.Add("p_mzda", OracleDbType.Decimal).Value = pozice.Mzda;
 
-                _dbHelper.ExecuteNonQuery(sql, parameters);
-
-                return RedirectToAction("Index");
-            }
-            catch (Exception ex)
-            {
-                // Handle database errors and return the user to the Create view
-                ViewBag.ErrorMessage = "Error creating record: " + ex.Message;
-                return View(pozice);
-            }
-        }
-
-        // GET: Edit Pozice
-        public IActionResult Edit(int id)
-        {
-            try
-            {
-                string sql = "SELECT * FROM POZICE WHERE IDPOZICE = :IdPozice";
-                var parameters = new OracleParameter[]
-                {
-                    new OracleParameter("IdPozice", OracleDbType.Int32) { Value = id }
-                };
-
-                var dataTable = _dbHelper.ExecuteQuery(sql, parameters);
-                var poziceList = _dbHelper.MapPozice(dataTable);
-                var pozice = poziceList.Count > 0 ? poziceList[0] : null;
-
-                if (pozice == null)
-                {
-                    return NotFound();
+                        command.ExecuteNonQuery();
+                    }
                 }
 
-                return View(pozice);
-            }
-            catch (Exception ex)
-            {
-                ViewBag.ErrorMessage = "Error fetching record: " + ex.Message;
                 return RedirectToAction("Index");
             }
+
+            return View(pozice);
         }
 
-        // POST: Edit Pozice
+        [HttpGet]
+        public IActionResult Edit(int id)
+        {
+            Pozice pozice = default;
+
+            using (OracleConnection connection = new OracleConnection(_connectionString))
+            {
+                connection.Open();
+                using (OracleCommand command = new OracleCommand("SELECT IDPOZICE, NAZEV, MZDA, DATUM_VYTVORENI, DATUM_AKTUALIZACE FROM POZICE WHERE IDPOZICE = :id", connection))
+                {
+                    command.Parameters.Add("id", OracleDbType.Int32).Value = id;
+
+                    using (OracleDataReader reader = command.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            pozice = new Pozice
+                            {
+                                IdPozice = reader.GetInt32(0),
+                                Nazev = reader.GetString(1),
+                                Mzda = reader.GetDecimal(2),
+                                DatumVytvoreni = reader.GetDateTime(3),
+                                DatumAktualizace = reader.GetDateTime(4)
+                            };
+                        }
+                    }
+                }
+            }
+
+            if (pozice == null)
+            {
+                return NotFound();
+            }
+
+            return View(pozice);
+        }
+
         [HttpPost]
         public IActionResult Edit(Pozice pozice)
         {
-            if (!ModelState.IsValid)
+            if (ModelState.IsValid)
             {
-                return View(pozice);
-            }
-
-            try
-            {
-                string sql = "UPDATE POZICE SET NAZEV = :Nazev, MZDA = :Mzda WHERE IDPOZICE = :IdPozice";
-                var parameters = new OracleParameter[]
+                using (OracleConnection connection = new OracleConnection(_connectionString))
                 {
-                    new OracleParameter("Nazev", OracleDbType.Varchar2) { Value = pozice.Nazev },
-                    new OracleParameter("Mzda", OracleDbType.Decimal) { Value = pozice.Mzda },
-                    new OracleParameter("IdPozice", OracleDbType.Int32) { Value = pozice.IdPozice }
-                };
+                    connection.Open();
+                    using (OracleCommand command = new OracleCommand("AKTUALIZUJ_POZICI", connection))
+                    {
+                        command.CommandType = CommandType.StoredProcedure;
+                        command.Parameters.Add("p_idpozice", OracleDbType.Int32).Value = pozice.IdPozice;
+                        command.Parameters.Add("p_nazev", OracleDbType.Varchar2).Value = pozice.Nazev;
+                        command.Parameters.Add("p_mzda", OracleDbType.Decimal).Value = pozice.Mzda;
 
-                _dbHelper.ExecuteNonQuery(sql, parameters);
+                        command.ExecuteNonQuery();
+                    }
+                }
 
                 return RedirectToAction("Index");
             }
-            catch (Exception ex)
+
+            return View(pozice);
+        }
+
+        [HttpPost]
+        public IActionResult Delete(int id)
+        {
+            using (OracleConnection connection = new OracleConnection(_connectionString))
             {
-                ViewBag.ErrorMessage = "Error updating record: " + ex.Message;
-                return View(pozice);
+                connection.Open();
+                using (OracleCommand command = new OracleCommand("SMAZ_POZICI", connection))
+                {
+                    command.CommandType = CommandType.StoredProcedure;
+                    command.Parameters.Add("p_idpozice", OracleDbType.Int32).Value = id;
+
+                    command.ExecuteNonQuery();
+                }
             }
+
+            return Json(new { success = true });
         }
     }
 }

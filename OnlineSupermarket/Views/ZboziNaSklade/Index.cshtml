@@ -1,29 +1,40 @@
-﻿@model IEnumerable<OnlineSupermarket.Models.ZboziNaSklade>
+﻿@model List<OnlineSupermarket.Models.ZboziNaSklade>
 
-<h1>Seznam Zboží na Skladě</h1>
+<h2>Zbozi na sklade</h2>
 
-<table>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<table class="table">
     <thead>
         <tr>
-            <th>Zboží ID</th>
+            <th>Pocet</th>
+            <th>Zbozi ID</th>
             <th>Sklad ID</th>
-            <th>Počet</th>
             <th>Adresa ID</th>
             <th>Kategorie ID</th>
+            <th>Datum vytvoreni</th>
+            <th>Datum aktualizace</th>
+            <th></th>
         </tr>
     </thead>
     <tbody>
         @foreach (var item in Model)
         {
-                <tr>
-                    <td>@item.ZboziIdZbozi</td>
-                    <td>@item.SkladIdSkladu</td>
-                    <td>@item.Pocet</td>
-                    <td>@item.AdresaIdAdresy</td>
-                    <td>@item.KategorieIdKategorii</td>
-                </tr>
+            <tr>
+                <td>@item.Pocet</td>
+                <td>@item.ZboziIdZbozi</td>
+                <td>@item.SkladIdSkladu</td>
+                <td>@item.AdresaIdAdresy</td>
+                <td>@item.KategorieIdKategorii</td>
+                <td>@item.DatumVytvoreni</td>
+                <td>@item.DatumAktualizace</td>
+                <td>
+                    <a asp-action="Edit" asp-route-zboziIdZbozi="@item.ZboziIdZbozi" asp-route-skladIdSkladu="@item.SkladIdSkladu">Edit</a> |
+                    <a asp-action="Delete" asp-route-zboziIdZbozi="@item.ZboziIdZbozi" asp-route-skladIdSkladu="@item.SkladIdSkladu">Delete</a>
+                </td>
+            </tr>
         }
     </tbody>
 </table>
-
-<a asp-action="Create">Přidat nové zboží na sklad</a>

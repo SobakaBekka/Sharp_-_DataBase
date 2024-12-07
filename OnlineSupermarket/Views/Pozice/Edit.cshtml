@@ -1,0 +1,36 @@
+﻿@model OnlineSupermarket.Models.Pozice
+
+@{
+    ViewData["Title"] = "Edit Pozice";
+}
+
+<h1>Edit Pozice</h1>
+
+<h4>Pozice</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div class="form-group">
+                <label asp-for="IdPozice" class="control-label"></label>
+                <input asp-for="IdPozice" class="form-control" readonly />
+            </div>
+            <div class="form-group">
+                <label asp-for="Nazev" class="control-label"></label>
+                <input asp-for="Nazev" class="form-control" />
+                <span asp-validation-for="Nazev" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Mzda" class="control-label"></label>
+                <input asp-for="Mzda" class="form-control" />
+                <span asp-validation-for="Mzda" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

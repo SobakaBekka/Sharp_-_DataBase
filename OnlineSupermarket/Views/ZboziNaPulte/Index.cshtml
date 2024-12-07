@@ -1,25 +1,79 @@
 ﻿@model IEnumerable<OnlineSupermarket.Models.ZboziNaPulte>
 
-<h1>Seznam Zboží na Pultě</h1>
+@{
+    ViewData["Title"] = "Список товаров на полке";
+}
 
-<table>
+<h2>@ViewData["Title"]</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Добавить товар на полку</a>
+</p>
+
+<!-- Добавляем скрытое поле с Anti-Forgery Token для AJAX-запросов -->
+@Html.AntiForgeryToken()
+
+<table class="table table-striped">
     <thead>
         <tr>
-            <th>Pult ID</th>
-            <th>Zboží ID</th>
-            <th>Počet</th>
+            <th>Количество</th>
+            <th>ID Товара</th>
+            <th>ID Пульта</th>
+            <th>Дата создания</th>
+            <th>Дата обновления</th>
+            <th>Действия</th>
         </tr>
     </thead>
     <tbody>
         @foreach (var item in Model)
         {
             <tr>
-                <td>@item.PultIdPultu</td>
-                <td>@item.ZboziIdZbozi</td>
                 <td>@item.Pocet</td>
+                <td>@item.ZboziIdZbozi</td>
+                <td>@item.PultIdPultu</td>
+                <td>@item.DatumVytvoreni.ToString("dd.MM.yyyy HH:mm")</td>
+                <td>@item.DatumAktualizace.ToString("dd.MM.yyyy HH:mm")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-zboziId="@item.ZboziIdZbozi" asp-route-pultId="@item.PultIdPultu" class="btn btn-sm btn-warning">Изменить</a>
+                    <button class="btn btn-sm btn-danger" onclick="deleteZboziNaPulte(@item.ZboziIdZbozi, @item.PultIdPultu)">Удалить</button>
+                </td>
             </tr>
         }
     </tbody>
 </table>
 
-<a asp-action="Create">Přidat nové zboží na pult</a>
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        // Функция для получения Anti-Forgery Token из скрытого поля
+        function getAntiForgeryToken() {
+            return $('input[name="__RequestVerificationToken"]').val();
+        }
+
+        function deleteZboziNaPulte(zboziId, pultId) {
+            if (confirm("Вы уверены, что хотите удалить этот товар с полки?")) {
+                $.ajax({
+                    url: '@Url.Action("Delete", "ZboziNaPulte")',
+                    type: 'POST',
+                    data: { zboziId: zboziId, pultId: pultId },
+                    headers: {
+                        'RequestVerificationToken': getAntiForgeryToken()
+                    },
+                    success: function (response) {
+                        if (response.success) {
+                            // Перезагрузить страницу после успешного удаления
+                            location.reload();
+                        } else {
+                            alert(response.message);
+                        }
+                    },
+                    error: function () {
+                        alert("Произошла ошибка при удалении товара с полки.");
+                    }
+                });
+            }
+        }
+    </script>
+}
+
+

@@ -1,0 +1,26 @@
+﻿@model OnlineSupermarket.Models.ZboziNaPulte
+
+@{
+	ViewData["Title"] = "Изменить товар на полке";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Edit" method="post">
+	@Html.AntiForgeryToken()
+	<input type="hidden" asp-for="ZboziIdZbozi" />
+	<input type="hidden" asp-for="PultIdPultu" />
+	<div class="form-group">
+		<label asp-for="Pocet" class="control-label">Количество</label>
+		<input asp-for="Pocet" class="form-control" />
+		<span asp-validation-for="Pocet" class="text-danger"></span>
+	</div>
+	<div class="form-group mt-3">
+		<input type="submit" value="Сохранить" class="btn btn-primary" />
+		<a href="@Url.Action("Index")" class="btn btn-secondary">Назад</a>
+	</div>
+</form>
+
+@section Scripts {
+	@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

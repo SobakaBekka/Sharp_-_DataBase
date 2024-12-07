@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace OnlineSupermarket.Views.Zbozi
 {
-    public class EditModel : PageModel
+    public class UpdateModel : PageModel
     {
         public void OnGet()
         {

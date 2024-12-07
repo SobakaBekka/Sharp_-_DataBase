@@ -1,25 +1,38 @@
 ﻿@model IEnumerable<OnlineSupermarket.Models.Sklad>
 
-<h1>Seznam Skladů</h1>
+<h2>Index</h2>
 
-<table>
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New Sklad</a>
+</p>
+
+<table class="table">
     <thead>
         <tr>
-            <th>ID Skladu</th>
-            <th>Počet Políček</th>
+            <th>Název Skladu</th>
+            <th>Počet Poliček</th>
             <th>Plocha</th>
+            <th>Datum Vytvoření</th>
+            <th>Datum Aktualizace</th>
+            <th>Actions</th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model)
+        @foreach (var sklad in Model)
         {
             <tr>
-                <td>@item.IdSkladu</td>
-                <td>@item.PocetPolicek</td>
-                <td>@item.Plocha</td>
+                <td>@sklad.NazevSkladu</td>
+                <td>@sklad.PocetPolicek</td>
+                <td>@sklad.Plocha</td>
+                <td>@sklad.DatumVytvoreni</td>
+                <td>@sklad.DatumAktualizace</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@sklad.IdSkladu" class="btn btn-secondary">Edit</a>
+                    <form asp-action="Delete" asp-route-id="@sklad.IdSkladu" method="post" style="display:inline;">
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </td>
             </tr>
         }
     </tbody>
 </table>
-
-<a asp-action="Create">Vytvořit nový sklad</a>

@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OnlineSupermarket.bundle.scp.css",
-      "PackagePath": "staticwebassets\\OnlineSupermarket.bundle.scp.css"
+      "PackagePath": "staticwebassets\\OnlineSupermarket.r4l1vttodz.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\css\\site.css",
@@ -243,6 +243,10 @@
     {
       "Id": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.OnlineSupermarket.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.OnlineSupermarket.Microsoft.AspNetCore.StaticWebAssets.props",

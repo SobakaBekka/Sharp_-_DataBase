@@ -1,40 +1,58 @@
 ﻿@model OnlineSupermarket.Models.RegisUzivatel
 
 @{
-    ViewData["Title"] = "Registrovat Nového Uživatele";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Создать Нового Пользователя";
 }
 
-<section id="registration" class="mt-5 fade-in">
-    <div class="row justify-content-center">
-        <div class="col-md-6">
-            <div class="registration-form">
-                <h2>Registrace</h2>
-                <form asp-action="Create" method="post">
-                    @Html.AntiForgeryToken()
-                    <div class="form-group">
-                        <label asp-for="Jmeno">Jméno:</label>
-                        <input asp-for="Jmeno" class="form-control" placeholder="Zadejte jméno" required maxlength="30" />
-                        <span asp-validation-for="Jmeno" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="Prijmeni">Příjmení:</label>
-                        <input asp-for="Prijmeni" class="form-control" placeholder="Zadejte příjmení" required maxlength="30" />
-                        <span asp-validation-for="Prijmeni" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="HesloHash">Heslo:</label>
-                        <input asp-for="HesloHash" class="form-control" placeholder="Zadejte heslo" type="password" required maxlength="100" />
-                        <span asp-validation-for="HesloHash" class="text-danger"></span>
-                    </div>
-                    <!-- Если хотите, можете добавить поля для RoleIdRole, SouborIdSouboru, IdSouboru -->
-                    <!-- Либо устанавливайте их значения по умолчанию в контроллере -->
-                    <button type="submit" class="btn btn-primary btn-block">Registrovat</button>
-                </form>
-                <div class="mt-3 text-center">
-                    <a asp-action="Index" asp-controller="RegisUzivatel" class="btn btn-secondary">&larr; Zpět na seznam</a>
-                </div>
-            </div>
-        </div>
+<h1>@ViewData["Title"]</h1>
+
+<form asp-action="Create" method="post">
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        <label asp-for="Username" class="control-label">Имя пользователя</label>
+        <input asp-for="Username" class="form-control" />
+        <span asp-validation-for="Username" class="text-danger"></span>
     </div>
-</section>
+    <div class="form-group">
+        <label asp-for="Email" class="control-label">Электронная почта</label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Jmeno" class="control-label">Имя</label>
+        <input asp-for="Jmeno" class="form-control" />
+        <span asp-validation-for="Jmeno" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Prijmeni" class="control-label">Фамилия</label>
+        <input asp-for="Prijmeni" class="form-control" />
+        <span asp-validation-for="Prijmeni" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Heslo" class="control-label">Пароль</label>
+        <input asp-for="Heslo" class="form-control" />
+        <span asp-validation-for="Heslo" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="RoleIdRole" class="control-label">ID Роли</label>
+        <input asp-for="RoleIdRole" class="form-control" />
+        <span asp-validation-for="RoleIdRole" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Rolenazev" class="control-label">Название Роли</label>
+        <select asp-for="Rolenazev" class="form-control" asp-items="ViewBag.Roles"></select>
+        <span asp-validation-for="Rolenazev" class="text-danger"></span>
+    </div>
+    <div class="form-group mt-3">
+        <input type="submit" value="Создать" class="btn btn-primary" />
+        <a href="@Url.Action("Index")" class="btn btn-secondary">Назад</a>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+

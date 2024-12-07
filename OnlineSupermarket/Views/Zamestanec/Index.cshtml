@@ -1,0 +1,116 @@
+﻿@model IEnumerable<OnlineSupermarket.Models.Zamestanec>
+
+@{
+    ViewData["Title"] = "Список сотрудников";
+}
+
+<h2>Список сотрудников</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Добавить сотрудника</a>
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.IdZamestance)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Jmeno)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Prijmeni)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RodneCislo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TelefonniCislo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PoziceIdPozice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProdejnaIdProdejny)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdNadrezene)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr id="row-@item.IdZamestance">
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdZamestance)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Jmeno)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Prijmeni)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RodneCislo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TelefonniCislo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PoziceIdPozice)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProdejnaIdProdejny)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdNadrezene)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-idZamestance="@item.IdZamestance" class="btn btn-warning">Изменить</a> |
+                    <form asp-action="Delete" asp-route-idZamestance="@item.IdZamestance" method="post" class="delete-form" style="display:inline-block">
+                        <button type="submit" class="btn btn-danger delete-button">Удалить</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            $('.delete-form').submit(function(e) {
+                e.preventDefault(); // Предотвращаем стандартное поведение отправки формы
+
+                if (confirm('Вы уверены, что хотите удалить этого сотрудника?')) {
+                    var form = $(this);
+                    var actionUrl = form.attr('action');
+                    var row = form.closest('tr');
+
+                    $.ajax({
+                        url: actionUrl,
+                        type: 'POST',
+                        data: form.serialize(),
+                        success: function(response) {
+                            if (response.success) {
+                                row.remove(); // Удаляем строку из таблицы без перезагрузки страницы
+                            } else {
+                                alert(response.message);
+                            }
+                        },
+                        error: function() {
+                            alert('Произошла ошибка при попытке удалить сотрудника.');
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+

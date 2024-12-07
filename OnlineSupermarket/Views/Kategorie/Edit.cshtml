@@ -1,12 +1,21 @@
 ﻿@model OnlineSupermarket.Models.Kategorie
 
-<h1>Upravit Kategorii</h1>
+<h2>Edit Kategorie</h2>
 
-<form asp-action="Edit" method="post">
-    <input type="hidden" id="IdKategorii" name="IdKategorii" value="@Model.IdKategorii" />
-    <div>
-        <label for="Nazev">Název:</label>
-        <input type="text" id="Nazev" name="Nazev" value="@Model.Nazev" required maxlength="20" />
+<form asp-action="Edit">
+    <div class="form-group">
+        <label asp-for="IdKategorie" class="control-label"></label>
+        <input asp-for="IdKategorie" class="form-control" type="hidden" />
     </div>
-    <button type="submit">Uložit změny</button>
+    <div class="form-group">
+        <label asp-for="Nazev" class="control-label"></label>
+        <input asp-for="Nazev" class="form-control" />
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Save" class="btn btn-primary" />
+    </div>
 </form>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

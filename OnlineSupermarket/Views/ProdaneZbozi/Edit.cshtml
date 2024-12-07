@@ -1,0 +1,36 @@
+﻿@model OnlineSupermarket.Models.ProdaneZbozi
+
+@{
+	ViewData["Title"] = "Редактировать Проданный Товар";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Edit" method="post">
+	@Html.AntiForgeryToken()
+	<input type="hidden" asp-for="ZboziIdZbozi" />
+	<input type="hidden" asp-for="IdTranzakce" />
+	<div class="form-group">
+		<label asp-for="Pocet" class="control-label">Количество</label>
+		<input asp-for="Pocet" class="form-control" />
+		<span asp-validation-for="Pocet" class="text-danger"></span>
+	</div>
+	<div class="form-group">
+		<label asp-for="Prodejnicena" class="control-label">Цена Продажи</label>
+		<input asp-for="Prodejnicena" class="form-control" />
+		<span asp-validation-for="Prodejnicena" class="text-danger"></span>
+	</div>
+	<div class="form-group">
+		<label asp-for="IdTranzakce" class="control-label">ID Транзакции</label>
+		<input asp-for="IdTranzakce" class="form-control" />
+		<span asp-validation-for="IdTranzakce" class="text-danger"></span>
+	</div>
+	<div class="form-group mt-3">
+		<input type="submit" value="Сохранить" class="btn btn-primary" />
+		<a href="@Url.Action("Index")" class="btn btn-secondary">Назад</a>
+	</div>
+</form>
+
+@section Scripts {
+	@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

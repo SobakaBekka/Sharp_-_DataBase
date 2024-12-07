@@ -1,27 +1,79 @@
 ﻿@model IEnumerable<OnlineSupermarket.Models.Prodejna>
 
-<h1>Seznam Prodejen</h1>
+@{
+    ViewData["Title"] = "Список магазинов";
+}
 
-<table>
+<h2>@ViewData["Title"]</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Добавить магазин</a>
+</p>
+
+<!-- Добавляем скрытое поле с Anti-Forgery Token для AJAX-запросов -->
+@Html.AntiForgeryToken()
+
+<table class="table table-striped">
     <thead>
         <tr>
-            <th>ID Prodejny</th>
-            <th>Kontaktní Číslo</th>
-            <th>Plocha</th>
-            <th>ID Pokladny</th>
+            <th>ID Магазина</th>
+            <th>Контактный номер</th>
+            <th>Площадь</th>
+            <th>ID Кассы</th>
+            <th>Дата создания</th>
+            <th>Дата обновления</th>
+            <th>Действия</th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model)
+        @foreach (var prodejna in Model)
         {
             <tr>
-                <td>@item.IdProdejny</td>
-                <td>@item.KontaktniCislo</td>
-                <td>@item.Plocha</td>
-                <td>@item.PokladnaIdPokladny</td>
+                <td>@prodejna.IdProdejny</td>
+                <td>@prodejna.Kontaktnicislo</td>
+                <td>@prodejna.Plocha</td>
+                <td>@prodejna.PokladnaIdPokladny</td>
+                <td>@prodejna.DatumVytvoreni.ToString("dd.MM.yyyy HH:mm")</td>
+                <td>@prodejna.DatumAktualizace.ToString("dd.MM.yyyy HH:mm")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-idProdejny="@prodejna.IdProdejny" class="btn btn-sm btn-warning">Изменить</a>
+                    <button class="btn btn-sm btn-danger" onclick="deleteProdejna(@prodejna.IdProdejny)">Удалить</button>
+                </td>
             </tr>
         }
     </tbody>
 </table>
 
-<a asp-action="Create">Vytvořit novou prodejnu</a>
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        // Функция для получения Anti-Forgery Token из скрытого поля
+        function getAntiForgeryToken() {
+            return $('input[name="__RequestVerificationToken"]').val();
+        }
+
+        function deleteProdejna(idProdejny) {
+            if (confirm("Вы уверены, что хотите удалить этот магазин?")) {
+                $.ajax({
+                    url: '@Url.Action("Delete", "Prodejna")',
+                    type: 'POST',
+                    data: { idProdejny: idProdejny },
+                    headers: {
+                        'RequestVerificationToken': getAntiForgeryToken()
+                    },
+                    success: function (response) {
+                        if (response.success) {
+                            // Перезагрузить страницу после успешного удаления
+                            location.reload();
+                        } else {
+                            alert(response.message);
+                        }
+                    },
+                    error: function () {
+                        alert("Произошла ошибка при удалении магазина.");
+                    }
+                });
+            }
+        }
+    </script>
+}

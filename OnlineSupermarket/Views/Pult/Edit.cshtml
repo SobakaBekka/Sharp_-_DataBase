@@ -1,0 +1,38 @@
+﻿@model OnlineSupermarket.Models.Pult
+
+@{
+	ViewData["Title"] = "Edit Pult";
+}
+
+<h1>Edit Pult</h1>
+
+<form asp-action="Edit" method="post">
+	<input type="hidden" asp-for="IdPultu" />
+
+	<div class="form-group">
+		<label asp-for="Cislo">Number</label>
+		<input asp-for="Cislo" class="form-control" />
+		<span asp-validation-for="Cislo" class="text-danger"></span>
+	</div>
+
+	<div class="form-group">
+		<label asp-for="PocetPolicek">Number of Shelves</label>
+		<input asp-for="PocetPolicek" class="form-control" type="number" />
+		<span asp-validation-for="PocetPolicek" class="text-danger"></span>
+	</div>
+
+	<div class="form-group">
+		<label asp-for="ProdejnaIdProdejny">Store ID</label>
+		<input asp-for="ProdejnaIdProdejny" class="form-control" type="number" />
+		<span asp-validation-for="ProdejnaIdProdejny" class="text-danger"></span>
+	</div>
+
+	<div class="form-group">
+		<label asp-for="IdKategorie">Category ID</label>
+		<input asp-for="IdKategorie" class="form-control" type="number" />
+		<span asp-validation-for="IdKategorie" class="text-danger"></span>
+	</div>
+
+	<button type="submit" class="btn btn-primary">Save Changes</button>
+	<a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

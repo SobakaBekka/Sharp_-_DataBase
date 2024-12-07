@@ -1,27 +1,64 @@
 ﻿@model IEnumerable<OnlineSupermarket.Models.Kategorie>
 
-<h1>Seznam Kategorií</h1>
+@{
+    ViewData["Title"] = "Kategorie List";
+}
 
-<table>
+<h2>Kategorie List</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New Kategorie</a>
+</p>
+
+<table class="table">
     <thead>
         <tr>
-            <th>ID Kategorie</th>
-            <th>Název</th>
-            <th>Akce</th> <!-- Add a column for actions -->
+            <th>ID</th>
+            <th>Nazev</th>
+            <th>Datum Vytvoreni</th>
+            <th>Datum Aktualizace</th>
+            <th>Actions</th>
         </tr>
     </thead>
     <tbody>
         @foreach (var item in Model)
         {
             <tr>
-                <td>@item.IdKategorii</td>
+                <td>@item.IdKategorie</td>
                 <td>@item.Nazev</td>
+                <td>@item.DatumVytvoreni</td>
+                <td>@item.DatumAktualizace</td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.IdKategorii">Editovat</a>
-                </td> <!-- Add Edit link for each row -->
+                    <a asp-action="Edit" asp-route-id="@item.IdKategorie" class="btn btn-warning">Edit</a> |
+                    <button class="btn btn-danger" onclick="deleteKategorie(@item.IdKategorie)">Delete</button>
+                </td>
             </tr>
         }
     </tbody>
 </table>
 
-<a asp-action="Create">Vytvořit novou kategorii</a>
+<script>
+    function deleteKategorie(id) {
+        if (confirm('Are you sure you want to delete this category?')) {
+            fetch(`/Kategorie/Delete/${id}`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value
+                }
+            })
+                .then(response => {
+                    if (response.ok) {
+                        location.reload();
+                    } else {
+                        alert('Failed to delete category.');
+                    }
+                })
+                .catch(error => console.error('Error:', error));
+        }
+    }
+</script>
+
+<form method="post" asp-controller="Kategorie" asp-action="Delete">
+    @Html.AntiForgeryToken()
+</form>

@@ -1,0 +1,33 @@
+﻿@model IEnumerable<OnlineSupermarket.Models.LogEntry>
+
+@{
+    ViewData["Title"] = "Log Entries";
+}
+
+<h1>Log Entries</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.IdLogDatabaz)</th>
+            <th>@Html.DisplayNameFor(model => model.Tabulka)</th>
+            <th>@Html.DisplayNameFor(model => model.Operace)</th>
+            <th>@Html.DisplayNameFor(model => model.Datum)</th>
+            <th>@Html.DisplayNameFor(model => model.Uzivatel)</th>
+            <th>@Html.DisplayNameFor(model => model.Zmeny)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.IdLogDatabaz)</td>
+                <td>@Html.DisplayFor(modelItem => item.Tabulka)</td>
+                <td>@Html.DisplayFor(modelItem => item.Operace)</td>
+                <td>@Html.DisplayFor(modelItem => item.Datum)</td>
+                <td>@Html.DisplayFor(modelItem => item.Uzivatel)</td>
+                <td>@Html.DisplayFor(modelItem => item.Zmeny)</td>
+            </tr>
+        }
+    </tbody>
+</table>

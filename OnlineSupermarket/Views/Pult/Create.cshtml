@@ -1,25 +1,36 @@
 ﻿@model OnlineSupermarket.Models.Pult
 
-<h1>Nový Pult</h1>
+@{
+	ViewData["Title"] = "Create Pult";
+}
+
+<h1>Create New Pult</h1>
 
 <form asp-action="Create" method="post">
-    <div>
-        <label for="Cislo">Číslo:</label>
-        <input type="text" id="Cislo" name="Cislo" value="@Model.Cislo" required maxlength="10" />
-        <span asp-validation-for="Cislo" class="text-danger"></span>
-    </div>
-    <div>
-        <label for="PocetPoicek">Počet Poiček:</label>
-        <input type="number" id="PocetPoicek" name="PocetPoicek" value="@Model.PocetPoicek" required />
-        <span asp-validation-for="PocetPoicek" class="text-danger"></span>
-    </div>
-    <div>
-        <label for="ProdejnaIdProdejny">ID Prodejny (volitelné):</label>
-        <input type="number" id="ProdejnaIdProdejny" name="ProdejnaIdProdejny" value="@Model.ProdejnaIdProdejny" />
-    </div>
-    <div>
-        <label for="IdKategorii">ID Kategorie (volitelné):</label>
-        <input type="number" id="IdKategorii" name="IdKategorii" value="@Model.IdKategorii" />
-    </div>
-    <button type="submit">Založit</button>
+	<div class="form-group">
+		<label asp-for="Cislo">Number</label>
+		<input asp-for="Cislo" class="form-control" />
+		<span asp-validation-for="Cislo" class="text-danger"></span>
+	</div>
+
+	<div class="form-group">
+		<label asp-for="PocetPolicek">Number of Shelves</label>
+		<input asp-for="PocetPolicek" class="form-control" type="number" />
+		<span asp-validation-for="PocetPolicek" class="text-danger"></span>
+	</div>
+
+	<div class="form-group">
+		<label asp-for="ProdejnaIdProdejny">Store ID</label>
+		<input asp-for="ProdejnaIdProdejny" class="form-control" type="number" />
+		<span asp-validation-for="ProdejnaIdProdejny" class="text-danger"></span>
+	</div>
+
+	<div class="form-group">
+		<label asp-for="IdKategorie">Category ID</label>
+		<input asp-for="IdKategorie" class="form-control" type="number" />
+		<span asp-validation-for="IdKategorie" class="text-danger"></span>
+	</div>
+
+	<button type="submit" class="btn btn-primary">Create</button>
+	<a asp-action="Index" class="btn btn-secondary">Cancel</a>
 </form>
