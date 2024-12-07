@@ -22,6 +22,7 @@
             <th>Дата Создания</th>
             <th>Дата Обновления</th>
             <th>ID Товара</th>
+            <th>ID Продавца</th>
             <th>Действия</th>
         </tr>
     </thead>
@@ -35,6 +36,7 @@
                 <td>@platba.DatumVytvoreni.ToString("dd.MM.yyyy HH:mm")</td>
                 <td>@platba.DatumAktualizace.ToString("dd.MM.yyyy HH:mm")</td>
                 <td>@platba.ZboziIdZbozi</td>
+                <td>@platba.ProdejnaIdProdejny</td>
                 <td>
                     <a asp-action="Edit" asp-route-idTranzakce="@platba.IdTranzakce" class="btn btn-sm btn-warning">Изменить</a>
                     <button class="btn btn-sm btn-danger" onclick="deletePlatba(@platba.IdTranzakce)">Удалить</button>
@@ -77,3 +79,4 @@
         }
     </script>
 }
+

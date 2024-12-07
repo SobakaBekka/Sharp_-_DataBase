@@ -24,6 +24,11 @@
 		<input asp-for="ZboziIdZbozi" class="form-control" />
 		<span asp-validation-for="ZboziIdZbozi" class="text-danger"></span>
 	</div>
+	<div class="form-group">
+		<label asp-for="ProdejnaIdProdejny" class="control-label">ID Продавца</label>
+		<input asp-for="ProdejnaIdProdejny" class="form-control" />
+		<span asp-validation-for="ProdejnaIdProdejny" class="text-danger"></span>
+	</div>
 	<div class="form-group mt-3">
 		<input type="submit" value="Сохранить" class="btn btn-primary" />
 		<a href="@Url.Action("Index")" class="btn btn-secondary">Назад</a>

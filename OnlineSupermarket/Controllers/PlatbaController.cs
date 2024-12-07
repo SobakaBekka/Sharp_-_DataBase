@@ -31,7 +31,7 @@ namespace OnlineSupermarket.Controllers
                 using (var connection = new OracleConnection(_connectionString))
                 {
                     await connection.OpenAsync();
-                    using (var command = new OracleCommand("ZOBRAZ_PLATBU", connection))
+                    using (var command = new OracleCommand("ZOBRAZ_PLATBY", connection))
                     {
                         command.CommandType = CommandType.StoredProcedure;
                         command.Parameters.Add("p_cursor", OracleDbType.RefCursor).Direction = ParameterDirection.Output;
@@ -47,7 +47,8 @@ namespace OnlineSupermarket.Controllers
                                     Typ = reader.GetString(2),
                                     DatumVytvoreni = reader.GetDateTime(3),
                                     DatumAktualizace = reader.GetDateTime(4),
-                                    ZboziIdZbozi = reader.GetInt32(5)
+                                    ZboziIdZbozi = reader.GetInt32(5),
+                                    ProdejnaIdProdejny = reader.IsDBNull(6) ? (int?)null : reader.GetInt32(6)
                                 });
                             }
                         }
@@ -87,6 +88,7 @@ namespace OnlineSupermarket.Controllers
                             command.Parameters.Add("p_celkovaCena", OracleDbType.Decimal).Value = platba.CelkovaCena;
                             command.Parameters.Add("p_typ", OracleDbType.Varchar2).Value = platba.Typ;
                             command.Parameters.Add("p_zbozi_idzbozi", OracleDbType.Int32).Value = platba.ZboziIdZbozi;
+                            command.Parameters.Add("p_prodejna_idprodejny", OracleDbType.Int32).Value = platba.ProdejnaIdProdejny;
 
                             await command.ExecuteNonQueryAsync();
                         }
@@ -135,7 +137,8 @@ namespace OnlineSupermarket.Controllers
                                     Typ = reader.GetString(2),
                                     DatumVytvoreni = reader.GetDateTime(3),
                                     DatumAktualizace = reader.GetDateTime(4),
-                                    ZboziIdZbozi = reader.GetInt32(5)
+                                    ZboziIdZbozi = reader.GetInt32(5),
+                                    ProdejnaIdProdejny = reader.IsDBNull(6) ? (int?)null : reader.GetInt32(6)
                                 };
                             }
                             else
@@ -178,8 +181,8 @@ namespace OnlineSupermarket.Controllers
                         await connection.OpenAsync();
 
                         // Логгирование для проверки значений перед вызовом процедуры
-                        _logger.LogInformation("Попытка обновления platba с IdTranzakce: {IdTranzakce}, CelkovaCena: {CelkovaCena}, Typ: {Typ}, ZboziIdZbozi: {ZboziIdZbozi}",
-                            platba.IdTranzakce, platba.CelkovaCena, platba.Typ, platba.ZboziIdZbozi);
+                        _logger.LogInformation("Попытка обновления platba с IdTranzakce: {IdTranzakce}, CelkovaCena: {CelkovaCena}, Typ: {Typ}, ZboziIdZbozi: {ZboziIdZbozi}, ProdejnaIdProdejny: {ProdejnaIdProdejny}",
+                            platba.IdTranzakce, platba.CelkovaCena, platba.Typ, platba.ZboziIdZbozi, platba.ProdejnaIdProdejny);
 
                         using (var command = new OracleCommand("AKTUALIZUJ_PLATBU", connection))
                         {
@@ -188,6 +191,7 @@ namespace OnlineSupermarket.Controllers
                             command.Parameters.Add("p_celkovaCena", OracleDbType.Decimal).Value = platba.CelkovaCena;
                             command.Parameters.Add("p_typ", OracleDbType.Varchar2).Value = platba.Typ;
                             command.Parameters.Add("p_zbozi_idzbozi", OracleDbType.Int32).Value = platba.ZboziIdZbozi;
+                            command.Parameters.Add("p_prodejna_idprodejn", OracleDbType.Int32).Value = platba.ProdejnaIdProdejny;
 
                             var affectedRows = await command.ExecuteNonQueryAsync();
 
@@ -237,3 +241,4 @@ namespace OnlineSupermarket.Controllers
         }
     }
 }
+

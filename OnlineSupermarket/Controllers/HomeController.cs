@@ -19,33 +19,11 @@ namespace OnlineSupermarket.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
-        {
-            var username = HttpContext.Session.GetString("Username");
-            var role = HttpContext.Session.GetString("Role");
-            ViewBag.Username = username;
-            ViewBag.Role = role;
-
-            // Проверка наличия аккаунта
-            if (string.IsNullOrEmpty(username))
-            {
-                TempData["AccountCheckMessage"] = "У вас есть аккаунт?";
-                return RedirectToAction("KontrolaAkaunta", "Home");
-            }
-
-            return View();
-        }
-
 
         public IActionResult KontrolaAkaunta()
         {
             return View();
         }
-
-
-
-
-
         [HttpPost]
         public async Task<IActionResult> KontrolaAkaunta(string hasAccount)
         {
@@ -104,8 +82,6 @@ namespace OnlineSupermarket.Controllers
 
 
 
-
-
         public async Task SmazatHostUzivatele()
         {
             var username = "Host";
@@ -129,41 +105,64 @@ namespace OnlineSupermarket.Controllers
         }
 
 
-
-
-
-
-        public IActionResult Host()
+        public async Task<IActionResult> Host()
         {
             var username = HttpContext.Session.GetString("Username");
             var role = HttpContext.Session.GetString("Role");
             ViewBag.Username = username;
             ViewBag.Role = role;
 
-            return View();
+            var zboziKategorieList = await GetZboziKategorieList();
+            return View(zboziKategorieList);
         }
 
 
 
 
-
-        public IActionResult AdminIndex()
+        public async Task<IActionResult> Index()
         {
             var username = HttpContext.Session.GetString("Username");
             var role = HttpContext.Session.GetString("Role");
             ViewBag.Username = username;
             ViewBag.Role = role;
-            return View();
+
+            // Проверка наличия аккаунта
+            if (string.IsNullOrEmpty(username))
+            {
+                TempData["AccountCheckMessage"] = "У вас есть аккаунт?";
+                return RedirectToAction("KontrolaAkaunta", "Home");
+            }
+
+            var zboziKategorieList = await GetZboziKategorieList();
+            return View(zboziKategorieList);
         }
 
-        public IActionResult AdminHost()
+
+
+        public async Task<IActionResult> AdminIndex()
         {
             var username = HttpContext.Session.GetString("Username");
             var role = HttpContext.Session.GetString("Role");
             ViewBag.Username = username;
             ViewBag.Role = role;
-            return View();
+
+            var zboziKategorieList = await GetZboziKategorieList();
+            return View(zboziKategorieList);
         }
+
+
+
+        public async Task<IActionResult> AdminHost()
+        {
+            var username = HttpContext.Session.GetString("Username");
+            var role = HttpContext.Session.GetString("Role");
+            ViewBag.Username = username;
+            ViewBag.Role = role;
+
+            var zboziKategorieList = await GetZboziKategorieList();
+            return View(zboziKategorieList);
+        }
+
 
         public IActionResult Privacy()
         {
@@ -181,6 +180,55 @@ namespace OnlineSupermarket.Controllers
         {
             return View();
         }
+
+
+
+
+
+        public async Task<List<ZboziKategorieViewModel>> GetZboziKategorieList()
+        {
+            List<ZboziKategorieViewModel> zboziKategorieList = new List<ZboziKategorieViewModel>();
+
+            try
+            {
+                using (var connection = new OracleConnection(_connectionString))
+                {
+                    await connection.OpenAsync();
+                    using (var command = new OracleCommand("SELECT IDZBOZI, ZboziNazev, AKTUALNICENA, CENAZEKLUBKARTOU, HMOTNOST, SLOZENI, KategorieNazev FROM ZboziKategorieView", connection))
+                    {
+                        using (var reader = await command.ExecuteReaderAsync())
+                        {
+                            while (await reader.ReadAsync())
+                            {
+                                var zboziKategorie = new ZboziKategorieViewModel
+                                {
+                                    IDZbozi = reader.GetInt32(reader.GetOrdinal("IDZBOZI")),
+                                    ZboziNazev = reader.GetString(reader.GetOrdinal("ZboziNazev")),
+                                    AktualniCena = reader.GetDecimal(reader.GetOrdinal("AKTUALNICENA")),
+                                    CenaZeKlubKartou = reader.IsDBNull(reader.GetOrdinal("CENAZEKLUBKARTOU")) ? (decimal?)null : reader.GetDecimal(reader.GetOrdinal("CENAZEKLUBKARTOU")),
+                                    Hmotnost = reader.GetDecimal(reader.GetOrdinal("HMOTNOST")),
+                                    Slozeni = reader.GetString(reader.GetOrdinal("SLOZENI")),
+                                    KategorieNazev = reader.GetString(reader.GetOrdinal("KategorieNazev")),
+                                    ImageFileName = $"{reader.GetInt32(reader.GetOrdinal("IDZBOZI"))}.jpg" // Установите имя файла изображения
+                                };
+                                zboziKategorieList.Add(zboziKategorie);
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Došlo k chybě při získávání dat z pohledu ZboziKategorieView");
+            }
+
+            return zboziKategorieList;
+        }
+
+
+
+
+
 
 
 

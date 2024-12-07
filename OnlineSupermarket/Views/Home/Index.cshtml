@@ -1,4 +1,6 @@
-﻿@{
+﻿@model IEnumerable<OnlineSupermarket.Models.ZboziKategorieViewModel>
+
+@{
 	ViewData["Title"] = "Главная страница";
 	var username = ViewBag.Username as string;
 	var role = ViewBag.Role as string;
@@ -39,7 +41,6 @@
 
 <div class="container">
 	<h1>Добро пожаловать в OnlineSupermarket</h1>
-
 	@if (!string.IsNullOrEmpty(username))
 	{
 		<h2>Привет, @username!</h2>
@@ -58,6 +59,8 @@
 			<a href="@Url.Action("Autorizace", "Home")" class="btn btn-secondary">Авторизация</a>
 		</div>
 	}
+
+	@await Html.PartialAsync("_ZboziKategoriePartial", Model)
 
 	<div class="text-center mt-4">
 		<h1 class="display-4">Welcome</h1>

@@ -1,5 +1,7 @@
-﻿@{
-	ViewData["Title"] = "Привет, гость";
+﻿@model IEnumerable<OnlineSupermarket.Models.ZboziKategorieViewModel>
+
+@{
+	ViewData["Title"] = "Главная страница администратора";
 	var username = ViewBag.Username as string;
 	var role = ViewBag.Role as string;
 }
@@ -39,20 +41,22 @@
 
 <div class="container">
 	<h1>Добро пожаловать в OnlineSupermarket</h1>
-
-	<h2>Привет, гость!</h2>
-	<p>Добро пожаловать в OnlineSupermarket. Пожалуйста, зарегистрируйтесь или авторизуйтесь, чтобы продолжить.</p>
-	<div class="mt-3">
-		<a href="@Url.Action("Registrace", "Home")" class="btn btn-primary">Регистрация</a>
-		<a href="@Url.Action("Autorizace", "Home")" class="btn btn-secondary">Авторизация</a>
-	</div>
-
-	@if (role == "Administrator")
+	@if (!string.IsNullOrEmpty(username) && role == "Administrator")
 	{
+		<h2>Привет, @username!</h2>
 		<div class="mt-3">
-			<a href="@Url.Action("AdminIndex", "Home")" class="btn btn-primary">Вернуться на главную страницу администратора</a>
+			<a href="@Url.Action("AdminPanel", "Home")" class="btn btn-primary">AdminPanel</a>
+			<a href="@Url.Action("AdminIndex", "Home")" class="btn btn-primary">Hlavni stranka admina</a>
+			<a href='@Url.Action("Index", "RegisUzivatel")' class="btn btn-primary">Uzivatele</a>
+			<a href='@Url.Action("AdminHost", "Home")' class="btn btn-primary">Host</a>
 		</div>
 	}
+	else
+	{
+		<h2>У вас нет доступа к этой странице.</h2>
+	}
+
+	@await Html.PartialAsync("_ZboziKategoriePartial", Model)
 
 	<div class="text-center mt-4">
 		<h1 class="display-4">Welcome</h1>

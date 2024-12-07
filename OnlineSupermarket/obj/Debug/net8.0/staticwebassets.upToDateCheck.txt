@@ -1,5 +1,45 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\img\1_Šunka.jpg
+wwwroot\img\10_Špekáček.jpg
+wwwroot\img\11_Voda.jpg
+wwwroot\img\12_Pivo.jpg
+wwwroot\img\13_Víno.jpg
+wwwroot\img\14_Coca-Cola.jpg
+wwwroot\img\15_Fanta.jpg
+wwwroot\img\16_Sprite.jpg
+wwwroot\img\17_Ice Tea.jpg
+wwwroot\img\18_Šampaňské.jpg
+wwwroot\img\19_Jablečný džus.jpg
+wwwroot\img\2_Párek.jpg
+wwwroot\img\20_Pomerančový džus.jpg
+wwwroot\img\21_Jablka.jpg
+wwwroot\img\22_Hrušky.jpg
+wwwroot\img\23_Banány.jpg
+wwwroot\img\24_Pomeranče.jpg
+wwwroot\img\25_Kiwi.jpg
+wwwroot\img\26_Třešně.jpg
+wwwroot\img\27_Jahody.jpg
+wwwroot\img\28_Meruňky.jpg
+wwwroot\img\29_Švestky.jpg
+wwwroot\img\3_Klobása.jpg
+wwwroot\img\30_Banány(mini).jpg
+wwwroot\img\31_Rajčata.jpg
+wwwroot\img\32_Okurky.jpg
+wwwroot\img\33_Paprika.jpg
+wwwroot\img\34_Cibule.jpg
+wwwroot\img\35_Mrkev.jpg
+wwwroot\img\36_Brambory.jpg
+wwwroot\img\37_Celer.jpg
+wwwroot\img\38_Kedluben.jpg
+wwwroot\img\39_Pór.jpg
+wwwroot\img\4_Slanina.jpg
+wwwroot\img\40_Chřest.jpg
+wwwroot\img\5_Kuřecí prsa.jpg
+wwwroot\img\6_Hovězí steak.jpg
+wwwroot\img\7_Pečené kuře.jpg
+wwwroot\img\8_Krůtí prsa.jpg
+wwwroot\img\9_Uzené maso.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
