@@ -1,45 +1,45 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
-wwwroot\img\1_Šunka.jpg
-wwwroot\img\10_Špekáček.jpg
-wwwroot\img\11_Voda.jpg
-wwwroot\img\12_Pivo.jpg
-wwwroot\img\13_Víno.jpg
-wwwroot\img\14_Coca-Cola.jpg
-wwwroot\img\15_Fanta.jpg
-wwwroot\img\16_Sprite.jpg
-wwwroot\img\17_Ice Tea.jpg
-wwwroot\img\18_Šampaňské.jpg
-wwwroot\img\19_Jablečný džus.jpg
-wwwroot\img\2_Párek.jpg
-wwwroot\img\20_Pomerančový džus.jpg
-wwwroot\img\21_Jablka.jpg
-wwwroot\img\22_Hrušky.jpg
-wwwroot\img\23_Banány.jpg
-wwwroot\img\24_Pomeranče.jpg
-wwwroot\img\25_Kiwi.jpg
-wwwroot\img\26_Třešně.jpg
-wwwroot\img\27_Jahody.jpg
-wwwroot\img\28_Meruňky.jpg
-wwwroot\img\29_Švestky.jpg
-wwwroot\img\3_Klobása.jpg
-wwwroot\img\30_Banány(mini).jpg
-wwwroot\img\31_Rajčata.jpg
-wwwroot\img\32_Okurky.jpg
-wwwroot\img\33_Paprika.jpg
-wwwroot\img\34_Cibule.jpg
-wwwroot\img\35_Mrkev.jpg
-wwwroot\img\36_Brambory.jpg
-wwwroot\img\37_Celer.jpg
-wwwroot\img\38_Kedluben.jpg
-wwwroot\img\39_Pór.jpg
-wwwroot\img\4_Slanina.jpg
-wwwroot\img\40_Chřest.jpg
-wwwroot\img\5_Kuřecí prsa.jpg
-wwwroot\img\6_Hovězí steak.jpg
-wwwroot\img\7_Pečené kuře.jpg
-wwwroot\img\8_Krůtí prsa.jpg
-wwwroot\img\9_Uzené maso.jpg
+wwwroot\img\1.jpg
+wwwroot\img\10.jpg
+wwwroot\img\11.jpg
+wwwroot\img\12.jpg
+wwwroot\img\13.jpg
+wwwroot\img\14.jpg
+wwwroot\img\15.jpg
+wwwroot\img\16.jpg
+wwwroot\img\17.jpg
+wwwroot\img\18.jpg
+wwwroot\img\19.jpg
+wwwroot\img\2.jpg
+wwwroot\img\20.jpg
+wwwroot\img\21.jpg
+wwwroot\img\22.jpg
+wwwroot\img\23.jpg
+wwwroot\img\24.jpg
+wwwroot\img\25.jpg
+wwwroot\img\26.jpg
+wwwroot\img\27.jpg
+wwwroot\img\28.jpg
+wwwroot\img\29.jpg
+wwwroot\img\3.jpg
+wwwroot\img\30.jpg
+wwwroot\img\31.jpg
+wwwroot\img\32.jpg
+wwwroot\img\33.jpg
+wwwroot\img\34.jpg
+wwwroot\img\35.jpg
+wwwroot\img\36.jpg
+wwwroot\img\37.jpg
+wwwroot\img\38.jpg
+wwwroot\img\39.jpg
+wwwroot\img\4.jpg
+wwwroot\img\40.jpg
+wwwroot\img\5.jpg
+wwwroot\img\6.jpg
+wwwroot\img\7.jpg
+wwwroot\img\8.jpg
+wwwroot\img\9.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

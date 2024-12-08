@@ -1,6 +1,5 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace OnlineSupermarket.Models
 {
@@ -10,6 +9,7 @@ namespace OnlineSupermarket.Models
         public int IdTranzakce { get; set; }
 
         [Required]
+        [Range(0, double.MaxValue, ErrorMessage = "CelkovaCena musí být kladná.")]
         public decimal CelkovaCena { get; set; }
 
         [Required]
@@ -17,20 +17,12 @@ namespace OnlineSupermarket.Models
         public string Typ { get; set; }
 
         [Required]
-        public DateTime DatumVytvoreni { get; set; }
-
-        [Required]
-        public DateTime DatumAktualizace { get; set; }
-
-        [Required]
         public int ZboziIdZbozi { get; set; }
 
-        [ForeignKey("ZboziIdZbozi")]
-        public Zbozi Zbozi { get; set; }
+        [Required]
+        public int ProdejnaIdProdejny { get; set; }
 
-        public int? ProdejnaIdProdejny { get; set; }
-
-        [ForeignKey("ProdejnaIdProdejny")]
-        public Prodejna Prodejna { get; set; }
+        public DateTime DatumVytvoreni { get; set; }
+        public DateTime DatumAktualizace { get; set; }
     }
 }

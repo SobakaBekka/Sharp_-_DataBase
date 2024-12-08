@@ -1,7 +1,7 @@
 ﻿@model OnlineSupermarket.Models.Platba
 
 @{
-	ViewData["Title"] = "Создать Новый Платеж";
+	ViewData["Title"] = "Создать Платеж";
 }
 
 <h2>@ViewData["Title"]</h2>
@@ -12,27 +12,28 @@
 	<div class="col-md-4">
 		<form asp-action="Create" method="post">
 			<div class="form-group">
-				<label asp-for="CelkovaCena" class="control-label"></label>
+				<label asp-for="CelkovaCena" class="control-label">Общая Цена</label>
 				<input asp-for="CelkovaCena" class="form-control" />
 				<span asp-validation-for="CelkovaCena" class="text-danger"></span>
 			</div>
 			<div class="form-group">
-				<label asp-for="Typ" class="control-label"></label>
+				<label asp-for="Typ" class="control-label">Тип</label>
 				<input asp-for="Typ" class="form-control" />
 				<span asp-validation-for="Typ" class="text-danger"></span>
 			</div>
 			<div class="form-group">
-				<label asp-for="ZboziIdZbozi" class="control-label"></label>
+				<label asp-for="ZboziIdZbozi" class="control-label">ID Товара</label>
 				<input asp-for="ZboziIdZbozi" class="form-control" />
 				<span asp-validation-for="ZboziIdZbozi" class="text-danger"></span>
 			</div>
 			<div class="form-group">
-				<label asp-for="ProdejnaIdProdejny" class="control-label"></label>
+				<label asp-for="ProdejnaIdProdejny" class="control-label">ID Магазина</label>
 				<input asp-for="ProdejnaIdProdejny" class="form-control" />
 				<span asp-validation-for="ProdejnaIdProdejny" class="text-danger"></span>
 			</div>
-			<div class="form-group">
+			<div class="form-group mt-3">
 				<input type="submit" value="Сохранить" class="btn btn-primary" />
+				<a href="@Url.Action("Index")" class="btn btn-secondary">Назад</a>
 			</div>
 		</form>
 	</div>

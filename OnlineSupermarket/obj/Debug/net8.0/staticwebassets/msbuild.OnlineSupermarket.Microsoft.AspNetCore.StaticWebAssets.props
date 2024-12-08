@@ -36,192 +36,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\10_Špekáček.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\1.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineSupermarket</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/10_Špekáček.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>9xw6hmtrgt</Fingerprint>
-      <Integrity>LUUc1WGFodIoohWN4vwSL2ygZRxyInQFkgOSddCaWJk=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\10_Špekáček.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\11_Voda.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>OnlineSupermarket</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/11_Voda.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>i71somzwbi</Fingerprint>
-      <Integrity>HlXv1eaeaGx7lkJhu6DcFnuxbvPEkB4SZWZoiBLX4zE=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\11_Voda.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\12_Pivo.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>OnlineSupermarket</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/12_Pivo.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>mpuitzn085</Fingerprint>
-      <Integrity>+oTvSqRasqdsW+cZyFQNMRLu+P4ELSwjO10TBPh1030=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\12_Pivo.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\13_Víno.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>OnlineSupermarket</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/13_Víno.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>fcs53o2hxi</Fingerprint>
-      <Integrity>QT4WjIQaQoqyiGsmwFYabIXiIkFvC9g8USkqbYG+cFA=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\13_Víno.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\14_Coca-Cola.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>OnlineSupermarket</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/14_Coca-Cola.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>6nu80du5dh</Fingerprint>
-      <Integrity>3j6zaPgAyvb6kK9IT07QfG1peyxu/spKp9NjVZMaebs=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\14_Coca-Cola.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\15_Fanta.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>OnlineSupermarket</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/15_Fanta.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>f48x9qt3ds</Fingerprint>
-      <Integrity>oXcw6q7hSaiq3aeVaLk6kQ5g/+xUfAIvaq2Af05cKo8=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\15_Fanta.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\16_Sprite.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>OnlineSupermarket</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/16_Sprite.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>wjw1vg40ob</Fingerprint>
-      <Integrity>9KWpxVOyAUeILbNpMLei9sDTxsc4txC9AueyZCBrieQ=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\16_Sprite.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\17_Ice Tea.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>OnlineSupermarket</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/17_Ice Tea.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>cu5lo00ln2</Fingerprint>
-      <Integrity>LJc/3CF0Kgm+OvnU6HMNJzdX8jOQ9PIZ2TTDcVdEjgA=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\17_Ice Tea.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\18_Šampaňské.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>OnlineSupermarket</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/18_Šampaňské.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>subj4tzzb7</Fingerprint>
-      <Integrity>xMoBk9RH0kBHhSoo4UA3dweeH9nxiEPSBb9rQvkTdZI=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\18_Šampaňské.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\19_Jablečný džus.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>OnlineSupermarket</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/19_Jablečný džus.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>yqg8o63o0s</Fingerprint>
-      <Integrity>yiawicphAUFMkuidL7sBbvBbcC5aD9FTQJvNvcMqg+8=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\19_Jablečný džus.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\1_Šunka.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>OnlineSupermarket</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/1_Šunka.jpg</RelativePath>
+      <RelativePath>img/1.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -232,194 +52,194 @@
       <Integrity>ELx3/UEXG65C1g5vNt8jg89uYrNEfvgmVPD0sWeDVhg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\1_Šunka.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\1.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\20_Pomerančový džus.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\10.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineSupermarket</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/20_Pomerančový džus.jpg</RelativePath>
+      <RelativePath>img/10.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>14zp2dm3jw</Fingerprint>
-      <Integrity>ATS5I+UdupZY5nTTnUdO1qM6a8VqCXJw89F5GxJo6Bs=</Integrity>
+      <Fingerprint>9xw6hmtrgt</Fingerprint>
+      <Integrity>LUUc1WGFodIoohWN4vwSL2ygZRxyInQFkgOSddCaWJk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\20_Pomerančový džus.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\10.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\21_Jablka.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\11.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineSupermarket</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/21_Jablka.jpg</RelativePath>
+      <RelativePath>img/11.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>gcp1l4t8si</Fingerprint>
-      <Integrity>kMvw84wPUKVJ+RqmI5Cv/cvrJTLj1eTcA9NCtqyheEU=</Integrity>
+      <Fingerprint>i71somzwbi</Fingerprint>
+      <Integrity>HlXv1eaeaGx7lkJhu6DcFnuxbvPEkB4SZWZoiBLX4zE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\21_Jablka.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\11.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\22_Hrušky.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\12.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineSupermarket</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/22_Hrušky.jpg</RelativePath>
+      <RelativePath>img/12.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xvz7n2b0iu</Fingerprint>
-      <Integrity>k98Xur4UE/SMYPoXd9gek2XDMgrvN84FEPldsIT7v3A=</Integrity>
+      <Fingerprint>mpuitzn085</Fingerprint>
+      <Integrity>+oTvSqRasqdsW+cZyFQNMRLu+P4ELSwjO10TBPh1030=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\22_Hrušky.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\12.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\23_Banány.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\13.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineSupermarket</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/23_Banány.jpg</RelativePath>
+      <RelativePath>img/13.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>9iegjzzt9z</Fingerprint>
-      <Integrity>j4PH458gXCmrgwhd86gqZu+o7sizqe5Snp93uucwAZA=</Integrity>
+      <Fingerprint>fcs53o2hxi</Fingerprint>
+      <Integrity>QT4WjIQaQoqyiGsmwFYabIXiIkFvC9g8USkqbYG+cFA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\23_Banány.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\13.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\24_Pomeranče.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\14.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineSupermarket</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/24_Pomeranče.jpg</RelativePath>
+      <RelativePath>img/14.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>21pyn71t43</Fingerprint>
-      <Integrity>NvYc5KDmVTY5C7tFTHOAzj4NdKF6LGSYfPDqHiCXDxI=</Integrity>
+      <Fingerprint>6nu80du5dh</Fingerprint>
+      <Integrity>3j6zaPgAyvb6kK9IT07QfG1peyxu/spKp9NjVZMaebs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\24_Pomeranče.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\14.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\25_Kiwi.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\15.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineSupermarket</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/25_Kiwi.jpg</RelativePath>
+      <RelativePath>img/15.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>d9pw1xx703</Fingerprint>
-      <Integrity>4dyQkY6p81k01SStrjDAC5nKEu5C/k7EoJfBadiZu3s=</Integrity>
+      <Fingerprint>f48x9qt3ds</Fingerprint>
+      <Integrity>oXcw6q7hSaiq3aeVaLk6kQ5g/+xUfAIvaq2Af05cKo8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\25_Kiwi.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\15.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\26_Třešně.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\16.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineSupermarket</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/26_Třešně.jpg</RelativePath>
+      <RelativePath>img/16.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>p47rj1ecn9</Fingerprint>
-      <Integrity>JyzSh5UY/sneW3P6hf7uxyJjxY7c18W2cI9qf1gdu+8=</Integrity>
+      <Fingerprint>wjw1vg40ob</Fingerprint>
+      <Integrity>9KWpxVOyAUeILbNpMLei9sDTxsc4txC9AueyZCBrieQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\26_Třešně.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\16.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\27_Jahody.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\17.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineSupermarket</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/27_Jahody.jpg</RelativePath>
+      <RelativePath>img/17.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2psll0essd</Fingerprint>
-      <Integrity>emZ0MKcA7decKQB6/2c1mK1IulMgw/2SdOZzhGhW3kA=</Integrity>
+      <Fingerprint>cu5lo00ln2</Fingerprint>
+      <Integrity>LJc/3CF0Kgm+OvnU6HMNJzdX8jOQ9PIZ2TTDcVdEjgA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\27_Jahody.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\17.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\28_Meruňky.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\18.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineSupermarket</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/28_Meruňky.jpg</RelativePath>
+      <RelativePath>img/18.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>3ddbqhxcbs</Fingerprint>
-      <Integrity>Z2bexqOvaaEWjGrwqM9CXNVUrMccjnY+9zalwPep2GI=</Integrity>
+      <Fingerprint>subj4tzzb7</Fingerprint>
+      <Integrity>xMoBk9RH0kBHhSoo4UA3dweeH9nxiEPSBb9rQvkTdZI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\28_Meruňky.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\18.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\29_Švestky.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\19.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineSupermarket</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/29_Švestky.jpg</RelativePath>
+      <RelativePath>img/19.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>gu9zp00cj8</Fingerprint>
-      <Integrity>mNXH3QQsCCR+5f3oYTtUKQJBK05N9Rh1EjE76zK9uFs=</Integrity>
+      <Fingerprint>yqg8o63o0s</Fingerprint>
+      <Integrity>yiawicphAUFMkuidL7sBbvBbcC5aD9FTQJvNvcMqg+8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\29_Švestky.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\19.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2_Párek.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineSupermarket</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/2_Párek.jpg</RelativePath>
+      <RelativePath>img/2.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -430,194 +250,194 @@
       <Integrity>JBwZu9z2Sa1wHFFe2Mx54dOQC2JxCqOVXSafudkrpIY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2_Párek.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\2.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\30_Banány(mini).jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\20.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineSupermarket</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/30_Banány(mini).jpg</RelativePath>
+      <RelativePath>img/20.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>d4x5kwfu1t</Fingerprint>
-      <Integrity>E0WUJ0VqjdW0mfNjWUSZGYxAyi1LlIBSw4bFuqGY6Cg=</Integrity>
+      <Fingerprint>14zp2dm3jw</Fingerprint>
+      <Integrity>ATS5I+UdupZY5nTTnUdO1qM6a8VqCXJw89F5GxJo6Bs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\30_Banány(mini).jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\20.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\31_Rajčata.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\21.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineSupermarket</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/31_Rajčata.jpg</RelativePath>
+      <RelativePath>img/21.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>jw9fwqmo3p</Fingerprint>
-      <Integrity>4wd8ZfU7ChNJpUEkX5Vz4Q6y8scxtyDKhghXnbqnUTM=</Integrity>
+      <Fingerprint>gcp1l4t8si</Fingerprint>
+      <Integrity>kMvw84wPUKVJ+RqmI5Cv/cvrJTLj1eTcA9NCtqyheEU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\31_Rajčata.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\21.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\32_Okurky.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\22.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineSupermarket</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/32_Okurky.jpg</RelativePath>
+      <RelativePath>img/22.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>3553uujh1l</Fingerprint>
-      <Integrity>OT14nZjGFZPbNl4hZdDnie9CO9/NwIqGmG8gFlUXncc=</Integrity>
+      <Fingerprint>xvz7n2b0iu</Fingerprint>
+      <Integrity>k98Xur4UE/SMYPoXd9gek2XDMgrvN84FEPldsIT7v3A=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\32_Okurky.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\22.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\33_Paprika.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\23.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineSupermarket</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/33_Paprika.jpg</RelativePath>
+      <RelativePath>img/23.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>i6ee4g7tbi</Fingerprint>
-      <Integrity>SrNEVkXsux5Paz9dKLrYZaUoqzQQYJU6N4/EdGtdM+o=</Integrity>
+      <Fingerprint>9iegjzzt9z</Fingerprint>
+      <Integrity>j4PH458gXCmrgwhd86gqZu+o7sizqe5Snp93uucwAZA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\33_Paprika.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\23.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\34_Cibule.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\24.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineSupermarket</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/34_Cibule.jpg</RelativePath>
+      <RelativePath>img/24.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>0mq3u7az2k</Fingerprint>
-      <Integrity>iJw2ukCZKQmZjVnqFFRbF78/K/2XiLwguOg59js10Jg=</Integrity>
+      <Fingerprint>21pyn71t43</Fingerprint>
+      <Integrity>NvYc5KDmVTY5C7tFTHOAzj4NdKF6LGSYfPDqHiCXDxI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\34_Cibule.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\24.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\35_Mrkev.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\25.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineSupermarket</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/35_Mrkev.jpg</RelativePath>
+      <RelativePath>img/25.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>quoq3biom8</Fingerprint>
-      <Integrity>rvC/prfeohbWX+aWjMWeMD591qXC5FpCKenSPmtxdHY=</Integrity>
+      <Fingerprint>d9pw1xx703</Fingerprint>
+      <Integrity>4dyQkY6p81k01SStrjDAC5nKEu5C/k7EoJfBadiZu3s=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\35_Mrkev.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\25.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\36_Brambory.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\26.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineSupermarket</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/36_Brambory.jpg</RelativePath>
+      <RelativePath>img/26.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>vulamnmay4</Fingerprint>
-      <Integrity>2QD0WAFQbwSGLFoWZP9tEShY6mYTDz3LN5VZGYIlmXc=</Integrity>
+      <Fingerprint>p47rj1ecn9</Fingerprint>
+      <Integrity>JyzSh5UY/sneW3P6hf7uxyJjxY7c18W2cI9qf1gdu+8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\36_Brambory.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\26.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\37_Celer.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\27.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineSupermarket</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/37_Celer.jpg</RelativePath>
+      <RelativePath>img/27.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>386odcif3x</Fingerprint>
-      <Integrity>g/KJz5djHStiLYZUIPKhmtbj7doF1YZsZN0gLDuUfaY=</Integrity>
+      <Fingerprint>2psll0essd</Fingerprint>
+      <Integrity>emZ0MKcA7decKQB6/2c1mK1IulMgw/2SdOZzhGhW3kA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\37_Celer.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\27.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\38_Kedluben.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\28.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineSupermarket</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/38_Kedluben.jpg</RelativePath>
+      <RelativePath>img/28.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>wemglxzfze</Fingerprint>
-      <Integrity>eB61rISv48APalIF9LXaL/FkumY+y5KiooH9VVQIb7A=</Integrity>
+      <Fingerprint>3ddbqhxcbs</Fingerprint>
+      <Integrity>Z2bexqOvaaEWjGrwqM9CXNVUrMccjnY+9zalwPep2GI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\38_Kedluben.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\28.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\39_Pór.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\29.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineSupermarket</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/39_Pór.jpg</RelativePath>
+      <RelativePath>img/29.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ynd3cprzxe</Fingerprint>
-      <Integrity>EphN5Yz9lRn0AOqAjAd5O7KxMFJmgQ+KtDiAVm4r5y0=</Integrity>
+      <Fingerprint>gu9zp00cj8</Fingerprint>
+      <Integrity>mNXH3QQsCCR+5f3oYTtUKQJBK05N9Rh1EjE76zK9uFs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\39_Pór.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\29.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\3_Klobása.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\3.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineSupermarket</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/3_Klobása.jpg</RelativePath>
+      <RelativePath>img/3.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -628,32 +448,194 @@
       <Integrity>rsm2Nnj1+wk59gdC04QsKpgArVCrNlBBeNEyz8T9sFw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\3_Klobása.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\3.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\40_Chřest.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\30.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineSupermarket</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/40_Chřest.jpg</RelativePath>
+      <RelativePath>img/30.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>bh19opijne</Fingerprint>
-      <Integrity>v2uUI4un0r5RKb4gJ724eRwcwMElB9OBnOUsEgVZCTI=</Integrity>
+      <Fingerprint>d4x5kwfu1t</Fingerprint>
+      <Integrity>E0WUJ0VqjdW0mfNjWUSZGYxAyi1LlIBSw4bFuqGY6Cg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\40_Chřest.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\30.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\4_Slanina.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\31.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineSupermarket</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/4_Slanina.jpg</RelativePath>
+      <RelativePath>img/31.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>jw9fwqmo3p</Fingerprint>
+      <Integrity>4wd8ZfU7ChNJpUEkX5Vz4Q6y8scxtyDKhghXnbqnUTM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\31.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\32.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>OnlineSupermarket</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OnlineSupermarket</BasePath>
+      <RelativePath>img/32.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>3553uujh1l</Fingerprint>
+      <Integrity>OT14nZjGFZPbNl4hZdDnie9CO9/NwIqGmG8gFlUXncc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\32.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\33.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>OnlineSupermarket</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OnlineSupermarket</BasePath>
+      <RelativePath>img/33.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>i6ee4g7tbi</Fingerprint>
+      <Integrity>SrNEVkXsux5Paz9dKLrYZaUoqzQQYJU6N4/EdGtdM+o=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\33.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\34.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>OnlineSupermarket</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OnlineSupermarket</BasePath>
+      <RelativePath>img/34.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>0mq3u7az2k</Fingerprint>
+      <Integrity>iJw2ukCZKQmZjVnqFFRbF78/K/2XiLwguOg59js10Jg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\34.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\35.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>OnlineSupermarket</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OnlineSupermarket</BasePath>
+      <RelativePath>img/35.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>quoq3biom8</Fingerprint>
+      <Integrity>rvC/prfeohbWX+aWjMWeMD591qXC5FpCKenSPmtxdHY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\35.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\36.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>OnlineSupermarket</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OnlineSupermarket</BasePath>
+      <RelativePath>img/36.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>vulamnmay4</Fingerprint>
+      <Integrity>2QD0WAFQbwSGLFoWZP9tEShY6mYTDz3LN5VZGYIlmXc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\36.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\37.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>OnlineSupermarket</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OnlineSupermarket</BasePath>
+      <RelativePath>img/37.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>386odcif3x</Fingerprint>
+      <Integrity>g/KJz5djHStiLYZUIPKhmtbj7doF1YZsZN0gLDuUfaY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\37.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\38.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>OnlineSupermarket</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OnlineSupermarket</BasePath>
+      <RelativePath>img/38.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>wemglxzfze</Fingerprint>
+      <Integrity>eB61rISv48APalIF9LXaL/FkumY+y5KiooH9VVQIb7A=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\38.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\39.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>OnlineSupermarket</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OnlineSupermarket</BasePath>
+      <RelativePath>img/39.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ynd3cprzxe</Fingerprint>
+      <Integrity>EphN5Yz9lRn0AOqAjAd5O7KxMFJmgQ+KtDiAVm4r5y0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\39.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\4.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>OnlineSupermarket</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OnlineSupermarket</BasePath>
+      <RelativePath>img/4.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -664,14 +646,32 @@
       <Integrity>a8fFLyUuB6tgEznUshR89lXyEvUlVGke1prvdYdY+ZA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\4_Slanina.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\4.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\5_Kuřecí prsa.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\40.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineSupermarket</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/5_Kuřecí prsa.jpg</RelativePath>
+      <RelativePath>img/40.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>bh19opijne</Fingerprint>
+      <Integrity>v2uUI4un0r5RKb4gJ724eRwcwMElB9OBnOUsEgVZCTI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\40.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\5.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>OnlineSupermarket</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OnlineSupermarket</BasePath>
+      <RelativePath>img/5.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -682,14 +682,14 @@
       <Integrity>7BwHz/erZ9DmB05r3G6yzJoUm+ojvU0wSZ5UwuI+PrE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\5_Kuřecí prsa.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\5.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\6_Hovězí steak.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\6.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineSupermarket</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/6_Hovězí steak.jpg</RelativePath>
+      <RelativePath>img/6.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -700,14 +700,14 @@
       <Integrity>2Fs/VoYvAA4EWZ1VRiwvC77IX/keKx8onhuZp+d3gKA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\6_Hovězí steak.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\6.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\7_Pečené kuře.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\7.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineSupermarket</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/7_Pečené kuře.jpg</RelativePath>
+      <RelativePath>img/7.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -718,14 +718,14 @@
       <Integrity>viNfxWo2skLyFmUEjOXKutZH9ZgNwDj7b3GSLersdOQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\7_Pečené kuře.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\7.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\8_Krůtí prsa.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\8.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineSupermarket</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/8_Krůtí prsa.jpg</RelativePath>
+      <RelativePath>img/8.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -736,14 +736,14 @@
       <Integrity>irHCOVTYM3zf4VtFAYaUdZj5MXIkg+es4+EHxA8Jato=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\8_Krůtí prsa.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\8.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\9_Uzené maso.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\9.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OnlineSupermarket</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OnlineSupermarket</BasePath>
-      <RelativePath>img/9_Uzené maso.jpg</RelativePath>
+      <RelativePath>img/9.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -754,7 +754,7 @@
       <Integrity>hmU9R+vsk3tQDpVDzI85s90S8FQFoHtknO5HsSBIhP0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\9_Uzené maso.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\9.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))">
       <SourceType>Package</SourceType>

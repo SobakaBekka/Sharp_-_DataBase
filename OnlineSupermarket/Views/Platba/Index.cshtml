@@ -1,13 +1,13 @@
 ﻿@model IEnumerable<OnlineSupermarket.Models.Platba>
 
 @{
-    ViewData["Title"] = "Список платежей";
+    ViewData["Title"] = "Список Платежей";
 }
 
 <h2>@ViewData["Title"]</h2>
 
 <p>
-    <a asp-action="Create" class="btn btn-primary">Создать Новый Платеж</a>
+    <a asp-action="Create" class="btn btn-primary">Создать Платеж</a>
 </p>
 
 <!-- Добавляем скрытое поле с Anti-Forgery Token для AJAX-запросов -->
@@ -16,13 +16,13 @@
 <table class="table table-striped">
     <thead>
         <tr>
-            <th>ID Транзакции</th>
+            <th>№ Транзакции</th>
             <th>Общая Цена</th>
             <th>Тип</th>
             <th>Дата Создания</th>
             <th>Дата Обновления</th>
             <th>ID Товара</th>
-            <th>ID Продавца</th>
+            <th>ID Магазина</th>
             <th>Действия</th>
         </tr>
     </thead>
@@ -38,8 +38,8 @@
                 <td>@platba.ZboziIdZbozi</td>
                 <td>@platba.ProdejnaIdProdejny</td>
                 <td>
-                    <a asp-action="Edit" asp-route-idTranzakce="@platba.IdTranzakce" class="btn btn-sm btn-warning">Изменить</a>
-                    <button class="btn btn-sm btn-danger" onclick="deletePlatba(@platba.IdTranzakce)">Удалить</button>
+                    <a asp-action="Edit" asp-route-idtranzakce="@platba.IdTranzakce" class="btn btn-primary">Изменить</a>
+                    <button class="btn btn-danger" onclick="deletePlatba(@platba.IdTranzakce)">Удалить</button>
                 </td>
             </tr>
         }
@@ -49,7 +49,6 @@
 @section Scripts {
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
-        // Функция для получения Anti-Forgery Token из скрытого поля
         function getAntiForgeryToken() {
             return $('input[name="__RequestVerificationToken"]').val();
         }
@@ -65,7 +64,6 @@
                     },
                     success: function (response) {
                         if (response.success) {
-                            // Перезагрузить страницу после успешного удаления
                             location.reload();
                         } else {
                             alert(response.message);
@@ -79,4 +77,5 @@
         }
     </script>
 }
+
 

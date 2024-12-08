@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8aUk+XnIM0PkYPTB0bSAz9Z7Z6uOC+Y+sSSf0/j1aBQ=",
+  "Hash": "gPm92DxSQ+ZSaTqsKk/8HgRFLt3zWYhpcK4uwTYs+1w=",
   "Source": "OnlineSupermarket",
   "BasePath": "_content/OnlineSupermarket",
   "Mode": "Default",
@@ -1361,12 +1361,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\1_Šunka.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\1.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/1_Šunka#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1379,15 +1379,15 @@
       "Integrity": "ELx3/UEXG65C1g5vNt8jg89uYrNEfvgmVPD0sWeDVhg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\1_Šunka.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\1.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\10_Špekáček.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\10.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/10_Špekáček#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/10#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1400,15 +1400,15 @@
       "Integrity": "LUUc1WGFodIoohWN4vwSL2ygZRxyInQFkgOSddCaWJk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\10_Špekáček.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\10.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\11_Voda.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\11.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/11_Voda#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/11#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1421,15 +1421,15 @@
       "Integrity": "HlXv1eaeaGx7lkJhu6DcFnuxbvPEkB4SZWZoiBLX4zE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\11_Voda.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\11.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\12_Pivo.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\12.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/12_Pivo#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/12#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1442,15 +1442,15 @@
       "Integrity": "+oTvSqRasqdsW+cZyFQNMRLu+P4ELSwjO10TBPh1030=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\12_Pivo.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\12.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\13_Víno.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\13.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/13_Víno#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/13#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1463,15 +1463,15 @@
       "Integrity": "QT4WjIQaQoqyiGsmwFYabIXiIkFvC9g8USkqbYG+cFA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\13_Víno.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\13.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\14_Coca-Cola.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\14.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/14_Coca-Cola#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/14#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1484,15 +1484,15 @@
       "Integrity": "3j6zaPgAyvb6kK9IT07QfG1peyxu/spKp9NjVZMaebs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\14_Coca-Cola.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\14.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\15_Fanta.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\15.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/15_Fanta#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/15#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1505,15 +1505,15 @@
       "Integrity": "oXcw6q7hSaiq3aeVaLk6kQ5g/+xUfAIvaq2Af05cKo8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\15_Fanta.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\15.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\16_Sprite.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\16.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/16_Sprite#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/16#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1526,15 +1526,15 @@
       "Integrity": "9KWpxVOyAUeILbNpMLei9sDTxsc4txC9AueyZCBrieQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\16_Sprite.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\16.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\17_Ice Tea.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\17.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/17_Ice Tea#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/17#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1547,15 +1547,15 @@
       "Integrity": "LJc/3CF0Kgm+OvnU6HMNJzdX8jOQ9PIZ2TTDcVdEjgA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\17_Ice Tea.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\17.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\18_Šampaňské.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\18.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/18_Šampaňské#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/18#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1568,15 +1568,15 @@
       "Integrity": "xMoBk9RH0kBHhSoo4UA3dweeH9nxiEPSBb9rQvkTdZI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\18_Šampaňské.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\18.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\19_Jablečný džus.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\19.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/19_Jablečný džus#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/19#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1589,15 +1589,15 @@
       "Integrity": "yiawicphAUFMkuidL7sBbvBbcC5aD9FTQJvNvcMqg+8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\19_Jablečný džus.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\19.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\2_Párek.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\2.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/2_Párek#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/2#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1610,15 +1610,15 @@
       "Integrity": "JBwZu9z2Sa1wHFFe2Mx54dOQC2JxCqOVXSafudkrpIY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\2_Párek.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\2.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\20_Pomerančový džus.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\20.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/20_Pomerančový džus#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/20#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1631,15 +1631,15 @@
       "Integrity": "ATS5I+UdupZY5nTTnUdO1qM6a8VqCXJw89F5GxJo6Bs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\20_Pomerančový džus.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\20.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\21_Jablka.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\21.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/21_Jablka#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/21#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1652,15 +1652,15 @@
       "Integrity": "kMvw84wPUKVJ+RqmI5Cv/cvrJTLj1eTcA9NCtqyheEU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\21_Jablka.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\21.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\22_Hrušky.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\22.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/22_Hrušky#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/22#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1673,15 +1673,15 @@
       "Integrity": "k98Xur4UE/SMYPoXd9gek2XDMgrvN84FEPldsIT7v3A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\22_Hrušky.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\22.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\23_Banány.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\23.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/23_Banány#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/23#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1694,15 +1694,15 @@
       "Integrity": "j4PH458gXCmrgwhd86gqZu+o7sizqe5Snp93uucwAZA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\23_Banány.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\23.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\24_Pomeranče.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\24.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/24_Pomeranče#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/24#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1715,15 +1715,15 @@
       "Integrity": "NvYc5KDmVTY5C7tFTHOAzj4NdKF6LGSYfPDqHiCXDxI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\24_Pomeranče.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\24.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\25_Kiwi.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\25.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/25_Kiwi#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/25#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1736,15 +1736,15 @@
       "Integrity": "4dyQkY6p81k01SStrjDAC5nKEu5C/k7EoJfBadiZu3s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\25_Kiwi.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\25.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\26_Třešně.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\26.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/26_Třešně#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/26#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1757,15 +1757,15 @@
       "Integrity": "JyzSh5UY/sneW3P6hf7uxyJjxY7c18W2cI9qf1gdu+8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\26_Třešně.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\26.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\27_Jahody.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\27.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/27_Jahody#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/27#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1778,15 +1778,15 @@
       "Integrity": "emZ0MKcA7decKQB6/2c1mK1IulMgw/2SdOZzhGhW3kA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\27_Jahody.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\27.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\28_Meruňky.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\28.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/28_Meruňky#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/28#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1799,15 +1799,15 @@
       "Integrity": "Z2bexqOvaaEWjGrwqM9CXNVUrMccjnY+9zalwPep2GI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\28_Meruňky.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\28.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\29_Švestky.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\29.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/29_Švestky#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/29#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1820,15 +1820,15 @@
       "Integrity": "mNXH3QQsCCR+5f3oYTtUKQJBK05N9Rh1EjE76zK9uFs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\29_Švestky.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\29.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\3_Klobása.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\3.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/3_Klobása#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/3#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1841,15 +1841,15 @@
       "Integrity": "rsm2Nnj1+wk59gdC04QsKpgArVCrNlBBeNEyz8T9sFw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\3_Klobása.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\3.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\30_Banány(mini).jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\30.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/30_Banány(mini)#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/30#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1862,15 +1862,15 @@
       "Integrity": "E0WUJ0VqjdW0mfNjWUSZGYxAyi1LlIBSw4bFuqGY6Cg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\30_Banány(mini).jpg"
+      "OriginalItemSpec": "wwwroot\\img\\30.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\31_Rajčata.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\31.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/31_Rajčata#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/31#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1883,15 +1883,15 @@
       "Integrity": "4wd8ZfU7ChNJpUEkX5Vz4Q6y8scxtyDKhghXnbqnUTM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\31_Rajčata.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\31.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\32_Okurky.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\32.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/32_Okurky#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/32#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1904,15 +1904,15 @@
       "Integrity": "OT14nZjGFZPbNl4hZdDnie9CO9/NwIqGmG8gFlUXncc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\32_Okurky.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\32.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\33_Paprika.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\33.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/33_Paprika#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/33#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1925,15 +1925,15 @@
       "Integrity": "SrNEVkXsux5Paz9dKLrYZaUoqzQQYJU6N4/EdGtdM+o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\33_Paprika.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\33.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\34_Cibule.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\34.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/34_Cibule#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/34#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1946,15 +1946,15 @@
       "Integrity": "iJw2ukCZKQmZjVnqFFRbF78/K/2XiLwguOg59js10Jg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\34_Cibule.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\34.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\35_Mrkev.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\35.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/35_Mrkev#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/35#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1967,15 +1967,15 @@
       "Integrity": "rvC/prfeohbWX+aWjMWeMD591qXC5FpCKenSPmtxdHY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\35_Mrkev.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\35.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\36_Brambory.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\36.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/36_Brambory#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/36#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1988,15 +1988,15 @@
       "Integrity": "2QD0WAFQbwSGLFoWZP9tEShY6mYTDz3LN5VZGYIlmXc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\36_Brambory.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\36.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\37_Celer.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\37.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/37_Celer#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/37#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2009,15 +2009,15 @@
       "Integrity": "g/KJz5djHStiLYZUIPKhmtbj7doF1YZsZN0gLDuUfaY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\37_Celer.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\37.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\38_Kedluben.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\38.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/38_Kedluben#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/38#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2030,15 +2030,15 @@
       "Integrity": "eB61rISv48APalIF9LXaL/FkumY+y5KiooH9VVQIb7A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\38_Kedluben.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\38.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\39_Pór.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\39.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/39_Pór#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/39#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2051,15 +2051,15 @@
       "Integrity": "EphN5Yz9lRn0AOqAjAd5O7KxMFJmgQ+KtDiAVm4r5y0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\39_Pór.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\39.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\4_Slanina.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\4.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/4_Slanina#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/4#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2072,15 +2072,15 @@
       "Integrity": "a8fFLyUuB6tgEznUshR89lXyEvUlVGke1prvdYdY+ZA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\4_Slanina.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\4.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\40_Chřest.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\40.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/40_Chřest#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/40#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2093,15 +2093,15 @@
       "Integrity": "v2uUI4un0r5RKb4gJ724eRwcwMElB9OBnOUsEgVZCTI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\40_Chřest.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\40.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\5_Kuřecí prsa.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\5.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/5_Kuřecí prsa#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/5#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2114,15 +2114,15 @@
       "Integrity": "7BwHz/erZ9DmB05r3G6yzJoUm+ojvU0wSZ5UwuI+PrE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\5_Kuřecí prsa.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\5.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\6_Hovězí steak.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\6.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/6_Hovězí steak#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/6#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2135,15 +2135,15 @@
       "Integrity": "2Fs/VoYvAA4EWZ1VRiwvC77IX/keKx8onhuZp+d3gKA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\6_Hovězí steak.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\6.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\7_Pečené kuře.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\7.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/7_Pečené kuře#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/7#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2156,15 +2156,15 @@
       "Integrity": "viNfxWo2skLyFmUEjOXKutZH9ZgNwDj7b3GSLersdOQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\7_Pečené kuře.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\7.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\8_Krůtí prsa.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\8.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/8_Krůtí prsa#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/8#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2177,15 +2177,15 @@
       "Integrity": "irHCOVTYM3zf4VtFAYaUdZj5MXIkg+es4+EHxA8Jato=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\8_Krůtí prsa.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\8.jpg"
     },
     {
-      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\9_Uzené maso.jpg",
+      "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\9.jpg",
       "SourceId": "OnlineSupermarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\",
       "BasePath": "_content/OnlineSupermarket",
-      "RelativePath": "img/9_Uzené maso#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/9#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2198,7 +2198,7 @@
       "Integrity": "hmU9R+vsk3tQDpVDzI85s90S8FQFoHtknO5HsSBIhP0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\9_Uzené maso.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\9.jpg"
     },
     {
       "Identity": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\js\\site.js",
@@ -5805,8 +5805,8 @@
       ]
     },
     {
-      "Route": "img/1_Šunka.43qstv3kc3.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\1_Šunka.jpg",
+      "Route": "img/1.43qstv3kc3.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5827,7 +5827,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5841,7 +5841,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/1_Šunka.jpg"
+          "Value": "img/1.jpg"
         },
         {
           "Name": "integrity",
@@ -5850,8 +5850,8 @@
       ]
     },
     {
-      "Route": "img/1_Šunka.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\1_Šunka.jpg",
+      "Route": "img/1.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5872,7 +5872,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5887,8 +5887,8 @@
       ]
     },
     {
-      "Route": "img/10_Špekáček.9xw6hmtrgt.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\10_Špekáček.jpg",
+      "Route": "img/10.9xw6hmtrgt.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\10.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5909,7 +5909,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:29 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5923,7 +5923,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/10_Špekáček.jpg"
+          "Value": "img/10.jpg"
         },
         {
           "Name": "integrity",
@@ -5932,8 +5932,8 @@
       ]
     },
     {
-      "Route": "img/10_Špekáček.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\10_Špekáček.jpg",
+      "Route": "img/10.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\10.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5954,7 +5954,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:29 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5969,8 +5969,8 @@
       ]
     },
     {
-      "Route": "img/11_Voda.i71somzwbi.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\11_Voda.jpg",
+      "Route": "img/11.i71somzwbi.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\11.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5991,7 +5991,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:29 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6005,7 +6005,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/11_Voda.jpg"
+          "Value": "img/11.jpg"
         },
         {
           "Name": "integrity",
@@ -6014,8 +6014,8 @@
       ]
     },
     {
-      "Route": "img/11_Voda.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\11_Voda.jpg",
+      "Route": "img/11.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\11.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6036,7 +6036,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:29 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6051,8 +6051,8 @@
       ]
     },
     {
-      "Route": "img/12_Pivo.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\12_Pivo.jpg",
+      "Route": "img/12.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\12.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6073,7 +6073,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:29 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6088,8 +6088,8 @@
       ]
     },
     {
-      "Route": "img/12_Pivo.mpuitzn085.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\12_Pivo.jpg",
+      "Route": "img/12.mpuitzn085.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\12.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6110,7 +6110,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:29 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6124,7 +6124,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/12_Pivo.jpg"
+          "Value": "img/12.jpg"
         },
         {
           "Name": "integrity",
@@ -6133,8 +6133,8 @@
       ]
     },
     {
-      "Route": "img/13_Víno.fcs53o2hxi.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\13_Víno.jpg",
+      "Route": "img/13.fcs53o2hxi.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\13.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6155,7 +6155,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:29 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6169,7 +6169,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/13_Víno.jpg"
+          "Value": "img/13.jpg"
         },
         {
           "Name": "integrity",
@@ -6178,8 +6178,8 @@
       ]
     },
     {
-      "Route": "img/13_Víno.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\13_Víno.jpg",
+      "Route": "img/13.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\13.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6200,7 +6200,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:29 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6215,8 +6215,8 @@
       ]
     },
     {
-      "Route": "img/14_Coca-Cola.6nu80du5dh.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\14_Coca-Cola.jpg",
+      "Route": "img/14.6nu80du5dh.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\14.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6237,7 +6237,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:29 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6251,7 +6251,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/14_Coca-Cola.jpg"
+          "Value": "img/14.jpg"
         },
         {
           "Name": "integrity",
@@ -6260,8 +6260,8 @@
       ]
     },
     {
-      "Route": "img/14_Coca-Cola.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\14_Coca-Cola.jpg",
+      "Route": "img/14.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\14.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6282,7 +6282,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:29 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6297,8 +6297,8 @@
       ]
     },
     {
-      "Route": "img/15_Fanta.f48x9qt3ds.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\15_Fanta.jpg",
+      "Route": "img/15.f48x9qt3ds.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\15.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6319,7 +6319,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6333,7 +6333,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/15_Fanta.jpg"
+          "Value": "img/15.jpg"
         },
         {
           "Name": "integrity",
@@ -6342,8 +6342,8 @@
       ]
     },
     {
-      "Route": "img/15_Fanta.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\15_Fanta.jpg",
+      "Route": "img/15.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\15.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6364,7 +6364,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6379,8 +6379,8 @@
       ]
     },
     {
-      "Route": "img/16_Sprite.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\16_Sprite.jpg",
+      "Route": "img/16.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\16.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6401,7 +6401,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6416,8 +6416,8 @@
       ]
     },
     {
-      "Route": "img/16_Sprite.wjw1vg40ob.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\16_Sprite.jpg",
+      "Route": "img/16.wjw1vg40ob.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\16.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6438,7 +6438,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6452,7 +6452,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/16_Sprite.jpg"
+          "Value": "img/16.jpg"
         },
         {
           "Name": "integrity",
@@ -6461,8 +6461,8 @@
       ]
     },
     {
-      "Route": "img/17_Ice Tea.cu5lo00ln2.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\17_Ice Tea.jpg",
+      "Route": "img/17.cu5lo00ln2.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\17.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6483,7 +6483,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6497,7 +6497,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/17_Ice Tea.jpg"
+          "Value": "img/17.jpg"
         },
         {
           "Name": "integrity",
@@ -6506,8 +6506,8 @@
       ]
     },
     {
-      "Route": "img/17_Ice Tea.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\17_Ice Tea.jpg",
+      "Route": "img/17.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\17.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6528,7 +6528,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6543,8 +6543,8 @@
       ]
     },
     {
-      "Route": "img/18_Šampaňské.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\18_Šampaňské.jpg",
+      "Route": "img/18.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\18.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6565,7 +6565,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6580,8 +6580,8 @@
       ]
     },
     {
-      "Route": "img/18_Šampaňské.subj4tzzb7.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\18_Šampaňské.jpg",
+      "Route": "img/18.subj4tzzb7.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\18.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6602,7 +6602,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6616,7 +6616,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/18_Šampaňské.jpg"
+          "Value": "img/18.jpg"
         },
         {
           "Name": "integrity",
@@ -6625,8 +6625,8 @@
       ]
     },
     {
-      "Route": "img/19_Jablečný džus.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\19_Jablečný džus.jpg",
+      "Route": "img/19.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\19.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6647,7 +6647,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6662,8 +6662,8 @@
       ]
     },
     {
-      "Route": "img/19_Jablečný džus.yqg8o63o0s.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\19_Jablečný džus.jpg",
+      "Route": "img/19.yqg8o63o0s.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\19.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6684,7 +6684,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6698,7 +6698,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/19_Jablečný džus.jpg"
+          "Value": "img/19.jpg"
         },
         {
           "Name": "integrity",
@@ -6707,8 +6707,8 @@
       ]
     },
     {
-      "Route": "img/2_Párek.83n5o8me2x.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\2_Párek.jpg",
+      "Route": "img/2.83n5o8me2x.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6729,7 +6729,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6743,7 +6743,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/2_Párek.jpg"
+          "Value": "img/2.jpg"
         },
         {
           "Name": "integrity",
@@ -6752,8 +6752,8 @@
       ]
     },
     {
-      "Route": "img/2_Párek.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\2_Párek.jpg",
+      "Route": "img/2.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6774,7 +6774,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6789,8 +6789,8 @@
       ]
     },
     {
-      "Route": "img/20_Pomerančový džus.14zp2dm3jw.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\20_Pomerančový džus.jpg",
+      "Route": "img/20.14zp2dm3jw.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\20.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6811,7 +6811,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6825,7 +6825,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/20_Pomerančový džus.jpg"
+          "Value": "img/20.jpg"
         },
         {
           "Name": "integrity",
@@ -6834,8 +6834,8 @@
       ]
     },
     {
-      "Route": "img/20_Pomerančový džus.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\20_Pomerančový džus.jpg",
+      "Route": "img/20.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\20.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6856,7 +6856,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6871,8 +6871,8 @@
       ]
     },
     {
-      "Route": "img/21_Jablka.gcp1l4t8si.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\21_Jablka.jpg",
+      "Route": "img/21.gcp1l4t8si.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\21.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6893,7 +6893,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6907,7 +6907,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/21_Jablka.jpg"
+          "Value": "img/21.jpg"
         },
         {
           "Name": "integrity",
@@ -6916,8 +6916,8 @@
       ]
     },
     {
-      "Route": "img/21_Jablka.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\21_Jablka.jpg",
+      "Route": "img/21.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\21.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6938,7 +6938,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6953,8 +6953,8 @@
       ]
     },
     {
-      "Route": "img/22_Hrušky.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\22_Hrušky.jpg",
+      "Route": "img/22.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\22.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6975,7 +6975,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6990,8 +6990,8 @@
       ]
     },
     {
-      "Route": "img/22_Hrušky.xvz7n2b0iu.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\22_Hrušky.jpg",
+      "Route": "img/22.xvz7n2b0iu.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\22.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7012,7 +7012,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7026,7 +7026,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/22_Hrušky.jpg"
+          "Value": "img/22.jpg"
         },
         {
           "Name": "integrity",
@@ -7035,8 +7035,8 @@
       ]
     },
     {
-      "Route": "img/23_Banány.9iegjzzt9z.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\23_Banány.jpg",
+      "Route": "img/23.9iegjzzt9z.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\23.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7057,7 +7057,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7071,7 +7071,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/23_Banány.jpg"
+          "Value": "img/23.jpg"
         },
         {
           "Name": "integrity",
@@ -7080,8 +7080,8 @@
       ]
     },
     {
-      "Route": "img/23_Banány.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\23_Banány.jpg",
+      "Route": "img/23.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\23.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7102,7 +7102,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7117,8 +7117,8 @@
       ]
     },
     {
-      "Route": "img/24_Pomeranče.21pyn71t43.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\24_Pomeranče.jpg",
+      "Route": "img/24.21pyn71t43.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\24.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7139,7 +7139,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7153,7 +7153,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/24_Pomeranče.jpg"
+          "Value": "img/24.jpg"
         },
         {
           "Name": "integrity",
@@ -7162,8 +7162,8 @@
       ]
     },
     {
-      "Route": "img/24_Pomeranče.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\24_Pomeranče.jpg",
+      "Route": "img/24.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\24.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7184,7 +7184,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7199,8 +7199,8 @@
       ]
     },
     {
-      "Route": "img/25_Kiwi.d9pw1xx703.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\25_Kiwi.jpg",
+      "Route": "img/25.d9pw1xx703.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\25.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7221,7 +7221,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7235,7 +7235,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/25_Kiwi.jpg"
+          "Value": "img/25.jpg"
         },
         {
           "Name": "integrity",
@@ -7244,8 +7244,8 @@
       ]
     },
     {
-      "Route": "img/25_Kiwi.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\25_Kiwi.jpg",
+      "Route": "img/25.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\25.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7266,7 +7266,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7281,8 +7281,8 @@
       ]
     },
     {
-      "Route": "img/26_Třešně.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\26_Třešně.jpg",
+      "Route": "img/26.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\26.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7303,7 +7303,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7318,8 +7318,8 @@
       ]
     },
     {
-      "Route": "img/26_Třešně.p47rj1ecn9.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\26_Třešně.jpg",
+      "Route": "img/26.p47rj1ecn9.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\26.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7340,7 +7340,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7354,7 +7354,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/26_Třešně.jpg"
+          "Value": "img/26.jpg"
         },
         {
           "Name": "integrity",
@@ -7363,8 +7363,8 @@
       ]
     },
     {
-      "Route": "img/27_Jahody.2psll0essd.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\27_Jahody.jpg",
+      "Route": "img/27.2psll0essd.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\27.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7385,7 +7385,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7399,7 +7399,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/27_Jahody.jpg"
+          "Value": "img/27.jpg"
         },
         {
           "Name": "integrity",
@@ -7408,8 +7408,8 @@
       ]
     },
     {
-      "Route": "img/27_Jahody.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\27_Jahody.jpg",
+      "Route": "img/27.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\27.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7430,7 +7430,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7445,8 +7445,8 @@
       ]
     },
     {
-      "Route": "img/28_Meruňky.3ddbqhxcbs.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\28_Meruňky.jpg",
+      "Route": "img/28.3ddbqhxcbs.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\28.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7467,7 +7467,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7481,7 +7481,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/28_Meruňky.jpg"
+          "Value": "img/28.jpg"
         },
         {
           "Name": "integrity",
@@ -7490,8 +7490,8 @@
       ]
     },
     {
-      "Route": "img/28_Meruňky.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\28_Meruňky.jpg",
+      "Route": "img/28.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\28.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7512,7 +7512,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7527,8 +7527,8 @@
       ]
     },
     {
-      "Route": "img/29_Švestky.gu9zp00cj8.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\29_Švestky.jpg",
+      "Route": "img/29.gu9zp00cj8.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\29.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7549,7 +7549,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7563,7 +7563,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/29_Švestky.jpg"
+          "Value": "img/29.jpg"
         },
         {
           "Name": "integrity",
@@ -7572,8 +7572,8 @@
       ]
     },
     {
-      "Route": "img/29_Švestky.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\29_Švestky.jpg",
+      "Route": "img/29.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\29.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7594,7 +7594,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7609,8 +7609,8 @@
       ]
     },
     {
-      "Route": "img/3_Klobása.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\3_Klobása.jpg",
+      "Route": "img/3.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7631,7 +7631,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7646,8 +7646,8 @@
       ]
     },
     {
-      "Route": "img/3_Klobása.uo7nnjubiz.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\3_Klobása.jpg",
+      "Route": "img/3.uo7nnjubiz.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7668,7 +7668,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7682,7 +7682,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/3_Klobása.jpg"
+          "Value": "img/3.jpg"
         },
         {
           "Name": "integrity",
@@ -7691,8 +7691,8 @@
       ]
     },
     {
-      "Route": "img/30_Banány(mini).d4x5kwfu1t.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\30_Banány(mini).jpg",
+      "Route": "img/30.d4x5kwfu1t.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\30.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7713,7 +7713,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7727,7 +7727,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/30_Banány(mini).jpg"
+          "Value": "img/30.jpg"
         },
         {
           "Name": "integrity",
@@ -7736,8 +7736,8 @@
       ]
     },
     {
-      "Route": "img/30_Banány(mini).jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\30_Banány(mini).jpg",
+      "Route": "img/30.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\30.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7758,7 +7758,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7773,8 +7773,8 @@
       ]
     },
     {
-      "Route": "img/31_Rajčata.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\31_Rajčata.jpg",
+      "Route": "img/31.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\31.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7795,7 +7795,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7810,8 +7810,8 @@
       ]
     },
     {
-      "Route": "img/31_Rajčata.jw9fwqmo3p.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\31_Rajčata.jpg",
+      "Route": "img/31.jw9fwqmo3p.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\31.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7832,7 +7832,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7846,7 +7846,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/31_Rajčata.jpg"
+          "Value": "img/31.jpg"
         },
         {
           "Name": "integrity",
@@ -7855,8 +7855,8 @@
       ]
     },
     {
-      "Route": "img/32_Okurky.3553uujh1l.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\32_Okurky.jpg",
+      "Route": "img/32.3553uujh1l.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\32.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7877,7 +7877,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7891,7 +7891,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/32_Okurky.jpg"
+          "Value": "img/32.jpg"
         },
         {
           "Name": "integrity",
@@ -7900,8 +7900,8 @@
       ]
     },
     {
-      "Route": "img/32_Okurky.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\32_Okurky.jpg",
+      "Route": "img/32.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\32.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7922,7 +7922,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7937,8 +7937,8 @@
       ]
     },
     {
-      "Route": "img/33_Paprika.i6ee4g7tbi.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\33_Paprika.jpg",
+      "Route": "img/33.i6ee4g7tbi.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\33.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7959,7 +7959,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7973,7 +7973,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/33_Paprika.jpg"
+          "Value": "img/33.jpg"
         },
         {
           "Name": "integrity",
@@ -7982,8 +7982,8 @@
       ]
     },
     {
-      "Route": "img/33_Paprika.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\33_Paprika.jpg",
+      "Route": "img/33.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\33.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8004,7 +8004,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8019,8 +8019,8 @@
       ]
     },
     {
-      "Route": "img/34_Cibule.0mq3u7az2k.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\34_Cibule.jpg",
+      "Route": "img/34.0mq3u7az2k.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\34.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8041,7 +8041,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8055,7 +8055,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/34_Cibule.jpg"
+          "Value": "img/34.jpg"
         },
         {
           "Name": "integrity",
@@ -8064,8 +8064,8 @@
       ]
     },
     {
-      "Route": "img/34_Cibule.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\34_Cibule.jpg",
+      "Route": "img/34.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\34.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8086,7 +8086,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8101,8 +8101,8 @@
       ]
     },
     {
-      "Route": "img/35_Mrkev.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\35_Mrkev.jpg",
+      "Route": "img/35.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\35.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8123,7 +8123,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8138,8 +8138,8 @@
       ]
     },
     {
-      "Route": "img/35_Mrkev.quoq3biom8.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\35_Mrkev.jpg",
+      "Route": "img/35.quoq3biom8.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\35.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8160,7 +8160,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8174,7 +8174,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/35_Mrkev.jpg"
+          "Value": "img/35.jpg"
         },
         {
           "Name": "integrity",
@@ -8183,8 +8183,8 @@
       ]
     },
     {
-      "Route": "img/36_Brambory.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\36_Brambory.jpg",
+      "Route": "img/36.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\36.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8205,7 +8205,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8220,8 +8220,8 @@
       ]
     },
     {
-      "Route": "img/36_Brambory.vulamnmay4.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\36_Brambory.jpg",
+      "Route": "img/36.vulamnmay4.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\36.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8242,7 +8242,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8256,7 +8256,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/36_Brambory.jpg"
+          "Value": "img/36.jpg"
         },
         {
           "Name": "integrity",
@@ -8265,8 +8265,8 @@
       ]
     },
     {
-      "Route": "img/37_Celer.386odcif3x.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\37_Celer.jpg",
+      "Route": "img/37.386odcif3x.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\37.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8287,7 +8287,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8301,7 +8301,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/37_Celer.jpg"
+          "Value": "img/37.jpg"
         },
         {
           "Name": "integrity",
@@ -8310,8 +8310,8 @@
       ]
     },
     {
-      "Route": "img/37_Celer.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\37_Celer.jpg",
+      "Route": "img/37.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\37.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8332,7 +8332,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8347,8 +8347,8 @@
       ]
     },
     {
-      "Route": "img/38_Kedluben.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\38_Kedluben.jpg",
+      "Route": "img/38.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\38.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8369,7 +8369,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8384,8 +8384,8 @@
       ]
     },
     {
-      "Route": "img/38_Kedluben.wemglxzfze.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\38_Kedluben.jpg",
+      "Route": "img/38.wemglxzfze.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\38.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8406,7 +8406,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8420,7 +8420,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/38_Kedluben.jpg"
+          "Value": "img/38.jpg"
         },
         {
           "Name": "integrity",
@@ -8429,8 +8429,8 @@
       ]
     },
     {
-      "Route": "img/39_Pór.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\39_Pór.jpg",
+      "Route": "img/39.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\39.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8451,7 +8451,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8466,8 +8466,8 @@
       ]
     },
     {
-      "Route": "img/39_Pór.ynd3cprzxe.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\39_Pór.jpg",
+      "Route": "img/39.ynd3cprzxe.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\39.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8488,7 +8488,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8502,7 +8502,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/39_Pór.jpg"
+          "Value": "img/39.jpg"
         },
         {
           "Name": "integrity",
@@ -8511,8 +8511,8 @@
       ]
     },
     {
-      "Route": "img/4_Slanina.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\4_Slanina.jpg",
+      "Route": "img/4.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8533,7 +8533,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8548,8 +8548,8 @@
       ]
     },
     {
-      "Route": "img/4_Slanina.vz2x65k0i4.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\4_Slanina.jpg",
+      "Route": "img/4.vz2x65k0i4.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8570,7 +8570,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8584,7 +8584,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/4_Slanina.jpg"
+          "Value": "img/4.jpg"
         },
         {
           "Name": "integrity",
@@ -8593,8 +8593,8 @@
       ]
     },
     {
-      "Route": "img/40_Chřest.bh19opijne.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\40_Chřest.jpg",
+      "Route": "img/40.bh19opijne.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\40.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8615,7 +8615,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8629,7 +8629,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/40_Chřest.jpg"
+          "Value": "img/40.jpg"
         },
         {
           "Name": "integrity",
@@ -8638,8 +8638,8 @@
       ]
     },
     {
-      "Route": "img/40_Chřest.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\40_Chřest.jpg",
+      "Route": "img/40.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\40.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8660,7 +8660,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8675,8 +8675,8 @@
       ]
     },
     {
-      "Route": "img/5_Kuřecí prsa.4sq6eikmrr.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\5_Kuřecí prsa.jpg",
+      "Route": "img/5.4sq6eikmrr.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8697,7 +8697,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8711,7 +8711,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/5_Kuřecí prsa.jpg"
+          "Value": "img/5.jpg"
         },
         {
           "Name": "integrity",
@@ -8720,8 +8720,8 @@
       ]
     },
     {
-      "Route": "img/5_Kuřecí prsa.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\5_Kuřecí prsa.jpg",
+      "Route": "img/5.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8742,7 +8742,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8757,8 +8757,8 @@
       ]
     },
     {
-      "Route": "img/6_Hovězí steak.456b4ttmqh.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\6_Hovězí steak.jpg",
+      "Route": "img/6.456b4ttmqh.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\6.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8779,7 +8779,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8793,7 +8793,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/6_Hovězí steak.jpg"
+          "Value": "img/6.jpg"
         },
         {
           "Name": "integrity",
@@ -8802,8 +8802,8 @@
       ]
     },
     {
-      "Route": "img/6_Hovězí steak.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\6_Hovězí steak.jpg",
+      "Route": "img/6.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\6.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8824,7 +8824,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8839,8 +8839,8 @@
       ]
     },
     {
-      "Route": "img/7_Pečené kuře.2o2jg27iyy.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\7_Pečené kuře.jpg",
+      "Route": "img/7.2o2jg27iyy.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\7.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8861,7 +8861,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8875,7 +8875,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/7_Pečené kuře.jpg"
+          "Value": "img/7.jpg"
         },
         {
           "Name": "integrity",
@@ -8884,8 +8884,8 @@
       ]
     },
     {
-      "Route": "img/7_Pečené kuře.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\7_Pečené kuře.jpg",
+      "Route": "img/7.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\7.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8906,7 +8906,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8921,8 +8921,8 @@
       ]
     },
     {
-      "Route": "img/8_Krůtí prsa.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\8_Krůtí prsa.jpg",
+      "Route": "img/8.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\8.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8943,7 +8943,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8958,8 +8958,8 @@
       ]
     },
     {
-      "Route": "img/8_Krůtí prsa.uue15y6s90.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\8_Krůtí prsa.jpg",
+      "Route": "img/8.uue15y6s90.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\8.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8980,7 +8980,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8994,7 +8994,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/8_Krůtí prsa.jpg"
+          "Value": "img/8.jpg"
         },
         {
           "Name": "integrity",
@@ -9003,8 +9003,8 @@
       ]
     },
     {
-      "Route": "img/9_Uzené maso.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\9_Uzené maso.jpg",
+      "Route": "img/9.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\9.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9025,7 +9025,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9040,8 +9040,8 @@
       ]
     },
     {
-      "Route": "img/9_Uzené maso.uq891g3nqp.jpg",
-      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\9_Uzené maso.jpg",
+      "Route": "img/9.uq891g3nqp.jpg",
+      "AssetFile": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\wwwroot\\img\\9.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9062,7 +9062,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 14:05:30 GMT"
+          "Value": "Sat, 07 Dec 2024 20:59:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9076,7 +9076,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/9_Uzené maso.jpg"
+          "Value": "img/9.jpg"
         },
         {
           "Name": "integrity",

@@ -21,7 +21,7 @@ namespace OnlineSupermarket.Controllers
             _logger = logger;
         }
 
-        // Метод для отображения списка платежей
+        // Отображение списка платежей
         public async Task<IActionResult> Index()
         {
             var platbaList = new List<Platba>();
@@ -31,7 +31,7 @@ namespace OnlineSupermarket.Controllers
                 using (var connection = new OracleConnection(_connectionString))
                 {
                     await connection.OpenAsync();
-                    using (var command = new OracleCommand("ZOBRAZ_PLATBY", connection))
+                    using (var command = new OracleCommand("ZOBRAZ_PLATBU", connection))
                     {
                         command.CommandType = CommandType.StoredProcedure;
                         command.Parameters.Add("p_cursor", OracleDbType.RefCursor).Direction = ParameterDirection.Output;
@@ -48,7 +48,7 @@ namespace OnlineSupermarket.Controllers
                                     DatumVytvoreni = reader.GetDateTime(3),
                                     DatumAktualizace = reader.GetDateTime(4),
                                     ZboziIdZbozi = reader.GetInt32(5),
-                                    ProdejnaIdProdejny = reader.IsDBNull(6) ? (int?)null : reader.GetInt32(6)
+                                    ProdejnaIdProdejny = reader.GetInt32(6)
                                 });
                             }
                         }
@@ -64,24 +64,33 @@ namespace OnlineSupermarket.Controllers
             return View(platbaList);
         }
 
-        // Метод для отображения формы создания платежа
+        // Форма создания платежа
         public IActionResult Create()
         {
             return View();
         }
 
-        // Метод для обработки создания платежа
+        // Обработка отправки формы создания платежа
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Platba platba)
         {
+            // Логирование значений модели перед проверкой состояния модели
+            _logger.LogInformation("Значения модели: CelkovaCena={CelkovaCena}, Typ={Typ}, ZboziIdZbozi={ZboziIdZbozi}, ProdejnaIdProdejny={ProdejnaIdProdejny}",
+                platba.CelkovaCena, platba.Typ, platba.ZboziIdZbozi, platba.ProdejnaIdProdejny);
+
+            // Даты устанавливает база, но если нужно, можно их не трогать тут
             if (ModelState.IsValid)
             {
                 try
                 {
+                    _logger.LogInformation("Начало создания платежа");
+
                     using (var connection = new OracleConnection(_connectionString))
                     {
+                        _logger.LogInformation("Открытие соединения с базой данных");
                         await connection.OpenAsync();
+
                         using (var command = new OracleCommand("VLOZ_PLATBU", connection))
                         {
                             command.CommandType = CommandType.StoredProcedure;
@@ -90,23 +99,41 @@ namespace OnlineSupermarket.Controllers
                             command.Parameters.Add("p_zbozi_idzbozi", OracleDbType.Int32).Value = platba.ZboziIdZbozi;
                             command.Parameters.Add("p_prodejna_idprodejny", OracleDbType.Int32).Value = platba.ProdejnaIdProdejny;
 
+                            _logger.LogInformation("Параметры команды: p_celkovaCena={CelkovaCena}, p_typ={Typ}, p_zbozi_idzbozi={ZboziIdZbozi}, p_prodejna_idprodejny={ProdejnaIdProdejny}",
+                                platba.CelkovaCena, platba.Typ, platba.ZboziIdZbozi, platba.ProdejnaIdProdejny);
+
+                            _logger.LogInformation("Выполнение команды для добавления платежа");
                             await command.ExecuteNonQueryAsync();
                         }
                     }
 
+                    _logger.LogInformation("Платеж успешно создан");
                     return RedirectToAction(nameof(Index));
+                }
+                catch (OracleException ex)
+                {
+                    _logger.LogError(ex, "Произошла ошибка Oracle при добавлении платежа: {Message}", ex.Message);
+                    ModelState.AddModelError(string.Empty, $"Произошла ошибка Oracle при добавлении платежа: {ex.Message}");
                 }
                 catch (Exception ex)
                 {
-                    _logger.LogError(ex, "Произошла ошибка при добавлении платежа");
+                    _logger.LogError(ex, "Произошла ошибка при добавлении платежа: {Message}", ex.Message);
                     ModelState.AddModelError(string.Empty, $"Произошла ошибка при добавлении платежа: {ex.Message}");
                 }
+            }
+            else
+            {
+                _logger.LogWarning("Модель состояния недействительна: {ModelStateErrors}", ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage));
             }
 
             return View(platba);
         }
 
-        // Метод для отображения формы редактирования платежа
+
+
+
+
+        // Форма редактирования
         public async Task<IActionResult> Edit(int idTranzakce)
         {
             Platba? platba = null;
@@ -119,11 +146,7 @@ namespace OnlineSupermarket.Controllers
                     using (var command = new OracleCommand("ZOBRAZ_PLATBU_PODLE_ID", connection))
                     {
                         command.CommandType = CommandType.StoredProcedure;
-
-                        // Входной параметр - ID транзакции
                         command.Parameters.Add("p_idtranzakce", OracleDbType.Int32).Value = idTranzakce;
-
-                        // Выходной параметр - курсор
                         command.Parameters.Add("p_cursor", OracleDbType.RefCursor).Direction = ParameterDirection.Output;
 
                         using (var reader = await command.ExecuteReaderAsync())
@@ -138,12 +161,11 @@ namespace OnlineSupermarket.Controllers
                                     DatumVytvoreni = reader.GetDateTime(3),
                                     DatumAktualizace = reader.GetDateTime(4),
                                     ZboziIdZbozi = reader.GetInt32(5),
-                                    ProdejnaIdProdejny = reader.IsDBNull(6) ? (int?)null : reader.GetInt32(6)
+                                    ProdejnaIdProdejny = reader.GetInt32(6)
                                 };
                             }
                             else
                             {
-                                // Обработка, если данные не найдены
                                 _logger.LogWarning("Запись с ID {IdTranzakce} не найдена", idTranzakce);
                                 return NotFound();
                             }
@@ -153,7 +175,6 @@ namespace OnlineSupermarket.Controllers
             }
             catch (OracleException ex)
             {
-                // Обработка ошибок Oracle
                 _logger.LogError(ex, "Произошла ошибка Oracle при получении платежа для редактирования");
                 ModelState.AddModelError(string.Empty, $"Произошла ошибка при получении платежа для редактирования: {ex.Message}");
                 return RedirectToAction("Index");
@@ -162,7 +183,10 @@ namespace OnlineSupermarket.Controllers
             return View(platba);
         }
 
-        // Метод для обработки редактирования платежа
+
+
+
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int idTranzakce, Platba platba)
@@ -184,6 +208,7 @@ namespace OnlineSupermarket.Controllers
                         _logger.LogInformation("Попытка обновления platba с IdTranzakce: {IdTranzakce}, CelkovaCena: {CelkovaCena}, Typ: {Typ}, ZboziIdZbozi: {ZboziIdZbozi}, ProdejnaIdProdejny: {ProdejnaIdProdejny}",
                             platba.IdTranzakce, platba.CelkovaCena, platba.Typ, platba.ZboziIdZbozi, platba.ProdejnaIdProdejny);
 
+                        // Исправляем имя процедуры
                         using (var command = new OracleCommand("AKTUALIZUJ_PLATBU", connection))
                         {
                             command.CommandType = CommandType.StoredProcedure;
@@ -191,7 +216,7 @@ namespace OnlineSupermarket.Controllers
                             command.Parameters.Add("p_celkovaCena", OracleDbType.Decimal).Value = platba.CelkovaCena;
                             command.Parameters.Add("p_typ", OracleDbType.Varchar2).Value = platba.Typ;
                             command.Parameters.Add("p_zbozi_idzbozi", OracleDbType.Int32).Value = platba.ZboziIdZbozi;
-                            command.Parameters.Add("p_prodejna_idprodejn", OracleDbType.Int32).Value = platba.ProdejnaIdProdejny;
+                            command.Parameters.Add("p_prodejna_idprodejny", OracleDbType.Int32).Value = platba.ProdejnaIdProdejny;
 
                             var affectedRows = await command.ExecuteNonQueryAsync();
 
@@ -204,15 +229,15 @@ namespace OnlineSupermarket.Controllers
                 }
                 catch (Exception ex)
                 {
-                    _logger.LogError(ex, "Произошла ошибка при обновлении platba");
-                    ModelState.AddModelError(string.Empty, $"Произошла ошибка при обновлении platba: {ex.Message}");
+                    _logger.LogError(ex, "Произошла ошибка при обновлении платежа");
+                    ModelState.AddModelError(string.Empty, $"Произошла ошибка при обновлении платежа: {ex.Message}");
                 }
             }
 
             return View(platba);
         }
 
-        // Метод для обработки удаления платежа
+        // Удаление платежа
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<JsonResult> Delete(int idTranzakce)
@@ -241,4 +266,3 @@ namespace OnlineSupermarket.Controllers
         }
     }
 }
-

@@ -12,15 +12,14 @@
 		<th style="color: white;">Вес</th>
 		<th style="color: white;">Состав</th>
 		<th style="color: white;">Категория</th>
-		<th></th> <!-- Колонка для кнопки -->
+		<th></th> 
 	</tr>
 	</thead>
 	<tbody>
 	@foreach (var item in Model)
 	{
-		<tr style="height: 150px;"> <!-- Достаточный отступ для размещения картинки -->
-			<td>
-				<img src="~/img/@item.IDZbozi.jpg" alt="@item.ZboziNazev" style="height: 100px; width: auto;" />
+		<tr style="height: 150px;"> <td>
+				<img src="~/img/@(item.IDZbozi.ToString() + ".jpg")" alt="@item.ZboziNazev" style="height: 100px; width: auto;" />
 			</td>
 			<td style="color: white;">@item.ZboziNazev</td>
 			<td style="color: white;">@item.AktualniCena</td>
