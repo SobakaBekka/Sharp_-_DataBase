@@ -18,5 +18,9 @@ namespace OnlineSupermarket.Models
         [Display(Name = "New Password")]
         [StringLength(100, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 6)]
         public string NewPassword { get; set; }
+
+        public byte[]? ProfilePhoto { get; set; } // Вміст фото у форматі byte[]
+        public string? PhotoType { get; set; }    // MIME-тип фото, наприклад "image/jpeg"
+
     }
 }

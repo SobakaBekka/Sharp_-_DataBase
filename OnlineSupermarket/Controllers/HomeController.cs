@@ -410,22 +410,26 @@ namespace OnlineSupermarket.Controllers
 
 
 
-        [HttpGet]
-        public async Task<IActionResult> UserProfile()
-        {
-            var username = HttpContext.Session.GetString("Username");
-            if (string.IsNullOrEmpty(username))
-            {
-                return RedirectToAction("Autorizace", "Home");
-            }
+[HttpGet]
+public async Task<IActionResult> UserProfile()
+{
+    var username = HttpContext.Session.GetString("Username");
+    if (string.IsNullOrEmpty(username))
+    {
+        return RedirectToAction("Autorizace", "Home");
+    }
 
-            UserProfile user = null;
+    UserProfile user = null;
             try
             {
                 using (var connection = new OracleConnection(_connectionString))
                 {
                     await connection.OpenAsync();
-                    using (var command = new OracleCommand("SELECT IDREGISUZIVATELU, USERNAME, EMAIL, JMENO, PRIJMENI FROM REGISUZIVATEL WHERE USERNAME = :username", connection))
+                    using (var command = new OracleCommand(@"
+                            SELECT R.IDREGISUZIVATELU, R.USERNAME, R.EMAIL, R.JMENO, R.PRIJMENI, S.OBSAH, S.TYP_SOUBORU
+                            FROM REGISUZIVATEL R
+                            LEFT JOIN SOUBOR S ON R.IDREGISUZIVATELU = S.ID_REGISUZIVATELU
+                            WHERE R.USERNAME = :username", connection))
                     {
                         command.Parameters.Add("username", OracleDbType.Varchar2).Value = username;
                         using (var reader = await command.ExecuteReaderAsync())
@@ -438,25 +442,29 @@ namespace OnlineSupermarket.Controllers
                                     Username = reader.GetString(reader.GetOrdinal("USERNAME")),
                                     Email = reader.GetString(reader.GetOrdinal("EMAIL")),
                                     Jmeno = reader.GetString(reader.GetOrdinal("JMENO")),
-                                    Prijmeni = reader.GetString(reader.GetOrdinal("PRIJMENI"))
+                                    Prijmeni = reader.GetString(reader.GetOrdinal("PRIJMENI")),
+                                    ProfilePhoto = reader.IsDBNull(reader.GetOrdinal("OBSAH")) ? null : (byte[])reader["OBSAH"],
+                                    PhotoType = reader.IsDBNull(reader.GetOrdinal("TYP_SOUBORU")) ? null : reader.GetString(reader.GetOrdinal("TYP_SOUBORU"))
                                 };
                             }
                         }
                     }
                 }
             }
+
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Error fetching user profile");
             }
 
-            if (user == null)
-            {
-                return RedirectToAction("Error", "Home");
-            }
+    if (user == null)
+    {
+        return RedirectToAction("Error", "Home");
+    }
 
-            return View(user);
-        }
+    return View(user);
+}
+
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -583,6 +591,96 @@ namespace OnlineSupermarket.Controllers
 
             return View(model);
         }
+
+        private async Task<int?> GetUserId(string username)
+        {
+            int? userId = null;
+
+            using (var connection = new OracleConnection(_connectionString))
+            {
+                await connection.OpenAsync();
+                using (var command = new OracleCommand("SELECT IDREGISUZIVATELU FROM REGISUZIVATEL WHERE USERNAME = :username", connection))
+                {
+                    command.Parameters.Add("username", OracleDbType.Varchar2).Value = username;
+                    using (var reader = await command.ExecuteReaderAsync())
+                    {
+                        if (await reader.ReadAsync())
+                        {
+                            userId = reader.GetInt32(0);
+                        }
+                    }
+                }
+            }
+
+            return userId;
+        }
+
+
+
+        [HttpPost]
+        public async Task<IActionResult> UploadProfilePhoto(IFormFile file)
+        {
+            var username = HttpContext.Session.GetString("Username");
+            if (string.IsNullOrEmpty(username))
+                return RedirectToAction("Autorizace", "Home");
+
+            if (file != null && file.Length > 0)
+            {
+                using (var memoryStream = new MemoryStream())
+                {
+                    await file.CopyToAsync(memoryStream);
+                    var fileContent = memoryStream.ToArray();
+                    var fileName = file.FileName;
+                    var fileType = file.ContentType;
+                    var fileExtension = Path.GetExtension(file.FileName);
+
+                    using (var connection = new OracleConnection(_connectionString))
+                    {
+                        await connection.OpenAsync();
+                        using (var command = new OracleCommand("VLOZ_SOUBOR", connection))
+                        {
+                            command.CommandType = CommandType.StoredProcedure;
+                            command.Parameters.Add("p_NAZEV_SOUBORU", OracleDbType.Varchar2).Value = fileName;
+                            command.Parameters.Add("p_TYP_SOUBORU", OracleDbType.Varchar2).Value = fileType;
+                            command.Parameters.Add("p_PRIPONA_SOUBORU", OracleDbType.Varchar2).Value = fileExtension;
+                            command.Parameters.Add("p_DATUM_MODIFIKACE", OracleDbType.Date).Value = DateTime.Now;
+                            command.Parameters.Add("p_OBSAH", OracleDbType.Blob).Value = fileContent;
+                            command.Parameters.Add("p_ID_REGISUZIVATELU", OracleDbType.Int32).Value = await GetUserId(username);
+
+                            await command.ExecuteNonQueryAsync();
+                        }
+                    }
+                }
+            }
+
+            return RedirectToAction("UserProfile");
+        }
+        
+        [HttpPost]
+        public async Task<IActionResult> DeleteProfilePhoto()
+        {
+            var username = HttpContext.Session.GetString("Username");
+            if (string.IsNullOrEmpty(username))
+                return RedirectToAction("Autorizace", "Home");
+
+            var userId = await GetUserId(username);
+
+            using (var connection = new OracleConnection(_connectionString))
+            {
+                await connection.OpenAsync();
+                using (var command = new OracleCommand("SMAZ_SOUBOR", connection))
+                {
+                    command.CommandType = CommandType.StoredProcedure;
+                    command.Parameters.Add("p_ID_REGISUZIVATELU", OracleDbType.Int32).Value = userId;
+
+                    await command.ExecuteNonQueryAsync();
+                }
+            }
+
+            return RedirectToAction("UserProfile");
+        }
+
+
 
 
 

@@ -13,9 +13,11 @@
     </div>
 }
 
-<form asp-action="UserProfile" method="post">
+<form asp-action="UserProfile" method="post" enctype="multipart/form-data">
     @Html.AntiForgeryToken()
     <input type="hidden" asp-for="IdRegisUzivatelu" />
+
+    <!-- Основні поля профілю -->
     <div class="form-group">
         <label asp-for="Username" class="control-label"></label>
         <input asp-for="Username" class="form-control" />
@@ -36,6 +38,8 @@
         <input asp-for="Prijmeni" class="form-control" />
         <span asp-validation-for="Prijmeni" class="text-danger"></span>
     </div>
+
+    <!-- Паролі -->
     <div class="form-group">
         <label asp-for="OldPassword" class="control-label">Old Password</label>
         <input asp-for="OldPassword" class="form-control" type="password" />
@@ -46,6 +50,27 @@
         <input asp-for="NewPassword" class="form-control" type="password" />
         <span asp-validation-for="NewPassword" class="text-danger"></span>
     </div>
+
+    <!-- Фото профілю -->
+    <h4>Фото профілю</h4>
+    @if (Model.ProfilePhoto != null)
+    {
+        <div>
+            <img src="data:@Model.PhotoType;base64,@Convert.ToBase64String(Model.ProfilePhoto)" alt="Фото профілю" style="max-width:150px; max-height:150px;" />
+        </div>
+    }
+    else
+    {
+        <p>Фото профілю не завантажено.</p>
+    }
+
+    <div class="form-group">
+        <label for="file">Додати або замінити фото профілю</label>
+        <input type="file" name="file" id="file" class="form-control" />
+    </div>
+    <button type="submit" asp-action="UploadProfilePhoto" class="btn btn-success">Завантажити фото</button>
+    <button type="submit" asp-action="DeleteProfilePhoto" class="btn btn-danger">Видалити фото</button>
+
     <button type="submit" class="btn btn-primary">Save</button>
 </form>
 

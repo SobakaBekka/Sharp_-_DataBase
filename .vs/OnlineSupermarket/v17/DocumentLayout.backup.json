@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\views\\home\\userprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\home\\userprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\controllers\\regisuzivatelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UserProfile.cs",
               "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Models\\UserProfile.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Models\\UserProfile.cs",
               "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Models\\UserProfile.cs",
               "RelativeToolTip": "OnlineSupermarket\\Models\\UserProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T12:19:37.643Z",
               "EditorCaption": ""
@@ -49,20 +49,20 @@
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Home\\UserProfile.cshtml",
               "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\UserProfile.cshtml",
               "RelativeToolTip": "OnlineSupermarket\\Views\\Home\\UserProfile.cshtml",
-              "ViewState": "AgIAABkAAAAAAAAAAAAUwDUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAiwDoAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-08T11:41:56.66Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "OnlineSupermarket\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAADgCAAAAAAAAAAAcwEgCAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\HomeController.cs*",
+              "RelativeToolTip": "OnlineSupermarket\\Controllers\\HomeController.cs*",
+              "ViewState": "AgIAAKQBAAAAAAAAAAAwwMQBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T11:50:33.391Z",
               "EditorCaption": ""
@@ -75,7 +75,7 @@
               "RelativeDocumentMoniker": "OnlineSupermarket\\Controllers\\RegisUzivatelController.cs",
               "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\RegisUzivatelController.cs",
               "RelativeToolTip": "OnlineSupermarket\\Controllers\\RegisUzivatelController.cs",
-              "ViewState": "AgIAAHUBAAAAAAAAAAAIwHsBAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAIsBAAAAAAAAAEBRwHsBAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T11:42:39.653Z",
               "EditorCaption": ""
