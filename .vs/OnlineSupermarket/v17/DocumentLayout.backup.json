@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\cart\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\cart\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -36,10 +40,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\controllers\\adresacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -189,27 +189,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Microsoft.PackageDependencyResolution.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.101\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
@@ -217,12 +205,11 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.101\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-12-08T17:42:06.673Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T17:42:06.673Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Cart\\Create.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Cart\\Create.cshtml",
@@ -230,8 +217,7 @@
               "RelativeToolTip": "OnlineSupermarket\\Views\\Cart\\Create.cshtml",
               "ViewState": "AgIAAAIAAAAAAAAAAAAIwBgAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-08T17:07:26.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T17:07:26.406Z"
             },
             {
               "$type": "Document",
@@ -295,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "_ProductQuantitySelector.cshtml",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Shared\\_ProductQuantitySelector.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Shared\\_ProductQuantitySelector.cshtml",
@@ -303,12 +289,11 @@
               "RelativeToolTip": "OnlineSupermarket\\Views\\Shared\\_ProductQuantitySelector.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-08T01:09:14.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T01:09:14.337Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Cart\\Index.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Cart\\Index.cshtml",
@@ -316,8 +301,7 @@
               "RelativeToolTip": "OnlineSupermarket\\Views\\Cart\\Index.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAIwC0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-08T01:08:03.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T01:08:03.8Z"
             },
             {
               "$type": "Document",
@@ -327,14 +311,14 @@
               "RelativeDocumentMoniker": "OnlineSupermarket\\Controllers\\CartController.cs",
               "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\CartController.cs",
               "RelativeToolTip": "OnlineSupermarket\\Controllers\\CartController.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAUwGYAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAApwG0AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T01:07:29.01Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CartService.cs",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Service\\CartService.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Service\\CartService.cs",
@@ -342,12 +326,11 @@
               "RelativeToolTip": "OnlineSupermarket\\Service\\CartService.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAcwBUAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T01:05:49.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T01:05:49.687Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "CartItem.cs",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Models\\CartItem.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Models\\CartItem.cs",
@@ -355,8 +338,7 @@
               "RelativeToolTip": "OnlineSupermarket\\Models\\CartItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T00:55:24.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T00:55:24.1Z"
             },
             {
               "$type": "Document",
@@ -528,7 +510,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Platba.cs",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Models\\Platba.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Models\\Platba.cs",
@@ -536,12 +518,11 @@
               "RelativeToolTip": "OnlineSupermarket\\Models\\Platba.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T16:40:10.673Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T16:40:10.673Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "_ZboziKategoriePartial.cshtml",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Shared\\_ZboziKategoriePartial.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Shared\\_ZboziKategoriePartial.cshtml",
@@ -549,8 +530,7 @@
               "RelativeToolTip": "OnlineSupermarket\\Views\\Shared\\_ZboziKategoriePartial.cshtml",
               "ViewState": "AgIAABAAAAAAAAAAAAAIwEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-07T14:34:47.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T14:34:47.345Z"
             },
             {
               "$type": "Document",
@@ -574,8 +554,7 @@
               "RelativeToolTip": "OnlineSupermarket\\Controllers\\AdresaController.cs",
               "ViewState": "AgIAADcAAAAAAAAAAAAIwFcAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T11:06:46.26Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T11:06:46.26Z"
             },
             {
               "$type": "Document",
@@ -723,13 +702,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\HomeController.cs",
               "RelativeToolTip": "OnlineSupermarket\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAMkBAAAAAAAAAAAvwOQBAABQAAAAAAAAAA==",
+              "ViewState": "AgIAAPkAAAAAAAAAAADwvxoBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T17:58:34.624Z",
               "EditorCaption": ""

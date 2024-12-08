@@ -1,0 +1,80 @@
+﻿@model IEnumerable<OnlineSupermarket.Models.Zbozi>
+
+@{
+    ViewData["Title"] = "Товары по категории";
+}
+
+<style>
+    body {
+        background-color: #1e3a5f;
+        color: white;
+    }
+
+    .container {
+        background-color: #2c5d8a;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    table {
+        width: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    th, td {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+        text-align: center;
+    }
+
+    th {
+        background-color: #007bff;
+        color: white;
+    }
+
+    tr:hover {
+        background-color: #f1f1f1;
+    }
+</style>
+
+<div class="container">
+    <h1>Товары в категории: @ViewBag.CategoryName</h1>
+
+    @if (Model != null && Model.Any())
+    {
+        <table>
+            <thead>
+                <tr>
+                    <th>Название товара</th>
+                    <th>Цена</th>
+                    <th>Цена с клубной картой</th>
+                    <th>Вес</th>
+                    <th>Состав</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Nazev</td>
+                        <td>@item.AktualniCena</td>
+                        <td>@(item.CenaZeKlubKartou?.ToString() ?? "-")</td>
+                        <td>@item.Hmotnost кг</td>
+                        <td>@item.Slozeni</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>В этой категории товаров пока нет.</p>
+    }
+
+    <div class="mt-3">
+        <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Вернуться на главную</a>
+    </div>
+</div>

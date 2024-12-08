@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<OnlineSupermarket.Models.CartItem>
 
 @{
-    ViewData["Title"] = "Корзина";
+    ViewData["Title"] = "Košík";
 }
 
 @if (TempData["SuccessMessage"] != null)
@@ -12,7 +12,7 @@
 }
 
 <div class="mt-3">
-    <a href="@Url.Action("AdminIndex", "Home")" class="btn btn-primary">Pocracovat nakup</a>
+    <a href="@Url.Action("AdminIndex", "Home")" class="btn btn-primary">Pokračovat v nákupu</a>
 </div>
 
 <h2>@ViewData["Title"]</h2>
@@ -22,12 +22,12 @@
     <table class="table">
         <thead>
             <tr>
-                <th>Изображение</th>
-                <th>Название</th>
-                <th>Цена</th>
-                <th>Количество</th>
-                <th>Общая цена</th>
-                <th>Действия</th>
+                <th>Obrázek</th>
+                <th>Název</th>
+                <th>Cena</th>
+                <th>Množství</th>
+                <th>Celková cena</th>
+                <th>Akce</th>
             </tr>
         </thead>
         <tbody>
@@ -42,23 +42,22 @@
                     <td>
                         <form asp-action="RemoveFromCart" method="post" style="display:inline;">
                             <input type="hidden" name="productId" value="@item.ProductId" />
-                            <button type="submit" class="btn btn-danger">Удалить</button>
+                            <button type="submit" class="btn btn-danger">Odstranit</button>
                         </form>
                         <form asp-action="Create" method="get" style="display:inline;">
                             <input type="hidden" name="productId" value="@item.ProductId" />
                             <input type="hidden" name="celkovaCena" value="@item.TotalPrice" />
                             <input type="hidden" name="quantity" value="@item.Quantity" />
-                            <button type="submit" class="btn btn-primary">Купить</button>
+                            <button type="submit" class="btn btn-primary">Koupit</button>
                         </form>
                     </td>
                 </tr>
             }
         </tbody>
     </table>
-    <h4>Общая цена: @Model.Sum(i => i.TotalPrice)</h4>
+    <h4>Celková cena: @Model.Sum(i => i.TotalPrice)</h4>
 }
 else
 {
-    <p>Корзина пуста.</p>
+    <p>Košík je prázdný.</p>
 }
-
