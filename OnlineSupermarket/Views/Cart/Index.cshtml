@@ -4,6 +4,13 @@
 	ViewData["Title"] = "Корзина";
 }
 
+@if (TempData["SuccessMessage"] != null)
+{
+	<div class="alert alert-success">
+		@TempData["SuccessMessage"]
+	</div>
+}
+
 <div class="mt-3">
 	<a href="@Url.Action("AdminIndex", "Home")" class="btn btn-primary">Pocracovat nakup</a>
 </div>
@@ -33,9 +40,14 @@
 				<td>@item.Quantity</td>
 				<td>@item.TotalPrice</td>
 				<td>
-					<form asp-action="RemoveFromCart" method="post">
+					<form asp-action="RemoveFromCart" method="post" style="display:inline;">
 						<input type="hidden" name="productId" value="@item.ProductId" />
 						<button type="submit" class="btn btn-danger">Удалить</button>
+					</form>
+					<form asp-action="Create" method="get" style="display:inline;">
+						<input type="hidden" name="productId" value="@item.ProductId" />
+						<input type="hidden" name="celkovaCena" value="@item.TotalPrice" />
+						<button type="submit" class="btn btn-primary">Купить</button>
 					</form>
 				</td>
 			</tr>
