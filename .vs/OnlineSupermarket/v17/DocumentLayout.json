@@ -1,185 +1,189 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\",
+  "WorkspaceRootPath": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\views\\home\\userprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\views\\home\\userprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\home\\userprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\controllers\\regisuzivatelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\controllers\\regisuzivatelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\models\\regisuzivatel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\controllers\\regisuzivatelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\controllers\\regisuzivatelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\models\\regisuzivatel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\models\\regisuzivatel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\models\\zbozikategorieview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\models\\zbozikategorieview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\models\\zbozikategorieview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\views\\home\\kontrolaakaunta.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\views\\home\\kontrolaakaunta.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\home\\kontrolaakaunta.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\views\\home\\autorizace.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\views\\home\\autorizace.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\home\\autorizace.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\views\\home\\host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\views\\home\\host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\home\\host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\views\\home\\adminindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\views\\home\\adminindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\home\\adminindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\views\\shared\\_zbozikategoriepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\views\\shared\\_zbozikategoriepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\shared\\_zbozikategoriepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\views\\home\\adminhost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\views\\home\\adminhost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\home\\adminhost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\controllers\\souborcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\controllers\\souborcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\controllers\\souborcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\views\\adresa\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\views\\adresa\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\adresa\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\views\\shared\\_productquantityselector.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\views\\shared\\_productquantityselector.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\shared\\_productquantityselector.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\controllers\\zamestaneccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\controllers\\zamestaneccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\controllers\\zamestaneccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\service\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\service\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\service\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\views\\home\\adminpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\views\\home\\adminpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\home\\adminpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\views\\regisuzivatel\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\views\\regisuzivatel\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\regisuzivatel\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\controllers\\adresacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\controllers\\adresacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\controllers\\adresacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\views\\adresa\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\views\\adresa\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\adresa\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\views\\platba\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\views\\platba\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\platba\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\views\\platba\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\views\\platba\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\platba\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\controllers\\platbacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\controllers\\platbacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\controllers\\platbacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\views\\platba\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\views\\platba\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\platba\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\models\\platba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\models\\platba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\models\\platba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\controllers\\pokladnacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\controllers\\pokladnacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\controllers\\pokladnacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\controllers\\prodejnacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\controllers\\prodejnacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\controllers\\prodejnacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\controllers\\prodanezbozicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\controllers\\prodanezbozicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\controllers\\prodanezbozicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\views\\pult\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\views\\pult\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\pult\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\controllers\\pultcontrolle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\controllers\\pultcontrolle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\controllers\\pultcontrolle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\views\\prodejna\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\views\\prodejna\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\prodejna\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\views\\prodejna\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\views\\prodejna\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\prodejna\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\views\\prodejna\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\views\\prodejna\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\prodejna\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\controllers\\pozicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\controllers\\pozicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\controllers\\pozicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\views\\regisuzivatel\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\views\\regisuzivatel\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\regisuzivatel\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\pavlo zubov\\documents\\github\\sharp_database\\onlinesupermarket\\views\\home\\registrace.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\onedrive - univerzita pardubice\\plocha\\supermarket\\sharp_database\\onlinesupermarket\\views\\home\\registrace.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\home\\registrace.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -190,15 +194,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Models\\UserProfile.cs",
+              "RelativeDocumentMoniker": "OnlineSupermarket\\Models\\UserProfile.cs",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Models\\UserProfile.cs",
+              "RelativeToolTip": "OnlineSupermarket\\Models\\UserProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T11:26:36.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "OnlineSupermarket\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAB4AAAAAAAAAAAAUwDAAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -208,22 +233,22 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "UserProfile.cshtml",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\UserProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\UserProfile.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Home\\UserProfile.cshtml",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\UserProfile.cshtml",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\UserProfile.cshtml",
               "RelativeToolTip": "OnlineSupermarket\\Views\\Home\\UserProfile.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-08T08:11:30.174Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "SouborController.cs",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\SouborController.cs",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\SouborController.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Controllers\\SouborController.cs",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\SouborController.cs",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\SouborController.cs",
               "RelativeToolTip": "OnlineSupermarket\\Controllers\\SouborController.cs",
               "ViewState": "AgIAAEMAAAAAAAAAAAAewFwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -231,11 +256,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "RegisUzivatel.cs",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Models\\RegisUzivatel.cs",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Models\\RegisUzivatel.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Models\\RegisUzivatel.cs",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Models\\RegisUzivatel.cs",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Models\\RegisUzivatel.cs",
               "RelativeToolTip": "OnlineSupermarket\\Models\\RegisUzivatel.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAA0wBEAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -243,11 +268,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "ZamestanecController.cs",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\ZamestanecController.cs",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\ZamestanecController.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Controllers\\ZamestanecController.cs",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\ZamestanecController.cs",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\ZamestanecController.cs",
               "RelativeToolTip": "OnlineSupermarket\\Controllers\\ZamestanecController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -255,11 +280,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Adresa\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Adresa\\Index.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Adresa\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Adresa\\Index.cshtml",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Adresa\\Index.cshtml",
               "RelativeToolTip": "OnlineSupermarket\\Views\\Adresa\\Index.cshtml",
               "ViewState": "AgIAAEUAAAAAAAAAAAAAAFwAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -267,11 +292,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Adresa\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Adresa\\Create.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Adresa\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Adresa\\Create.cshtml",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Adresa\\Create.cshtml",
               "RelativeToolTip": "OnlineSupermarket\\Views\\Adresa\\Create.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -279,11 +304,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "_ProductQuantitySelector.cshtml",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Shared\\_ProductQuantitySelector.cshtml",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Shared\\_ProductQuantitySelector.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Shared\\_ProductQuantitySelector.cshtml",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Shared\\_ProductQuantitySelector.cshtml",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Shared\\_ProductQuantitySelector.cshtml",
               "RelativeToolTip": "OnlineSupermarket\\Views\\Shared\\_ProductQuantitySelector.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -291,11 +316,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Cart\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Cart\\Index.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Cart\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Cart\\Index.cshtml",
               "RelativeToolTip": "OnlineSupermarket\\Views\\Cart\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -303,11 +328,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "CartController.cs",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\CartController.cs",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Controllers\\CartController.cs",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\CartController.cs",
               "RelativeToolTip": "OnlineSupermarket\\Controllers\\CartController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -315,11 +340,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "CartService.cs",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Service\\CartService.cs",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Service\\CartService.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Service\\CartService.cs",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Service\\CartService.cs",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Service\\CartService.cs",
               "RelativeToolTip": "OnlineSupermarket\\Service\\CartService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -327,11 +352,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "CartItem.cs",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Models\\CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Models\\CartItem.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Models\\CartItem.cs",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Models\\CartItem.cs",
               "RelativeToolTip": "OnlineSupermarket\\Models\\CartItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -339,11 +364,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "PokladnaController.cs",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\PokladnaController.cs",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\PokladnaController.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Controllers\\PokladnaController.cs",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\PokladnaController.cs",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\PokladnaController.cs",
               "RelativeToolTip": "OnlineSupermarket\\Controllers\\PokladnaController.cs",
               "ViewState": "AgIAAFgAAAAAAAAAAAAAAG0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -351,11 +376,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\appsettings.json",
               "RelativeDocumentMoniker": "OnlineSupermarket\\appsettings.json",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\appsettings.json",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\appsettings.json",
               "RelativeToolTip": "OnlineSupermarket\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -363,11 +388,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Pult\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Pult\\Create.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Pult\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Pult\\Create.cshtml",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Pult\\Create.cshtml",
               "RelativeToolTip": "OnlineSupermarket\\Views\\Pult\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -375,11 +400,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "PultControlle.cs",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\PultControlle.cs",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\PultControlle.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Controllers\\PultControlle.cs",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\PultControlle.cs",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\PultControlle.cs",
               "RelativeToolTip": "OnlineSupermarket\\Controllers\\PultControlle.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAgwDEAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -387,11 +412,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "ProdaneZboziController.cs",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\ProdaneZboziController.cs",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\ProdaneZboziController.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Controllers\\ProdaneZboziController.cs",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\ProdaneZboziController.cs",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\ProdaneZboziController.cs",
               "RelativeToolTip": "OnlineSupermarket\\Controllers\\ProdaneZboziController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -399,11 +424,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "PoziceController.cs",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\PoziceController.cs",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\PoziceController.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Controllers\\PoziceController.cs",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\PoziceController.cs",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\PoziceController.cs",
               "RelativeToolTip": "OnlineSupermarket\\Controllers\\PoziceController.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -411,11 +436,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Prodejna\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Prodejna\\Index.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Prodejna\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Prodejna\\Index.cshtml",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Prodejna\\Index.cshtml",
               "RelativeToolTip": "OnlineSupermarket\\Views\\Prodejna\\Index.cshtml",
               "ViewState": "AgIAABkAAAAAAAAAAAAcwE8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -423,11 +448,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Prodejna\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Prodejna\\Edit.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Prodejna\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Prodejna\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Prodejna\\Edit.cshtml",
               "RelativeToolTip": "OnlineSupermarket\\Views\\Prodejna\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -435,11 +460,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Prodejna\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Prodejna\\Create.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Prodejna\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Prodejna\\Create.cshtml",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Prodejna\\Create.cshtml",
               "RelativeToolTip": "OnlineSupermarket\\Views\\Prodejna\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -447,11 +472,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "ProdejnaController.cs",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\ProdejnaController.cs",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\ProdejnaController.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Controllers\\ProdejnaController.cs",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\ProdejnaController.cs",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\ProdejnaController.cs",
               "RelativeToolTip": "OnlineSupermarket\\Controllers\\ProdejnaController.cs",
               "ViewState": "AgIAAIUAAAAAAAAAAAAAAN4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -459,11 +484,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Platba\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Platba\\Create.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Platba\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Platba\\Create.cshtml",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Platba\\Create.cshtml",
               "RelativeToolTip": "OnlineSupermarket\\Views\\Platba\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -471,11 +496,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Platba\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Platba\\Edit.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Platba\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Platba\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Platba\\Edit.cshtml",
               "RelativeToolTip": "OnlineSupermarket\\Views\\Platba\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -483,11 +508,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Platba\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Platba\\Index.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Platba\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Platba\\Index.cshtml",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Platba\\Index.cshtml",
               "RelativeToolTip": "OnlineSupermarket\\Views\\Platba\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -495,11 +520,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "PlatbaController.cs",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\PlatbaController.cs",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\PlatbaController.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Controllers\\PlatbaController.cs",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\PlatbaController.cs",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\PlatbaController.cs",
               "RelativeToolTip": "OnlineSupermarket\\Controllers\\PlatbaController.cs",
               "ViewState": "AgIAAJ4AAAAAAAAAAAAAwK8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -507,11 +532,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "Platba.cs",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Models\\Platba.cs",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Models\\Platba.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Models\\Platba.cs",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Models\\Platba.cs",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Models\\Platba.cs",
               "RelativeToolTip": "OnlineSupermarket\\Models\\Platba.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -519,11 +544,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "_ZboziKategoriePartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Shared\\_ZboziKategoriePartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Shared\\_ZboziKategoriePartial.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Shared\\_ZboziKategoriePartial.cshtml",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Shared\\_ZboziKategoriePartial.cshtml",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Shared\\_ZboziKategoriePartial.cshtml",
               "RelativeToolTip": "OnlineSupermarket\\Views\\Shared\\_ZboziKategoriePartial.cshtml",
               "ViewState": "AgIAAA0AAAAAAAAAAAAIwCgAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -531,11 +556,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ZboziKategorieView.cs",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Models\\ZboziKategorieView.cs",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Models\\ZboziKategorieView.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Models\\ZboziKategorieView.cs",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Models\\ZboziKategorieView.cs",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Models\\ZboziKategorieView.cs",
               "RelativeToolTip": "OnlineSupermarket\\Models\\ZboziKategorieView.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -543,11 +568,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "AdresaController.cs",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\AdresaController.cs",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\AdresaController.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Controllers\\AdresaController.cs",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\AdresaController.cs",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\AdresaController.cs",
               "RelativeToolTip": "OnlineSupermarket\\Controllers\\AdresaController.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAowEoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -555,11 +580,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\RegisUzivatel\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\RegisUzivatel\\Create.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\RegisUzivatel\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\RegisUzivatel\\Create.cshtml",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\RegisUzivatel\\Create.cshtml",
               "RelativeToolTip": "OnlineSupermarket\\Views\\RegisUzivatel\\Create.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAEwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -567,11 +592,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "RoleController.cs",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\RoleController.cs",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\RoleController.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Controllers\\RoleController.cs",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\RoleController.cs",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\RoleController.cs",
               "RelativeToolTip": "OnlineSupermarket\\Controllers\\RoleController.cs",
               "ViewState": "AgIAAMgAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -579,11 +604,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Program.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Program.cs",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Program.cs",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Program.cs",
               "RelativeToolTip": "OnlineSupermarket\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -591,11 +616,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\RegisUzivatel\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\RegisUzivatel\\Index.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\RegisUzivatel\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\RegisUzivatel\\Index.cshtml",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\RegisUzivatel\\Index.cshtml",
               "RelativeToolTip": "OnlineSupermarket\\Views\\RegisUzivatel\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -603,11 +628,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "RegisUzivatelController.cs",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\RegisUzivatelController.cs",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\RegisUzivatelController.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Controllers\\RegisUzivatelController.cs",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\RegisUzivatelController.cs",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\RegisUzivatelController.cs",
               "RelativeToolTip": "OnlineSupermarket\\Controllers\\RegisUzivatelController.cs",
               "ViewState": "AgIAAGoAAAAAAAAAAAAYwI0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -615,11 +640,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "AdminPanel.cshtml",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\AdminPanel.cshtml",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\AdminPanel.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Home\\AdminPanel.cshtml",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\AdminPanel.cshtml",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\AdminPanel.cshtml",
               "RelativeToolTip": "OnlineSupermarket\\Views\\Home\\AdminPanel.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -627,11 +652,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "AdminHost.cshtml",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\AdminHost.cshtml",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\AdminHost.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Home\\AdminHost.cshtml",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\AdminHost.cshtml",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\AdminHost.cshtml",
               "RelativeToolTip": "OnlineSupermarket\\Views\\Home\\AdminHost.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAADEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -639,11 +664,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "AdminIndex.cshtml",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\AdminIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\AdminIndex.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Home\\AdminIndex.cshtml",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\AdminIndex.cshtml",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\AdminIndex.cshtml",
               "RelativeToolTip": "OnlineSupermarket\\Views\\Home\\AdminIndex.cshtml",
               "ViewState": "AgIAACMAAAAAAAAAAAAiwDwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -651,11 +676,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Host.cshtml",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\Host.cshtml",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\Host.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Home\\Host.cshtml",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\Host.cshtml",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\Host.cshtml",
               "RelativeToolTip": "OnlineSupermarket\\Views\\Home\\Host.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAUwEMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -663,11 +688,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "KontrolaAkaunta.cshtml",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\KontrolaAkaunta.cshtml",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\KontrolaAkaunta.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Home\\KontrolaAkaunta.cshtml",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\KontrolaAkaunta.cshtml",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\KontrolaAkaunta.cshtml",
               "RelativeToolTip": "OnlineSupermarket\\Views\\Home\\KontrolaAkaunta.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -675,11 +700,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\Privacy.cshtml",
               "RelativeToolTip": "OnlineSupermarket\\Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -687,11 +712,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Autorizace.cshtml",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\Autorizace.cshtml",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\Autorizace.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Home\\Autorizace.cshtml",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\Autorizace.cshtml",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\Autorizace.cshtml",
               "RelativeToolTip": "OnlineSupermarket\\Views\\Home\\Autorizace.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -699,23 +724,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\HomeController.cs",
               "RelativeToolTip": "OnlineSupermarket\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAI4BAAAAAAAAAAAYwJkBAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAM4BAAAAAAAAAAAywPIBAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T17:58:34.624Z"
+              "WhenOpened": "2024-12-06T17:58:34.624Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "Registrace.cshtml",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\Registrace.cshtml",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\Registrace.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Home\\Registrace.cshtml",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\Registrace.cshtml",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\Registrace.cshtml",
               "RelativeToolTip": "OnlineSupermarket\\Views\\Home\\Registrace.cshtml",
               "ViewState": "AgIAAGsAAAAAAAAAAAAUwJcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -723,11 +749,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Pavlo Zubov\\Documents\\GitHub\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\SobakaBekka\\OneDrive - Univerzita Pardubice\\Plocha\\Supermarket\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "OnlineSupermarket\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAACcAAAAAAAAAAAAAADcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",

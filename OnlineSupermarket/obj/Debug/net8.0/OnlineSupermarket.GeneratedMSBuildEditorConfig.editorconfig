@@ -17,287 +17,289 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = OnlineSupermarket
 build_property.RootNamespace = OnlineSupermarket
-build_property.ProjectDir = C:\Users\Pavlo Zubov\Documents\GitHub\Sharp_DataBase\OnlineSupermarket\
+build_property.ProjectDir = C:\Users\SobakaBekka\OneDrive - Univerzita Pardubice\Plocha\Supermarket\Sharp_DataBase\OnlineSupermarket\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Pavlo Zubov\Documents\GitHub\Sharp_DataBase\OnlineSupermarket
+build_property.MSBuildProjectDirectory = C:\Users\SobakaBekka\OneDrive - Univerzita Pardubice\Plocha\Supermarket\Sharp_DataBase\OnlineSupermarket
 build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Adresa/Create.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Adresa/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRyZXNhXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Adresa/Edit.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Adresa/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRyZXNhXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Adresa/Index.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Adresa/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRyZXNhXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Cart/Index.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Home/AdminHost.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Home/AdminHost.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1pbkhvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Home/AdminIndex.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Home/AdminIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1pbkluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Home/AdminPanel.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Home/AdminPanel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1pblBhbmVsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Home/Autorizace.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Home/Autorizace.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBdXRvcml6YWNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Home/Host.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Home/Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb3N0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Home/Index.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Home/KontrolaAkaunta.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Home/KontrolaAkaunta.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxLb250cm9sYUFrYXVudGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Home/Privacy.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Home/Registrace.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Home/Registrace.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3RyYWNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Home/UserProfile.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Home/UserProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVc2VyUHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Kategorie/Create.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Kategorie/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmllXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Kategorie/Edit.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Kategorie/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmllXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Kategorie/Index.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Kategorie/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmllXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Log/Index.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Log/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Platba/Create.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Platba/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhdGJhXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Platba/Edit.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Platba/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhdGJhXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Platba/Index.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Platba/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhdGJhXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Pokladna/Create.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Pokladna/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9rbGFkbmFcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Pokladna/Edit.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Pokladna/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9rbGFkbmFcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Pokladna/Index.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Pokladna/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9rbGFkbmFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Pozice/Create.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Pozice/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG96aWNlXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Pozice/Edit.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Pozice/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG96aWNlXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Pozice/Index.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Pozice/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG96aWNlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/ProdaneZbozi/Create.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/ProdaneZbozi/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZGFuZVpib3ppXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/ProdaneZbozi/Edit.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/ProdaneZbozi/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZGFuZVpib3ppXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/ProdaneZbozi/Index.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/ProdaneZbozi/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZGFuZVpib3ppXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Prodejna/Create.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Prodejna/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZGVqbmFcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Prodejna/Edit.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Prodejna/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZGVqbmFcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Prodejna/Index.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Prodejna/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZGVqbmFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Pult/Create.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Pult/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVsdFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Pult/Edit.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Pult/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVsdFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Pult/Index.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Pult/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVsdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/RegisUzivatel/Create.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/RegisUzivatel/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXNVeml2YXRlbFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/RegisUzivatel/Edit.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/RegisUzivatel/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXNVeml2YXRlbFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/RegisUzivatel/Index.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/RegisUzivatel/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXNVeml2YXRlbFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Role/Create.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Role/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Role/Edit.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Role/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Role/Index.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Role/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Shared/Error.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Shared/_ProductQuantitySelector.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Shared/_ProductQuantitySelector.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qcm9kdWN0UXVhbnRpdHlTZWxlY3Rvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Shared/_ZboziKategoriePartial.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Shared/_ZboziKategoriePartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9aYm96aUthdGVnb3JpZVBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Sklad/Create.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Sklad/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2tsYWRcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Sklad/Edit.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Sklad/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2tsYWRcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Sklad/Index.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Sklad/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2tsYWRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Soubor/Create.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Soubor/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU291Ym9yXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Soubor/Delete.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Soubor/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU291Ym9yXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Soubor/Edit.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Soubor/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU291Ym9yXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Soubor/Index.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Soubor/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU291Ym9yXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Zamestanec/Create.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Zamestanec/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFtZXN0YW5lY1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Zamestanec/Edit.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Zamestanec/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFtZXN0YW5lY1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Zamestanec/Index.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Zamestanec/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFtZXN0YW5lY1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/ZboziNaPulte/Create.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/ZboziNaPulte/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmJvemlOYVB1bHRlXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/ZboziNaPulte/Edit.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/ZboziNaPulte/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmJvemlOYVB1bHRlXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/ZboziNaPulte/Index.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/ZboziNaPulte/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmJvemlOYVB1bHRlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/ZboziNaSklade/Create.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/ZboziNaSklade/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmJvemlOYVNrbGFkZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/ZboziNaSklade/Delete.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/ZboziNaSklade/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmJvemlOYVNrbGFkZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/ZboziNaSklade/Edit.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/ZboziNaSklade/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmJvemlOYVNrbGFkZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/ZboziNaSklade/Index.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/ZboziNaSklade/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmJvemlOYVNrbGFkZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Zbozi/Create.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Zbozi/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmJvemlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Zbozi/Edit.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Zbozi/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmJvemlcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Zbozi/Index.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Zbozi/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmJvemlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/_ViewImports.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/_ViewStart.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pavlo Zubov/Documents/GitHub/Sharp_DataBase/OnlineSupermarket/Views/Shared/_Layout.cshtml]
+[C:/Users/SobakaBekka/OneDrive - Univerzita Pardubice/Plocha/Supermarket/Sharp_DataBase/OnlineSupermarket/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-v4u3i389xt
