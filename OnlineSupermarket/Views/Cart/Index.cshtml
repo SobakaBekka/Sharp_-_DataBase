@@ -1,62 +1,64 @@
 ﻿@model IEnumerable<OnlineSupermarket.Models.CartItem>
 
 @{
-	ViewData["Title"] = "Корзина";
+    ViewData["Title"] = "Корзина";
 }
 
 @if (TempData["SuccessMessage"] != null)
 {
-	<div class="alert alert-success">
-		@TempData["SuccessMessage"]
-	</div>
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
 }
 
 <div class="mt-3">
-	<a href="@Url.Action("AdminIndex", "Home")" class="btn btn-primary">Pocracovat nakup</a>
+    <a href="@Url.Action("AdminIndex", "Home")" class="btn btn-primary">Pocracovat nakup</a>
 </div>
 
 <h2>@ViewData["Title"]</h2>
 
 @if (Model.Any())
 {
-	<table class="table">
-		<thead>
-		<tr>
-			<th>Изображение</th>
-			<th>Название</th>
-			<th>Цена</th>
-			<th>Количество</th>
-			<th>Общая цена</th>
-			<th>Действия</th>
-		</tr>
-		</thead>
-		<tbody>
-		@foreach (var item in Model)
-		{
-			<tr>
-				<td><img src="@item.ProductImage" alt="@item.ProductName" width="50" /></td>
-				<td>@item.ProductName</td>
-				<td>@item.Price</td>
-				<td>@item.Quantity</td>
-				<td>@item.TotalPrice</td>
-				<td>
-					<form asp-action="RemoveFromCart" method="post" style="display:inline;">
-						<input type="hidden" name="productId" value="@item.ProductId" />
-						<button type="submit" class="btn btn-danger">Удалить</button>
-					</form>
-					<form asp-action="Create" method="get" style="display:inline;">
-						<input type="hidden" name="productId" value="@item.ProductId" />
-						<input type="hidden" name="celkovaCena" value="@item.TotalPrice" />
-						<button type="submit" class="btn btn-primary">Купить</button>
-					</form>
-				</td>
-			</tr>
-		}
-		</tbody>
-	</table>
-	<h4>Общая цена: @Model.Sum(i => i.TotalPrice)</h4>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Изображение</th>
+                <th>Название</th>
+                <th>Цена</th>
+                <th>Количество</th>
+                <th>Общая цена</th>
+                <th>Действия</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td><img src="@item.ProductImage" alt="@item.ProductName" width="50" /></td>
+                    <td>@item.ProductName</td>
+                    <td>@item.Price</td>
+                    <td>@item.Quantity</td>
+                    <td>@item.TotalPrice</td>
+                    <td>
+                        <form asp-action="RemoveFromCart" method="post" style="display:inline;">
+                            <input type="hidden" name="productId" value="@item.ProductId" />
+                            <button type="submit" class="btn btn-danger">Удалить</button>
+                        </form>
+                        <form asp-action="Create" method="get" style="display:inline;">
+                            <input type="hidden" name="productId" value="@item.ProductId" />
+                            <input type="hidden" name="celkovaCena" value="@item.TotalPrice" />
+                            <input type="hidden" name="quantity" value="@item.Quantity" />
+                            <button type="submit" class="btn btn-primary">Купить</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <h4>Общая цена: @Model.Sum(i => i.TotalPrice)</h4>
 }
 else
 {
-	<p>Корзина пуста.</p>
+    <p>Корзина пуста.</p>
 }
+

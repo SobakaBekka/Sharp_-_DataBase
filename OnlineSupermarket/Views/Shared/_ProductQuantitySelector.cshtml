@@ -7,7 +7,15 @@
 		<input type="hidden" name="productName" value="@Model.ProductName" />
 		<input type="hidden" name="productImage" value="@Model.ProductImage" />
 		<input type="hidden" name="price" value="@Model.Price" />
+		<input type="hidden" name="kategorieId" value="1" /> <!-- Добавлено поле KategorieId -->
 		<input type="number" name="quantity" value="1" min="1" class="form-control" />
 		<button type="submit" class="btn btn-primary">Добавить в корзину</button>
+	</form>
+	<form asp-controller="Cart" asp-action="Create" method="get">
+		<input type="hidden" name="productId" value="@Model.ProductId" />
+		<input type="hidden" name="celkovaCena" value="@Model.Price" />
+		<input type="hidden" name="quantity" value="1" />
+		<input type="hidden" name="kategorieId" value="1" /> <!-- Добавлено поле KategorieId -->
+		<button type="submit" class="btn btn-primary">Купить</button>
 	</form>
 </div>

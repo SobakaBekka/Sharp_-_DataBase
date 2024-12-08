@@ -1,33 +1,51 @@
 ﻿@model OnlineSupermarket.Models.Platba
 
 @{
-	ViewData["Title"] = "Добавить платеж";
+    ViewData["Title"] = "Добавить платеж";
 }
 
 <h2>@ViewData["Title"]</h2>
 
 <div class="row">
-	<div class="col-md-6">
-		<form asp-action="Create" method="post">
-			<div class="form-group">
-				<label asp-for="Typ" class="control-label"></label>
-				<input asp-for="Typ" class="form-control" />
-				<span asp-validation-for="Typ" class="text-danger"></span>
-			</div>
-			<div class="form-group">
-				<label asp-for="ProdejnaIdProdejny" class="control-label"></label>
-				<input asp-for="ProdejnaIdProdejny" class="form-control" />
-				<span asp-validation-for="ProdejnaIdProdejny" class="text-danger"></span>
-			</div>
-			<input type="hidden" asp-for="CelkovaCena" />
-			<input type="hidden" asp-for="ZboziIdZbozi" />
-			<div class="form-group">
-				<input type="submit" value="Добавить" class="btn btn-primary" />
-			</div>
-		</form>
-	</div>
+    <div class="col-md-6">
+        <form asp-action="Create" method="post">
+            <div class="form-group">
+                <label asp-for="Typ" class="control-label"></label>
+                <select asp-for="Typ" class="form-control">
+                    <option value="hp">hotovost</option>
+                    <option value="kr">karta</option>
+                    <option value="kp">kupon</option>
+                </select>
+                <span asp-validation-for="Typ" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ProdejnaIdProdejny" class="control-label"></label>
+                <select asp-for="ProdejnaIdProdejny" class="form-control">
+                    <option value="1">Praha, Václavské náměstí 1</option>
+                    <option value="2">Brno, Masarykova 10</option>
+                    <option value="3">Ostrava, Nádražní 15</option>
+                    <option value="4">Plzeň, Klatovská třída 25</option>
+                    <option value="5">Liberec, Šaldovo náměstí 5</option>
+                    <option value="6">Olomouc, Horní náměstí 8</option>
+                    <option value="7">České Budějovice, Lannova třída 12</option>
+                    <option value="8">Hradec Králové, Gočárova třída 20</option>
+                    <option value="9">Ústí nad Labem, Mírové náměstí 3</option>
+                    <option value="10">Zlín, náměstí Práce 7</option>
+                </select>
+                <span asp-validation-for="ProdejnaIdProdejny" class="text-danger"></span>
+            </div>
+            <input type="hidden" asp-for="CelkovaCena" />
+            <input type="hidden" asp-for="ZboziIdZbozi" />
+            <input type="hidden" name="quantity" value="@ViewBag.Quantity" />
+            <div class="form-group">
+                <input type="submit" value="Добавить" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
 </div>
 
 @section Scripts {
-	@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }
