@@ -655,7 +655,7 @@ public async Task<IActionResult> UserProfile()
 
             return RedirectToAction("UserProfile");
         }
-        
+
         [HttpPost]
         public async Task<IActionResult> DeleteProfilePhoto()
         {
@@ -665,16 +665,50 @@ public async Task<IActionResult> UserProfile()
 
             var userId = await GetUserId(username);
 
-            using (var connection = new OracleConnection(_connectionString))
+            try
             {
-                await connection.OpenAsync();
-                using (var command = new OracleCommand("SMAZ_SOUBOR", connection))
-                {
-                    command.CommandType = CommandType.StoredProcedure;
-                    command.Parameters.Add("p_ID_REGISUZIVATELU", OracleDbType.Int32).Value = userId;
+                int? souborId = null;
 
-                    await command.ExecuteNonQueryAsync();
+                using (var connection = new OracleConnection(_connectionString))
+                {
+                    await connection.OpenAsync();
+
+                    // Знайти ID файлу (IDSOUBORU), який належить користувачу
+                    using (var findCommand = new OracleCommand(
+                        "SELECT IDSOUBORU FROM SOUBOR WHERE ID_REGISUZIVATELU = :userId", connection))
+                    {
+                        findCommand.Parameters.Add("userId", OracleDbType.Int32).Value = userId;
+
+                        using (var reader = await findCommand.ExecuteReaderAsync())
+                        {
+                            if (await reader.ReadAsync())
+                            {
+                                souborId = reader.GetInt32(0);
+                            }
+                        }
+                    }
+
+                    if (souborId == null)
+                    {
+                        TempData["ErrorMessage"] = "Фото профілю не знайдено.";
+                        return RedirectToAction("UserProfile");
+                    }
+
+                    // Виклик процедури для видалення файлу
+                    using (var deleteCommand = new OracleCommand("SMAZ_SOUBOR", connection))
+                    {
+                        deleteCommand.CommandType = CommandType.StoredProcedure;
+                        deleteCommand.Parameters.Add("p_IDSOUBORU", OracleDbType.Int32).Value = souborId;
+                        await deleteCommand.ExecuteNonQueryAsync();
+                    }
                 }
+
+                TempData["SuccessMessage"] = "Фото профілю успішно видалено.";
+            }
+            catch (OracleException ex)
+            {
+                _logger.LogError(ex, "Помилка під час видалення фото профілю.");
+                TempData["ErrorMessage"] = "Не вдалося видалити фото профілю.";
             }
 
             return RedirectToAction("UserProfile");
