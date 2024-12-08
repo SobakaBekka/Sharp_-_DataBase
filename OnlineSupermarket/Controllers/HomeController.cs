@@ -320,7 +320,94 @@ namespace OnlineSupermarket.Controllers
         }
 
 
+        [HttpGet]
+        public async Task<IActionResult> UserProfile()
+        {
+            var username = HttpContext.Session.GetString("Username");
+            if (string.IsNullOrEmpty(username))
+            {
+                return RedirectToAction("Autorizace", "Home");
+            }
 
+            RegisUzivatel user = null;
+            try
+            {
+                using (var connection = new OracleConnection(_connectionString))
+                {
+                    await connection.OpenAsync();
+                    using (var command = new OracleCommand("SELECT * FROM REGISUZIVATEL WHERE USERNAME = :username", connection))
+                    {
+                        command.Parameters.Add("username", OracleDbType.Varchar2).Value = username;
+                        using (var reader = await command.ExecuteReaderAsync())
+                        {
+                            if (await reader.ReadAsync())
+                            {
+                                user = new RegisUzivatel
+                                {
+                                    IdRegisUzivatelu = reader.GetInt32(reader.GetOrdinal("IDREGISUZIVATELU")),
+                                    Username = reader.GetString(reader.GetOrdinal("USERNAME")),
+                                    Email = reader.GetString(reader.GetOrdinal("EMAIL")),
+                                    Jmeno = reader.GetString(reader.GetOrdinal("JMENO")),
+                                    Prijmeni = reader.GetString(reader.GetOrdinal("PRIJMENI")),
+                                    // Add other fields as necessary
+                                };
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error fetching user profile");
+            }
+
+            if (user == null)
+            {
+                return RedirectToAction("Error", "Home");
+            }
+
+            return View(user);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> UserProfile(RegisUzivatel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+
+            try
+            {
+                using (var connection = new OracleConnection(_connectionString))
+                {
+                    await connection.OpenAsync();
+                    using (var command = new OracleCommand("AKTUALIZUJ_REGISUZIVATELE", connection))
+                    {
+                        command.CommandType = CommandType.StoredProcedure;
+                        command.Parameters.Add("p_idregisuzivatelu", OracleDbType.Int32).Value = model.IdRegisUzivatelu;
+                        command.Parameters.Add("p_username", OracleDbType.Varchar2).Value = model.Username;
+                        command.Parameters.Add("p_email", OracleDbType.Varchar2).Value = model.Email;
+                        command.Parameters.Add("p_jmeno", OracleDbType.Varchar2).Value = model.Jmeno;
+                        command.Parameters.Add("p_prijmeni", OracleDbType.Varchar2).Value = model.Prijmeni;
+                        // Add other parameters as necessary
+
+                        await command.ExecuteNonQueryAsync();
+                    }
+                }
+
+                TempData["SuccessMessage"] = "Profile updated successfully.";
+                return RedirectToAction("UserProfile");
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "An error occurred while updating the user profile.");
+                ModelState.AddModelError(string.Empty, $"An error occurred while updating the user profile: {ex.Message}");
+            }
+
+            return View(model);
+        }
 
 
 
