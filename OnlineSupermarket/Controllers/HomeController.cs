@@ -482,19 +482,93 @@ namespace OnlineSupermarket.Controllers
                     await connection.OpenAsync();
                     _logger.LogInformation("Database connection opened.");
 
-                    using (var command = new OracleCommand("UPDATE_USERPROFILE", connection))
+                    // Перевірка старого пароля
+                    string storedPasswordHash = null;
+                    using (var command = new OracleCommand("SELECT HESLO FROM REGISUZIVATEL WHERE IDREGISUZIVATELU = :id", connection))
                     {
-                        command.CommandType = CommandType.StoredProcedure;
-                        command.Parameters.Add("p_idregisuzivatelu", OracleDbType.Int32).Value = model.IdRegisUzivatelu;
-                        command.Parameters.Add("p_username", OracleDbType.Varchar2).Value = model.Username;
-                        command.Parameters.Add("p_email", OracleDbType.Varchar2).Value = model.Email;
-                        command.Parameters.Add("p_jmeno", OracleDbType.Varchar2).Value = model.Jmeno;
-                        command.Parameters.Add("p_prijmeni", OracleDbType.Varchar2).Value = model.Prijmeni;
+                        command.Parameters.Add("id", OracleDbType.Int32).Value = model.IdRegisUzivatelu;
+                        using (var reader = await command.ExecuteReaderAsync())
+                        {
+                            if (await reader.ReadAsync())
+                            {
+                                storedPasswordHash = reader.GetString(0);
+                            }
+                        }
+                    }
 
-                        _logger.LogInformation("Executing stored procedure UPDATE_USERPROFILE with parameters: IdRegisUzivatelu={IdRegisUzivatelu}, Username={Username}, Email={Email}, Jmeno={Jmeno}, Prijmeni={Prijmeni}", model.IdRegisUzivatelu, model.Username, model.Email, model.Jmeno, model.Prijmeni);
+                    if (storedPasswordHash == null)
+                    {
+                        ModelState.AddModelError(string.Empty, "User not found.");
+                        return View(model);
+                    }
+
+                    var parts = storedPasswordHash.Split(':');
+                    if (parts.Length != 2)
+                    {
+                        ModelState.AddModelError(string.Empty, "Invalid password format.");
+                        return View(model);
+                    }
+
+                    var salt = Convert.FromBase64String(parts[0]);
+                    var storedHash = parts[1];
+
+                    // Хэшируем введенный старый пароль с использованием той же соли
+                    string hashedOldPassword = Convert.ToBase64String(KeyDerivation.Pbkdf2(
+                        password: model.OldPassword,
+                        salt: salt,
+                        prf: KeyDerivationPrf.HMACSHA256,
+                        iterationCount: 10000,
+                        numBytesRequested: 32
+                    ));
+
+                    if (hashedOldPassword != storedHash)
+                    {
+                        ModelState.AddModelError("OldPassword", "Old password is incorrect.");
+                        return View(model);
+                    }
+
+                    // Якщо користувач хоче змінити пароль
+                    if (!string.IsNullOrEmpty(model.NewPassword))
+                    {
+                        // Генерація солі для хешування
+                        byte[] newSalt = new byte[16]; // 16 байт
+                        using (var rng = RandomNumberGenerator.Create())
+                        {
+                            rng.GetBytes(newSalt);
+                        }
+
+                        // Хешування нового пароля
+                        string hashedNewPassword = Convert.ToBase64String(KeyDerivation.Pbkdf2(
+                            password: model.NewPassword,
+                            salt: newSalt,
+                            prf: KeyDerivationPrf.HMACSHA256,
+                            iterationCount: 10000,
+                            numBytesRequested: 32 // 32 байта хешу
+                        ));
+
+                        // Об'єднання солі та хешу для зберігання
+                        string newSaltBase64 = Convert.ToBase64String(newSalt);
+                        string newPasswordWithSalt = $"{newSaltBase64}:{hashedNewPassword}";
+
+                        // Оновлення пароля в базі даних
+                        using (var command = new OracleCommand("UPDATE REGISUZIVATEL SET HESLO = :heslo WHERE IDREGISUZIVATELU = :id", connection))
+                        {
+                            command.Parameters.Add("heslo", OracleDbType.Varchar2).Value = newPasswordWithSalt;
+                            command.Parameters.Add("id", OracleDbType.Int32).Value = model.IdRegisUzivatelu;
+                            await command.ExecuteNonQueryAsync();
+                        }
+                    }
+
+                    // Оновлення інших полів профілю
+                    using (var command = new OracleCommand("UPDATE REGISUZIVATEL SET USERNAME = :username, EMAIL = :email, JMENO = :jmeno, PRIJMENI = :prijmeni WHERE IDREGISUZIVATELU = :id", connection))
+                    {
+                        command.Parameters.Add("username", OracleDbType.Varchar2).Value = model.Username;
+                        command.Parameters.Add("email", OracleDbType.Varchar2).Value = model.Email;
+                        command.Parameters.Add("jmeno", OracleDbType.Varchar2).Value = model.Jmeno;
+                        command.Parameters.Add("prijmeni", OracleDbType.Varchar2).Value = model.Prijmeni;
+                        command.Parameters.Add("id", OracleDbType.Int32).Value = model.IdRegisUzivatelu;
 
                         await command.ExecuteNonQueryAsync();
-                        _logger.LogInformation("Stored procedure executed successfully.");
                     }
                 }
 
@@ -509,8 +583,6 @@ namespace OnlineSupermarket.Controllers
 
             return View(model);
         }
-
-
 
 
 
