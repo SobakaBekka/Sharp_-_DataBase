@@ -3,20 +3,100 @@
   "WorkspaceRootPath": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\platba\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\platba\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\platba\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\platba\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\platba\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\platba\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\home\\registrace.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\home\\registrace.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\kategorie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\kategorie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\kategorie\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\kategorie\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\kategorie\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\kategorie\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\home\\productsbycategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\home\\productsbycategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\home\\kontrolaakaunta.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\home\\kontrolaakaunta.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\home\\adminindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\home\\adminindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\home\\userprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\home\\userprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\home\\autorizace.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\home\\autorizace.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\home\\adminhost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\home\\adminhost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\cart\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\cart\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\adresa\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\adresa\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\adresa\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\adresa\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\adresa\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\adresa\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\home\\host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\home\\host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\home\\adminpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\home\\adminpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\shared\\_productquantityselector.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -46,18 +126,6 @@
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\controllers\\adresacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\home\\adminindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\home\\adminindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\home\\adminhost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\home\\adminhost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\controllers\\souborcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\controllers\\souborcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -66,52 +134,20 @@
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\models\\regisuzivatel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\adresa\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\adresa\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\home\\kontrolaakaunta.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\home\\kontrolaakaunta.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\controllers\\zamestaneccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\controllers\\zamestaneccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\home\\adminpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\home\\adminpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\regisuzivatel\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\regisuzivatel\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\home\\host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\home\\host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\adresa\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\adresa\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\platba\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\platba\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\platba\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\platba\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\controllers\\platbacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\controllers\\platbacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\platba\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\platba\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\controllers\\pokladnacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -168,18 +204,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\home\\autorizace.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\home\\autorizace.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|c:\\users\\sobakabekka\\source\\repos\\sharp_database\\onlinesupermarket\\views\\home\\registrace.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ABC15B83-3C2C-4E95-B072-719CA7F794BD}|OnlineSupermarket\\OnlineSupermarket.csproj|solutionrelative:onlinesupermarket\\views\\home\\registrace.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -189,15 +213,93 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 31,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Kategorie\\Index.cshtml",
+              "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Kategorie\\Index.cshtml",
+              "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Kategorie\\Index.cshtml",
+              "RelativeToolTip": "OnlineSupermarket\\Views\\Kategorie\\Index.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwC4AAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T22:11:21.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Kategorie\\Edit.cshtml",
+              "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Kategorie\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Kategorie\\Edit.cshtml*",
+              "RelativeToolTip": "OnlineSupermarket\\Views\\Kategorie\\Edit.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T22:11:16.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Kategorie\\Create.cshtml",
+              "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Kategorie\\Create.cshtml",
+              "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Kategorie\\Create.cshtml*",
+              "RelativeToolTip": "OnlineSupermarket\\Views\\Kategorie\\Create.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T22:11:12.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\UserProfile.cshtml",
+              "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Home\\UserProfile.cshtml",
+              "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\UserProfile.cshtml*",
+              "RelativeToolTip": "OnlineSupermarket\\Views\\Home\\UserProfile.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T22:10:25.855Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
+              "Title": "ProductsByCategory.cshtml",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\ProductsByCategory.cshtml",
+              "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Home\\ProductsByCategory.cshtml",
+              "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\ProductsByCategory.cshtml",
+              "RelativeToolTip": "OnlineSupermarket\\Views\\Home\\ProductsByCategory.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwDgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T22:10:16.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Adresa\\Edit.cshtml",
+              "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Adresa\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Adresa\\Edit.cshtml*",
+              "RelativeToolTip": "OnlineSupermarket\\Views\\Adresa\\Edit.cshtml*",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T22:06:05.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "Microsoft.PackageDependencyResolution.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.101\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
@@ -209,19 +311,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Cart\\Create.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Cart\\Create.cshtml",
               "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Cart\\Create.cshtml",
               "RelativeToolTip": "OnlineSupermarket\\Views\\Cart\\Create.cshtml",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAIwBgAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwBAAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-08T17:07:26.406Z"
+              "WhenOpened": "2024-12-08T17:07:26.406Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 31,
               "Title": "SouborController.cs",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\SouborController.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Controllers\\SouborController.cs",
@@ -233,7 +336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 32,
               "Title": "RegisUzivatel.cs",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Models\\RegisUzivatel.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Models\\RegisUzivatel.cs",
@@ -245,7 +348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 33,
               "Title": "ZamestanecController.cs",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\ZamestanecController.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Controllers\\ZamestanecController.cs",
@@ -257,31 +360,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 14,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Adresa\\Index.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Adresa\\Index.cshtml",
-              "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Adresa\\Index.cshtml",
-              "RelativeToolTip": "OnlineSupermarket\\Views\\Adresa\\Index.cshtml",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFwAAAAHAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Adresa\\Index.cshtml*",
+              "RelativeToolTip": "OnlineSupermarket\\Views\\Adresa\\Index.cshtml*",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwGAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-08T01:28:45.87Z"
+              "WhenOpened": "2024-12-08T01:28:45.87Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 16,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Adresa\\Create.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Adresa\\Create.cshtml",
-              "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Adresa\\Create.cshtml",
-              "RelativeToolTip": "OnlineSupermarket\\Views\\Adresa\\Create.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Adresa\\Create.cshtml*",
+              "RelativeToolTip": "OnlineSupermarket\\Views\\Adresa\\Create.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwDAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-08T01:28:43.408Z"
+              "WhenOpened": "2024-12-08T01:28:43.408Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 24,
               "Title": "_ProductQuantitySelector.cshtml",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Shared\\_ProductQuantitySelector.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Shared\\_ProductQuantitySelector.cshtml",
@@ -293,32 +398,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 21,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Cart\\Index.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Cart\\Index.cshtml",
               "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Cart\\Index.cshtml",
               "RelativeToolTip": "OnlineSupermarket\\Views\\Cart\\Index.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAIwC0AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwCYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-08T01:08:03.8Z"
+              "WhenOpened": "2024-12-08T01:08:03.8Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 22,
               "Title": "CartController.cs",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Controllers\\CartController.cs",
               "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\CartController.cs",
               "RelativeToolTip": "OnlineSupermarket\\Controllers\\CartController.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAApwG0AAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAApwDUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T01:07:29.01Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 27,
               "Title": "CartService.cs",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Service\\CartService.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Service\\CartService.cs",
@@ -330,7 +436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 29,
               "Title": "CartItem.cs",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Models\\CartItem.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Models\\CartItem.cs",
@@ -342,7 +448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 37,
               "Title": "PokladnaController.cs",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\PokladnaController.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Controllers\\PokladnaController.cs",
@@ -354,7 +460,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 38,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\appsettings.json",
               "RelativeDocumentMoniker": "OnlineSupermarket\\appsettings.json",
@@ -366,7 +472,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 41,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Pult\\Create.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Pult\\Create.cshtml",
@@ -378,7 +484,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 42,
               "Title": "PultControlle.cs",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\PultControlle.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Controllers\\PultControlle.cs",
@@ -390,7 +496,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 40,
               "Title": "ProdaneZboziController.cs",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\ProdaneZboziController.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Controllers\\ProdaneZboziController.cs",
@@ -402,7 +508,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 46,
               "Title": "PoziceController.cs",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\PoziceController.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Controllers\\PoziceController.cs",
@@ -414,7 +520,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 45,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Prodejna\\Index.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Prodejna\\Index.cshtml",
@@ -426,7 +532,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 43,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Prodejna\\Edit.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Prodejna\\Edit.cshtml",
@@ -438,7 +544,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 44,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Prodejna\\Create.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Prodejna\\Create.cshtml",
@@ -450,7 +556,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 39,
               "Title": "ProdejnaController.cs",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\ProdejnaController.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Controllers\\ProdejnaController.cs",
@@ -462,43 +568,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 2,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Platba\\Create.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Platba\\Create.cshtml",
-              "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Platba\\Create.cshtml",
-              "RelativeToolTip": "OnlineSupermarket\\Views\\Platba\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAbAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Platba\\Create.cshtml*",
+              "RelativeToolTip": "OnlineSupermarket\\Views\\Platba\\Create.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-07T16:44:33.233Z"
+              "WhenOpened": "2024-12-07T16:44:33.233Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 1,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Platba\\Edit.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Platba\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Platba\\Edit.cshtml",
-              "RelativeToolTip": "OnlineSupermarket\\Views\\Platba\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Platba\\Edit.cshtml*",
+              "RelativeToolTip": "OnlineSupermarket\\Views\\Platba\\Edit.cshtml*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-07T16:44:29.052Z"
+              "WhenOpened": "2024-12-07T16:44:29.052Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Platba\\Index.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Platba\\Index.cshtml",
               "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Platba\\Index.cshtml",
               "RelativeToolTip": "OnlineSupermarket\\Views\\Platba\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwD8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-07T16:44:24.64Z"
+              "WhenOpened": "2024-12-07T16:44:24.64Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 36,
               "Title": "PlatbaController.cs",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\PlatbaController.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Controllers\\PlatbaController.cs",
@@ -510,7 +619,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 25,
               "Title": "Platba.cs",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Models\\Platba.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Models\\Platba.cs",
@@ -522,7 +631,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 28,
               "Title": "_ZboziKategoriePartial.cshtml",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Shared\\_ZboziKategoriePartial.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Shared\\_ZboziKategoriePartial.cshtml",
@@ -534,7 +643,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 47,
               "Title": "ZboziKategorieView.cs",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Models\\ZboziKategorieView.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Models\\ZboziKategorieView.cs",
@@ -546,7 +655,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 30,
               "Title": "AdresaController.cs",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\AdresaController.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Controllers\\AdresaController.cs",
@@ -558,7 +667,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 49,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\RegisUzivatel\\Create.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\RegisUzivatel\\Create.cshtml",
@@ -570,7 +679,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 50,
               "Title": "RoleController.cs",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\RoleController.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Controllers\\RoleController.cs",
@@ -582,7 +691,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 35,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Program.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Program.cs",
@@ -594,7 +703,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 34,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\RegisUzivatel\\Index.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\RegisUzivatel\\Index.cshtml",
@@ -606,7 +715,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 48,
               "Title": "RegisUzivatelController.cs",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\RegisUzivatelController.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Controllers\\RegisUzivatelController.cs",
@@ -618,7 +727,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "AdminPanel.cshtml",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\AdminPanel.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Home\\AdminPanel.cshtml",
@@ -626,83 +735,90 @@
               "RelativeToolTip": "OnlineSupermarket\\Views\\Home\\AdminPanel.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-06T19:43:24.766Z"
+              "WhenOpened": "2024-12-06T19:43:24.766Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "AdminHost.cshtml",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\AdminHost.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Home\\AdminHost.cshtml",
               "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\AdminHost.cshtml",
               "RelativeToolTip": "OnlineSupermarket\\Views\\Home\\AdminHost.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAADEAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAIwEYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-06T19:11:09.504Z"
+              "WhenOpened": "2024-12-06T19:11:09.504Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 9,
               "Title": "AdminIndex.cshtml",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\AdminIndex.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Home\\AdminIndex.cshtml",
               "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\AdminIndex.cshtml",
               "RelativeToolTip": "OnlineSupermarket\\Views\\Home\\AdminIndex.cshtml",
-              "ViewState": "AgIAABwAAAAAAAAAAAAIwDsAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwDAAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-06T18:46:17.306Z"
+              "WhenOpened": "2024-12-06T18:46:17.306Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 19,
               "Title": "Host.cshtml",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\Host.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Home\\Host.cshtml",
               "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\Host.cshtml",
               "RelativeToolTip": "OnlineSupermarket\\Views\\Home\\Host.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAUwEMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAIwEMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-06T18:26:25.575Z"
+              "WhenOpened": "2024-12-06T18:26:25.575Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 8,
               "Title": "KontrolaAkaunta.cshtml",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\KontrolaAkaunta.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Home\\KontrolaAkaunta.cshtml",
               "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\KontrolaAkaunta.cshtml",
               "RelativeToolTip": "OnlineSupermarket\\Views\\Home\\KontrolaAkaunta.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-06T18:16:43.36Z"
+              "WhenOpened": "2024-12-06T18:16:43.36Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 17,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Home\\Privacy.cshtml",
               "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\Privacy.cshtml",
               "RelativeToolTip": "OnlineSupermarket\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-06T18:16:09.064Z"
+              "WhenOpened": "2024-12-06T18:16:09.064Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 11,
               "Title": "Autorizace.cshtml",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\Autorizace.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Home\\Autorizace.cshtml",
-              "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\Autorizace.cshtml",
-              "RelativeToolTip": "OnlineSupermarket\\Views\\Home\\Autorizace.cshtml",
-              "ViewState": "AgIAACkAAAAAAAAAAAAUwD0AAABHAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\Autorizace.cshtml*",
+              "RelativeToolTip": "OnlineSupermarket\\Views\\Home\\Autorizace.cshtml*",
+              "ViewState": "AgIAABwAAAAAAAAAAAAIwE0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-06T17:59:31.833Z"
+              "WhenOpened": "2024-12-06T17:59:31.833Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 23,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Controllers\\HomeController.cs",
@@ -715,27 +831,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 3,
               "Title": "Registrace.cshtml",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\Registrace.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Home\\Registrace.cshtml",
               "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\Registrace.cshtml",
               "RelativeToolTip": "OnlineSupermarket\\Views\\Home\\Registrace.cshtml",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAUwJcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAUwIkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-06T17:56:58.325Z"
+              "WhenOpened": "2024-12-06T17:56:58.325Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "OnlineSupermarket\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\SobakaBekka\\source\\repos\\Sharp_DataBase\\OnlineSupermarket\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "OnlineSupermarket\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwFQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-06T10:31:35.679Z"
+              "WhenOpened": "2024-12-06T10:31:35.679Z",
+              "EditorCaption": ""
             }
           ]
         }

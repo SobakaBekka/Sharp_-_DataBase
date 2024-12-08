@@ -1,10 +1,10 @@
 ﻿@model OnlineSupermarket.Models.Adresa
 
 @{
-	ViewData["Title"] = "Добавить адрес";
+	ViewData["Title"] = "Přidat adresu";
 }
 
-<h2>Добавить адрес</h2>
+<h2>Přidat adresu</h2>
 
 <form asp-action="Create" method="post" asp-antiforgery="true">
 	@Html.AntiForgeryToken()
@@ -39,8 +39,8 @@
 		<span asp-validation-for="SkladIdSkladu" class="text-danger"></span>
 	</div>
 	<div class="form-group">
-		<input type="submit" value="Добавить" class="btn btn-primary" />
-		<a asp-action="Index" class="btn btn-secondary">Отмена</a>
+		<input type="submit" value="Přidat" class="btn btn-primary" />
+		<a asp-action="Index" class="btn btn-secondary">Zrušit</a>
 	</div>
 </form>
 

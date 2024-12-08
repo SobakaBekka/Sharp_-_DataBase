@@ -1,12 +1,12 @@
 ﻿@model OnlineSupermarket.Models.Autorizace
 
 @{
-    ViewData["Title"] = "Авторизация пользователя";
+    ViewData["Title"] = "Autorizace uživatele";
 }
 
 <h1>@ViewData["Title"]</h1>
 
-<!-- Блок для отображения сообщений об успешной регистрации -->
+<!-- Blok pro zobrazení zpráv o úspěšné registraci -->
 @if (TempData["SuccessMessage"] != null)
 {
     <div class="alert alert-success">
@@ -14,11 +14,11 @@
     </div>
 }
 
-<!-- Блок для отображения ошибок валидации -->
+<!-- Blok pro zobrazení chyb validace -->
 @if (!ViewData.ModelState.IsValid && ViewData.ModelState.ErrorCount > 0)
 {
     <div class="alert alert-danger">
-        <h4>Ошибки валидации:</h4>
+        <h4>Chyby validace:</h4>
         <ul>
             @foreach (var modelError in ViewData.ModelState.Values.SelectMany(v => v.Errors))
             {
@@ -28,28 +28,28 @@
     </div>
 }
 
-<!-- Временный блок для отображения полученных данных (отладка) -->
+<!-- Dočasný blok pro zobrazení přijatých dat (ladění) -->
 @if (Model != null)
 {
     <div class="alert alert-info mt-4">
-        <h4>Отладка Полученных Данных:</h4>
+        <h4>Ladění přijatých dat:</h4>
 
         @if (!string.IsNullOrEmpty(Model.Username))
         {
-            <p><strong>Имя пользователя (Username):</strong> @Model.Username</p>
+            <p><strong>Uživatelské jméno (Username):</strong> @Model.Username</p>
         }
         else
         {
-            <p><strong>Имя пользователя (Username):</strong> <span class="text-danger">Не указано</span></p>
+            <p><strong>Uživatelské jméno (Username):</strong> <span class="text-danger">Nezadáno</span></p>
         }
 
         @if (!string.IsNullOrEmpty(Model.Heslo))
         {
-            <p><strong>Пароль (Heslo):</strong> [Зашифровано]</p> <!-- Не выводим пароль в явном виде, для безопасности -->
+            <p><strong>Heslo (Heslo):</strong> [Šifrováno]</p> <!-- Nezobrazujeme heslo v čitelné podobě, pro bezpečnost -->
         }
         else
         {
-            <p><strong>Пароль (Heslo):</strong> <span class="text-danger">Не указано</span></p>
+            <p><strong>Heslo (Heslo):</strong> <span class="text-danger">Nezadáno</span></p>
         }
     </div>
 }
@@ -57,23 +57,21 @@
 <form asp-action="Autorizace" method="post">
     @Html.AntiForgeryToken()
     <div class="form-group">
-        <label asp-for="Username" class="control-label">Имя пользователя</label>
+        <label asp-for="Username" class="control-label">Uživatelské jméno</label>
         <input asp-for="Username" class="form-control" />
         <span asp-validation-for="Username" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="Heslo" class="control-label">Пароль</label>
+        <label asp-for="Heslo" class="control-label">Heslo</label>
         <input asp-for="Heslo" type="password" class="form-control" />
         <span asp-validation-for="Heslo" class="text-danger"></span>
     </div>
     <div class="form-group mt-3">
-        <input type="submit" value="Войти" class="btn btn-primary" />
-        <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Назад</a>
+        <input type="submit" value="Přihlásit se" class="btn btn-primary" />
+        <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Zpět</a>
     </div>
 </form>
 
 @section Scripts {
     @await Html.PartialAsync("_ValidationScriptsPartial")
 }
-
-

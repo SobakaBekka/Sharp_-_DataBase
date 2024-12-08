@@ -1,29 +1,29 @@
 ﻿@model IEnumerable<OnlineSupermarket.Models.Platba>
 
 @{
-    ViewData["Title"] = "Список Платежей";
+    ViewData["Title"] = "Seznam plateb";
 }
 
 <h2>@ViewData["Title"]</h2>
 
 <p>
-    <a asp-action="Create" class="btn btn-primary">Создать Платеж</a>
+    <a asp-action="Create" class="btn btn-primary">Vytvořit platbu</a>
 </p>
 
-<!-- Добавляем скрытое поле с Anti-Forgery Token для AJAX-запросов -->
+<!-- Přidání skrytého pole s Anti-Forgery Token pro AJAX požadavky -->
 @Html.AntiForgeryToken()
 
 <table class="table table-striped">
     <thead>
         <tr>
-            <th>№ Транзакции</th>
-            <th>Общая Цена</th>
-            <th>Тип</th>
-            <th>Дата Создания</th>
-            <th>Дата Обновления</th>
-            <th>ID Товара</th>
-            <th>ID Магазина</th>
-            <th>Действия</th>
+            <th>Číslo transakce</th>
+            <th>Celková cena</th>
+            <th>Typ</th>
+            <th>Datum vytvoření</th>
+            <th>Datum aktualizace</th>
+            <th>ID zboží</th>
+            <th>ID prodejny</th>
+            <th>Akce</th>
         </tr>
     </thead>
     <tbody>
@@ -38,8 +38,8 @@
                 <td>@platba.ZboziIdZbozi</td>
                 <td>@platba.ProdejnaIdProdejny</td>
                 <td>
-                    <a asp-action="Edit" asp-route-idtranzakce="@platba.IdTranzakce" class="btn btn-primary">Изменить</a>
-                    <button class="btn btn-danger" onclick="deletePlatba(@platba.IdTranzakce)">Удалить</button>
+                    <a asp-action="Edit" asp-route-idtranzakce="@platba.IdTranzakce" class="btn btn-primary">Upravit</a>
+                    <button class="btn btn-danger" onclick="deletePlatba(@platba.IdTranzakce)">Smazat</button>
                 </td>
             </tr>
         }
@@ -54,7 +54,7 @@
         }
 
         function deletePlatba(idTranzakce) {
-            if (confirm("Вы уверены, что хотите удалить этот платеж?")) {
+            if (confirm("Opravdu chcete smazat tuto platbu?")) {
                 $.ajax({
                     url: '@Url.Action("Delete", "Platba")',
                     type: 'POST',
@@ -70,12 +70,11 @@
                         }
                     },
                     error: function () {
-                        alert("Произошла ошибка при удалении платежа.");
+                        alert("Došlo k chybě při mazání platby.");
                     }
                 });
             }
         }
     </script>
 }
-
 

@@ -1,21 +1,21 @@
 ﻿@model OnlineSupermarket.Models.Kategorie
 
-<h2>Edit Kategorie</h2>
+<h2>Upravit kategorii</h2>
 
 <form asp-action="Edit">
-    <div class="form-group">
-        <label asp-for="IdKategorie" class="control-label"></label>
-        <input asp-for="IdKategorie" class="form-control" type="hidden" />
-    </div>
-    <div class="form-group">
-        <label asp-for="Nazev" class="control-label"></label>
-        <input asp-for="Nazev" class="form-control" />
-    </div>
-    <div class="form-group">
-        <input type="submit" value="Save" class="btn btn-primary" />
-    </div>
+	<div class="form-group">
+		<label asp-for="IdKategorie" class="control-label"></label>
+		<input asp-for="IdKategorie" class="form-control" type="hidden" />
+	</div>
+	<div class="form-group">
+		<label asp-for="Nazev" class="control-label"></label>
+		<input asp-for="Nazev" class="form-control" />
+	</div>
+	<div class="form-group">
+		<input type="submit" value="Uložit" class="btn btn-primary" />
+	</div>
 </form>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+	<a asp-action="Index">Zpět na seznam</a>
 </div>

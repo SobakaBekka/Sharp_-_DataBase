@@ -1,10 +1,10 @@
 ﻿@model OnlineSupermarket.Models.Adresa
 
 @{
-    ViewData["Title"] = "Редактировать адрес";
+    ViewData["Title"] = "Upravit adresu";
 }
 
-<h2>Редактировать адрес</h2>
+<h2>Upravit adresu</h2>
 
 <form asp-action="Edit" method="post">
     <input type="hidden" asp-for="IdAdresy" />
@@ -39,8 +39,8 @@
         <span asp-validation-for="SkladIdSkladu" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <input type="submit" value="Сохранить изменения" class="btn btn-primary" />
-        <a asp-action="Index" class="btn btn-secondary">Отмена</a>
+        <input type="submit" value="Uložit změny" class="btn btn-primary" />
+        <a asp-action="Index" class="btn btn-secondary">Zrušit</a>
     </div>
 </form>
 

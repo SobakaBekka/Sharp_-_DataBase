@@ -1,45 +1,45 @@
 ﻿@model IEnumerable<OnlineSupermarket.Models.Kategorie>
 
 @{
-    ViewData["Title"] = "Kategorie List";
+	ViewData["Title"] = "Seznam kategorií";
 }
 
-<h2>Kategorie List</h2>
+<h2>Seznam kategorií</h2>
 
 <p>
-    <a asp-action="Create" class="btn btn-primary">Create New Kategorie</a>
+	<a asp-action="Create" class="btn btn-primary">Vytvořit novou kategorii</a>
 </p>
 
 <table class="table">
-    <thead>
-        <tr>
-            <th>ID</th>
-            <th>Nazev</th>
-            <th>Datum Vytvoreni</th>
-            <th>Datum Aktualizace</th>
-            <th>Actions</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>@item.IdKategorie</td>
-                <td>@item.Nazev</td>
-                <td>@item.DatumVytvoreni</td>
-                <td>@item.DatumAktualizace</td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.IdKategorie" class="btn btn-warning">Edit</a> |
-                    <button class="btn btn-danger" onclick="deleteKategorie(@item.IdKategorie)">Delete</button>
-                </td>
-            </tr>
-        }
-    </tbody>
+	<thead>
+	<tr>
+		<th>ID</th>
+		<th>Název</th>
+		<th>Datum vytvoření</th>
+		<th>Datum aktualizace</th>
+		<th>Akce</th>
+	</tr>
+	</thead>
+	<tbody>
+	@foreach (var item in Model)
+	{
+		<tr>
+			<td>@item.IdKategorie</td>
+			<td>@item.Nazev</td>
+			<td>@item.DatumVytvoreni</td>
+			<td>@item.DatumAktualizace</td>
+			<td>
+				<a asp-action="Edit" asp-route-id="@item.IdKategorie" class="btn btn-warning">Upravit</a> |
+				<button class="btn btn-danger" onclick="deleteKategorie(@item.IdKategorie)">Smazat</button>
+			</td>
+		</tr>
+	}
+	</tbody>
 </table>
 
 <script>
     function deleteKategorie(id) {
-        if (confirm('Are you sure you want to delete this category?')) {
+        if (confirm('Opravdu chcete smazat tuto kategorii?')) {
             fetch(`/Kategorie/Delete/${id}`, {
                 method: 'POST',
                 headers: {
@@ -51,14 +51,14 @@
                     if (response.ok) {
                         location.reload();
                     } else {
-                        alert('Failed to delete category.');
+                        alert('Nepodařilo se smazat kategorii.');
                     }
                 })
-                .catch(error => console.error('Error:', error));
+                .catch(error => console.error('Chyba:', error));
         }
     }
 </script>
 
 <form method="post" asp-controller="Kategorie" asp-action="Delete">
-    @Html.AntiForgeryToken()
+	@Html.AntiForgeryToken()
 </form>

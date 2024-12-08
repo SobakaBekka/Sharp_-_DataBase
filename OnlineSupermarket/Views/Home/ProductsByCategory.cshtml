@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<OnlineSupermarket.Models.Zbozi>
 
 @{
-    ViewData["Title"] = "Товары по категории";
+	ViewData["Title"] = "Zboží podle kategorie";
 }
 
 <style>
@@ -41,40 +41,40 @@
 </style>
 
 <div class="container">
-    <h1>Товары в категории: @ViewBag.CategoryName</h1>
+	<h1>Zboží v kategorii: @ViewBag.CategoryName</h1>
 
-    @if (Model != null && Model.Any())
-    {
-        <table>
-            <thead>
-                <tr>
-                    <th>Название товара</th>
-                    <th>Цена</th>
-                    <th>Цена с клубной картой</th>
-                    <th>Вес</th>
-                    <th>Состав</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var item in Model)
-                {
-                    <tr>
-                        <td>@item.Nazev</td>
-                        <td>@item.AktualniCena</td>
-                        <td>@(item.CenaZeKlubKartou?.ToString() ?? "-")</td>
-                        <td>@item.Hmotnost кг</td>
-                        <td>@item.Slozeni</td>
-                    </tr>
-                }
-            </tbody>
-        </table>
-    }
-    else
-    {
-        <p>В этой категории товаров пока нет.</p>
-    }
+	@if (Model != null && Model.Any())
+	{
+		<table>
+			<thead>
+			<tr>
+				<th>Název zboží</th>
+				<th>Cena</th>
+				<th>Cena s klubovou kartou</th>
+				<th>Hmotnost</th>
+				<th>Složení</th>
+			</tr>
+			</thead>
+			<tbody>
+			@foreach (var item in Model)
+			{
+				<tr>
+					<td>@item.Nazev</td>
+					<td>@item.AktualniCena</td>
+					<td>@(item.CenaZeKlubKartou?.ToString() ?? "-")</td>
+					<td>@item.Hmotnost kg</td>
+					<td>@item.Slozeni</td>
+				</tr>
+			}
+			</tbody>
+		</table>
+	}
+	else
+	{
+		<p>V této kategorii zatím nejsou žádné produkty.</p>
+	}
 
-    <div class="mt-3">
-        <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Вернуться на главную</a>
-    </div>
+	<div class="mt-3">
+		<a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Zpět na hlavní stránku</a>
+	</div>
 </div>

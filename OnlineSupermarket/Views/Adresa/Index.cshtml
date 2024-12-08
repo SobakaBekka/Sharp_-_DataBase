@@ -1,13 +1,13 @@
 ﻿@model IEnumerable<OnlineSupermarket.Models.Adresa>
 
 @{
-    ViewData["Title"] = "Список адресов";
+    ViewData["Title"] = "Seznam adres";
 }
 
-<h2>Список адресов</h2>
+<h2>Seznam adres</h2>
 
 <p>
-    <a asp-action="Create" class="btn btn-primary">Добавить адрес</a>
+    <a asp-action="Create" class="btn btn-primary">Přidat adresu</a>
 </p>
 
 <table class="table table-striped">
@@ -49,9 +49,9 @@
                 <td>@Html.DisplayFor(modelItem => item.ZamestnanecIdZamestance)</td>
                 <td>@Html.DisplayFor(modelItem => item.SkladIdSkladu)</td>
                 <td>
-                    <a asp-action="Edit" asp-route-idAdresy="@item.IdAdresy" class="btn btn-warning">Изменить</a>
+                    <a asp-action="Edit" asp-route-idAdresy="@item.IdAdresy" class="btn btn-warning">Upravit</a>
                     <form asp-action="Delete" asp-route-idAdresy="@item.IdAdresy" method="post" class="delete-form" style="display:inline-block">
-                        <button type="submit" class="btn btn-danger delete-button">Удалить</button>
+                        <button type="submit" class="btn btn-danger delete-button">Odstranit</button>
                     </form>
                 </td>
             </tr>
@@ -67,9 +67,9 @@
     <script>
         $(document).ready(function() {
             $('.delete-form').submit(function(e) {
-                e.preventDefault(); // Предотвращаем стандартное поведение отправки формы
+                e.preventDefault(); // Zabránit výchozímu chování odeslání formuláře
 
-                if (confirm('Вы уверены, что хотите удалить этот адрес?')) {
+                if (confirm('Jste si jisti, že chcete odstranit tuto adresu?')) {
                     var form = $(this);
                     var actionUrl = form.attr('action');
                     var row = form.closest('tr');
@@ -80,13 +80,13 @@
                         data: form.serialize(),
                         success: function(response) {
                             if (response.success) {
-                                row.remove(); // Удаляем строку из таблицы без перезагрузки страницы
+                                row.remove(); // Odstranit řádek z tabulky bez obnovení stránky
                             } else {
                                 alert(response.message);
                             }
                         },
                         error: function() {
-                            alert('Произошла ошибка при попытке удалить адрес.');
+                            alert('Došlo k chybě při pokusu o odstranění adresy.');
                         }
                     });
                 }
