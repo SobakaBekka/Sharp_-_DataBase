@@ -1,9 +1,12 @@
-﻿@model IEnumerable<OnlineSupermarket.Models.ZboziKategorieViewModel>
+﻿@using System.Security.Claims
+
+@model IEnumerable<OnlineSupermarket.Models.ZboziKategorieViewModel>
 
 @{
-	ViewData["Title"] = "Главная страница администратора";
-	var username = ViewBag.Username as string;
-	var role = ViewBag.Role as string;
+    ViewData["Title"] = "Главная страница администратора";
+    var username = ViewBag.Username as string;
+    var role = ViewBag.Role as string;
+    var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
 }
 
 <style>
@@ -40,30 +43,37 @@
 </style>
 
 <div class="container">
-	<h1>Добро пожаловать в OnlineSupermarket</h1>
-	@if (!string.IsNullOrEmpty(username) && role == "Administrator")
-	{
-		<h2>Привет, @username!</h2>
-		<div class="mt-3">
-			<a href="@Url.Action("AdminPanel", "Home")" class="btn btn-primary">AdminPanel</a>
-			<a href="@Url.Action("AdminIndex", "Home")" class="btn btn-primary">Hlavni stranka admina</a>
-			<a href='@Url.Action("Index", "RegisUzivatel")' class="btn btn-primary">Uzivatele</a>
-			<a href='@Url.Action("AdminHost", "Home")' class="btn btn-primary">Host</a>
-		</div>
-	}
-	else
-	{
-		<h2>У вас нет доступа к этой странице.</h2>
-	}
+    <h1>Добро пожаловать в OnlineSupermarket</h1>
+    @if (!string.IsNullOrEmpty(username) && role == "Administrator")
+    {
+        <h2>Ahoj administratore, @username!</h2>
+        <div class="mt-3">
+            <a href="@Url.Action("AdminPanel", "Home")" class="btn btn-primary">AdminPanel</a>
+            <a href="@Url.Action("AdminIndex", "Home")" class="btn btn-primary">Hlavni stranka admina</a>
+            <a href='@Url.Action("Index", "RegisUzivatel")' class="btn btn-primary">Uzivatele</a>
+            <a href='@Url.Action("AdminHost", "Home")' class="btn btn-primary">Host</a>
+            <a href="@Url.Action("Index", "Cart")" class="btn btn-primary">Перейти в корзину</a>
+        </div>
+    }
+    else
+    {
+        <h2>У вас нет доступа к этой странице.</h2>
+    }
 
-	@await Html.PartialAsync("_ZboziKategoriePartial", Model)
+    @await Html.PartialAsync("_ZboziKategoriePartial", Model)
 
-	<div class="text-center mt-4">
-		<h1 class="display-4">Welcome</h1>
-		<p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-	</div>
+    <div class="text-center mt-4">
+        <h1 class="display-4">Welcome</h1>
+        <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    </div>
 </div>
 
 <footer>
-	<p>© 2024 - OnlineSupermarket</p>
+    <p>© 2024 - OnlineSupermarket</p>
 </footer>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+}
+

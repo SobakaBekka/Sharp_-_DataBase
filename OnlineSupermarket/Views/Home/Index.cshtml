@@ -1,9 +1,9 @@
 ﻿@model IEnumerable<OnlineSupermarket.Models.ZboziKategorieViewModel>
 
 @{
-	ViewData["Title"] = "Главная страница";
-	var username = ViewBag.Username as string;
-	var role = ViewBag.Role as string;
+    ViewData["Title"] = "Главная страница";
+    var username = ViewBag.Username as string;
+    var role = ViewBag.Role as string;
 }
 
 <style>
@@ -40,34 +40,45 @@
 </style>
 
 <div class="container">
-	<h1>Добро пожаловать в OnlineSupermarket</h1>
-	@if (!string.IsNullOrEmpty(username))
-	{
-		<h2>Привет, @username!</h2>
-		@if (role == "Administrator")
-		{
-			<div class="mt-3">
-				<a href="@Url.Action("AdminIndex", "Home")" class="btn btn-primary">Главная страница администратора</a>
-			</div>
-		}
-	}
-	else
-	{
-		<h2>Привет, гость!</h2>
-		<div class="mt-3">
-			<a href="@Url.Action("Registrace", "Home")" class="btn btn-primary">Регистрация</a>
-			<a href="@Url.Action("Autorizace", "Home")" class="btn btn-secondary">Авторизация</a>
-		</div>
-	}
+    <h1>Добро пожаловать в OnlineSupermarket</h1>
+    @if (!string.IsNullOrEmpty(username))
+    {
+        <h2>Привет, @username!</h2>
+        @if (role == "Administrator")
+        {
+            <div class="mt-3">
+                <a href="@Url.Action("AdminIndex", "Home")" class="btn btn-primary">Главная страница администратора</a>
+            </div>
+        }
+        <div class="mt-3">
+            <a href="@Url.Action("Index", "Cart")" class="btn btn-primary">Перейти в корзину</a>
+        </div>
+    }
+    else
+    {
+        <h2>Привет, гость!</h2>
+        <div class="mt-3">
+            <a href="@Url.Action("Registrace", "Home")" class="btn btn-primary">Регистрация</a>
+            <a href="@Url.Action("Autorizace", "Home")" class="btn btn-secondary">Авторизация</a>
+        </div>
+    }
 
-	@await Html.PartialAsync("_ZboziKategoriePartial", Model)
+    @await Html.PartialAsync("_ZboziKategoriePartial", Model)
 
-	<div class="text-center mt-4">
-		<h1 class="display-4">Welcome</h1>
-		<p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-	</div>
+    <div class="text-center mt-4">
+        <h1 class="display-4">Welcome</h1>
+        <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    </div>
 </div>
 
 <footer>
-	<p>© 2024 - OnlineSupermarket</p>
+    <p>© 2024 - OnlineSupermarket</p>
 </footer>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+}
+
+
+

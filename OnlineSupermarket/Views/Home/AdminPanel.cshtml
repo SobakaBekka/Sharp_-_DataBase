@@ -6,11 +6,15 @@
 
 <div class="container" style="background-color: #e3f2fd; padding: 20px;">
     <p>Добро пожаловать в административную панель. Здесь вы можете управлять различными аспектами системы.</p>
+	
+    <p>
+	    <a href='@Url.Action("AdminIndex", "Home")' class="btn btn-secondary">Zpátky na stranku admin</a>
+    </p>
+	
 
     <div class="row">
         <div class="col-md-12">
             <div class="btn-group-vertical" style="width: 100%;">
-                <!-- Ссылки на каждую категорию -->
                 <a href="@Url.Action("Index", "Adresa")" class="btn btn-primary mb-2">Адреса</a>
                 <a href="@Url.Action("Index", "Home")" class="btn btn-primary mb-2">Домашняя страница</a>
                 <a href="@Url.Action("Index", "Kategorie")" class="btn btn-primary mb-2">Категории</a>

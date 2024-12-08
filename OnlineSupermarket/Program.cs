@@ -1,4 +1,6 @@
 ﻿using OnlineSupermarket.Controllers;
+using OnlineSupermarket.Services;
+using Microsoft.AspNetCore.Http;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +9,12 @@ builder.Services.AddControllersWithViews();
 
 // Register HomeController as a service
 builder.Services.AddTransient<HomeController>();
+
+// Register IHttpContextAccessor
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+// Register CartService as a singleton
+builder.Services.AddSingleton<CartService>();
 
 // Add services for session state
 builder.Services.AddDistributedMemoryCache();
@@ -35,9 +43,9 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseSession(); // Add this line to enable session state
 
 app.UseAuthorization();
-app.UseSession(); // Add this line to enable session state
 
 // Register application stopping event
 var lifetime = app.Lifetime;

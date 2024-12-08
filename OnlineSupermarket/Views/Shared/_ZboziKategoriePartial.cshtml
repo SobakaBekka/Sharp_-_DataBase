@@ -3,34 +3,63 @@
 <h2 style="color: white;">Список товаров и категорий</h2>
 
 <table class="table table-striped">
-	<thead>
-	<tr>
-		<th style="color: white;">Изображение</th>
-		<th style="color: white;">Название товара</th>
-		<th style="color: white;">Актуальная цена</th>
-		<th style="color: white;">Цена с клубной картой</th>
-		<th style="color: white;">Вес</th>
-		<th style="color: white;">Состав</th>
-		<th style="color: white;">Категория</th>
-		<th></th> 
-	</tr>
-	</thead>
-	<tbody>
-	@foreach (var item in Model)
-	{
-		<tr style="height: 150px;"> <td>
-				<img src="~/img/@(item.IDZbozi.ToString() + ".jpg")" alt="@item.ZboziNazev" style="height: 100px; width: auto;" />
-			</td>
-			<td style="color: white;">@item.ZboziNazev</td>
-			<td style="color: white;">@item.AktualniCena</td>
-			<td style="color: white;">@item.CenaZeKlubKartou</td>
-			<td style="color: white;">@item.Hmotnost</td>
-			<td style="color: white;">@item.Slozeni</td>
-			<td style="color: white;">@item.KategorieNazev</td>
-			<td>
-				<button class="btn btn-primary">Купить</button>
-			</td>
-		</tr>
-	}
-	</tbody>
+    <thead>
+        <tr>
+            <th style="color: white;">Изображение</th>
+            <th style="color: white;">Название товара</th>
+            <th style="color: white;">Актуальная цена</th>
+            <th style="color: white;">Цена с клубной картой</th>
+            <th style="color: white;">Вес</th>
+            <th style="color: white;">Состав</th>
+            <th style="color: white;">Категория</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr style="height: 150px;">
+                <td>
+                    <img src="~/img/@(item.IDZbozi.ToString() + ".jpg")" alt="@item.ZboziNazev" style="height: 100px; width: auto;" />
+                </td>
+                <td style="color: white;">@item.ZboziNazev</td>
+                <td style="color: white;">@item.AktualniCena</td>
+                <td style="color: white;">@item.CenaZeKlubKartou</td>
+                <td style="color: white;">@item.Hmotnost</td>
+                <td style="color: white;">@item.Slozeni</td>
+                <td style="color: white;">@item.KategorieNazev</td>
+                <td>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#quantityModal-@item.IDZbozi">Купить</button>
+
+                    <!-- Модальное окно для выбора количества продукта -->
+                    <div class="modal fade" id="quantityModal-@item.IDZbozi" tabindex="-1" role="dialog" aria-labelledby="quantityModalLabel-@item.IDZbozi" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="quantityModalLabel-@item.IDZbozi">Выберите количество</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    @Html.Partial("_ProductQuantitySelector", new OnlineSupermarket.Models.CartItem
+                           {
+                               ProductId = item.IDZbozi,
+                               ProductName = item.ZboziNazev,
+                               ProductImage = Url.Content("~/img/" + item.IDZbozi.ToString() + ".jpg"),
+                               Price = item.AktualniCena
+                           })
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
 </table>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+}

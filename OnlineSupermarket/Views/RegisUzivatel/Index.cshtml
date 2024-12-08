@@ -7,6 +7,10 @@
 <h1>@ViewData["Title"]</h1>
 
 <p>
+    <a href='@Url.Action("AdminIndex", "Home")' class="btn btn-secondary">Zpátky na stranku admin</a>
+</p>
+
+<p>
     <a asp-action="Create" class="btn btn-primary">Vytvořit nového uživatele</a>
 </p>
 
@@ -80,3 +84,5 @@
         }
     </script>
 }
+
+

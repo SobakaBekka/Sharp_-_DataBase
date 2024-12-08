@@ -1,0 +1,13 @@
+﻿@model OnlineSupermarket.Models.CartItem
+
+<div>
+	<h4>Выберите количество</h4>
+	<form asp-controller="Cart" asp-action="AddToCart" method="post">
+		<input type="hidden" name="productId" value="@Model.ProductId" />
+		<input type="hidden" name="productName" value="@Model.ProductName" />
+		<input type="hidden" name="productImage" value="@Model.ProductImage" />
+		<input type="hidden" name="price" value="@Model.Price" />
+		<input type="number" name="quantity" value="1" min="1" class="form-control" />
+		<button type="submit" class="btn btn-primary">Добавить в корзину</button>
+	</form>
+</div>
