@@ -425,7 +425,11 @@ namespace OnlineSupermarket.Controllers
                 using (var connection = new OracleConnection(_connectionString))
                 {
                     await connection.OpenAsync();
-                    using (var command = new OracleCommand("SELECT IDREGISUZIVATELU, USERNAME, EMAIL, JMENO, PRIJMENI FROM REGISUZIVATEL WHERE USERNAME = :username", connection))
+                    using (var command = new OracleCommand(@"
+                            SELECT R.IDREGISUZIVATELU, R.USERNAME, R.EMAIL, R.JMENO, R.PRIJMENI, S.OBSAH, S.TYP_SOUBORU
+                            FROM REGISUZIVATEL R
+                            LEFT JOIN SOUBOR S ON R.IDREGISUZIVATELU = S.ID_REGISUZIVATELU
+                            WHERE R.USERNAME = :username", connection))
                     {
                         command.Parameters.Add("username", OracleDbType.Varchar2).Value = username;
                         using (var reader = await command.ExecuteReaderAsync())
@@ -438,13 +442,16 @@ namespace OnlineSupermarket.Controllers
                                     Username = reader.GetString(reader.GetOrdinal("USERNAME")),
                                     Email = reader.GetString(reader.GetOrdinal("EMAIL")),
                                     Jmeno = reader.GetString(reader.GetOrdinal("JMENO")),
-                                    Prijmeni = reader.GetString(reader.GetOrdinal("PRIJMENI"))
+                                    Prijmeni = reader.GetString(reader.GetOrdinal("PRIJMENI")),
+                                    ProfilePhoto = reader.IsDBNull(reader.GetOrdinal("OBSAH")) ? null : (byte[])reader["OBSAH"],
+                                    PhotoType = reader.IsDBNull(reader.GetOrdinal("TYP_SOUBORU")) ? null : reader.GetString(reader.GetOrdinal("TYP_SOUBORU"))
                                 };
                             }
                         }
                     }
                 }
             }
+
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Error fetching user profile");
@@ -457,6 +464,7 @@ namespace OnlineSupermarket.Controllers
 
             return View(user);
         }
+
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -482,19 +490,93 @@ namespace OnlineSupermarket.Controllers
                     await connection.OpenAsync();
                     _logger.LogInformation("Database connection opened.");
 
-                    using (var command = new OracleCommand("UPDATE_USERPROFILE", connection))
+                    // Перевірка старого пароля
+                    string storedPasswordHash = null;
+                    using (var command = new OracleCommand("SELECT HESLO FROM REGISUZIVATEL WHERE IDREGISUZIVATELU = :id", connection))
                     {
-                        command.CommandType = CommandType.StoredProcedure;
-                        command.Parameters.Add("p_idregisuzivatelu", OracleDbType.Int32).Value = model.IdRegisUzivatelu;
-                        command.Parameters.Add("p_username", OracleDbType.Varchar2).Value = model.Username;
-                        command.Parameters.Add("p_email", OracleDbType.Varchar2).Value = model.Email;
-                        command.Parameters.Add("p_jmeno", OracleDbType.Varchar2).Value = model.Jmeno;
-                        command.Parameters.Add("p_prijmeni", OracleDbType.Varchar2).Value = model.Prijmeni;
+                        command.Parameters.Add("id", OracleDbType.Int32).Value = model.IdRegisUzivatelu;
+                        using (var reader = await command.ExecuteReaderAsync())
+                        {
+                            if (await reader.ReadAsync())
+                            {
+                                storedPasswordHash = reader.GetString(0);
+                            }
+                        }
+                    }
 
-                        _logger.LogInformation("Executing stored procedure UPDATE_USERPROFILE with parameters: IdRegisUzivatelu={IdRegisUzivatelu}, Username={Username}, Email={Email}, Jmeno={Jmeno}, Prijmeni={Prijmeni}", model.IdRegisUzivatelu, model.Username, model.Email, model.Jmeno, model.Prijmeni);
+                    if (storedPasswordHash == null)
+                    {
+                        ModelState.AddModelError(string.Empty, "User not found.");
+                        return View(model);
+                    }
+
+                    var parts = storedPasswordHash.Split(':');
+                    if (parts.Length != 2)
+                    {
+                        ModelState.AddModelError(string.Empty, "Invalid password format.");
+                        return View(model);
+                    }
+
+                    var salt = Convert.FromBase64String(parts[0]);
+                    var storedHash = parts[1];
+
+                    // Хэшируем введенный старый пароль с использованием той же соли
+                    string hashedOldPassword = Convert.ToBase64String(KeyDerivation.Pbkdf2(
+                        password: model.OldPassword,
+                        salt: salt,
+                        prf: KeyDerivationPrf.HMACSHA256,
+                        iterationCount: 10000,
+                        numBytesRequested: 32
+                    ));
+
+                    if (hashedOldPassword != storedHash)
+                    {
+                        ModelState.AddModelError("OldPassword", "Old password is incorrect.");
+                        return View(model);
+                    }
+
+                    // Якщо користувач хоче змінити пароль
+                    if (!string.IsNullOrEmpty(model.NewPassword))
+                    {
+                        // Генерація солі для хешування
+                        byte[] newSalt = new byte[16]; // 16 байт
+                        using (var rng = RandomNumberGenerator.Create())
+                        {
+                            rng.GetBytes(newSalt);
+                        }
+
+                        // Хешування нового пароля
+                        string hashedNewPassword = Convert.ToBase64String(KeyDerivation.Pbkdf2(
+                            password: model.NewPassword,
+                            salt: newSalt,
+                            prf: KeyDerivationPrf.HMACSHA256,
+                            iterationCount: 10000,
+                            numBytesRequested: 32 // 32 байта хешу
+                        ));
+
+                        // Об'єднання солі та хешу для зберігання
+                        string newSaltBase64 = Convert.ToBase64String(newSalt);
+                        string newPasswordWithSalt = $"{newSaltBase64}:{hashedNewPassword}";
+
+                        // Оновлення пароля в базі даних
+                        using (var command = new OracleCommand("UPDATE REGISUZIVATEL SET HESLO = :heslo WHERE IDREGISUZIVATELU = :id", connection))
+                        {
+                            command.Parameters.Add("heslo", OracleDbType.Varchar2).Value = newPasswordWithSalt;
+                            command.Parameters.Add("id", OracleDbType.Int32).Value = model.IdRegisUzivatelu;
+                            await command.ExecuteNonQueryAsync();
+                        }
+                    }
+
+                    // Оновлення інших полів профілю
+                    using (var command = new OracleCommand("UPDATE REGISUZIVATEL SET USERNAME = :username, EMAIL = :email, JMENO = :jmeno, PRIJMENI = :prijmeni WHERE IDREGISUZIVATELU = :id", connection))
+                    {
+                        command.Parameters.Add("username", OracleDbType.Varchar2).Value = model.Username;
+                        command.Parameters.Add("email", OracleDbType.Varchar2).Value = model.Email;
+                        command.Parameters.Add("jmeno", OracleDbType.Varchar2).Value = model.Jmeno;
+                        command.Parameters.Add("prijmeni", OracleDbType.Varchar2).Value = model.Prijmeni;
+                        command.Parameters.Add("id", OracleDbType.Int32).Value = model.IdRegisUzivatelu;
 
                         await command.ExecuteNonQueryAsync();
-                        _logger.LogInformation("Stored procedure executed successfully.");
                     }
                 }
 
@@ -510,6 +592,131 @@ namespace OnlineSupermarket.Controllers
             return View(model);
         }
 
+        private async Task<int?> GetUserId(string username)
+        {
+            int? userId = null;
+
+            using (var connection = new OracleConnection(_connectionString))
+            {
+                await connection.OpenAsync();
+                using (var command = new OracleCommand("SELECT IDREGISUZIVATELU FROM REGISUZIVATEL WHERE USERNAME = :username", connection))
+                {
+                    command.Parameters.Add("username", OracleDbType.Varchar2).Value = username;
+                    using (var reader = await command.ExecuteReaderAsync())
+                    {
+                        if (await reader.ReadAsync())
+                        {
+                            userId = reader.GetInt32(0);
+                        }
+                    }
+                }
+            }
+
+            return userId;
+        }
+
+
+
+        [HttpPost]
+        public async Task<IActionResult> UploadProfilePhoto(IFormFile file)
+        {
+            var username = HttpContext.Session.GetString("Username");
+            if (string.IsNullOrEmpty(username))
+                return RedirectToAction("Autorizace", "Home");
+
+            if (file != null && file.Length > 0)
+            {
+                using (var memoryStream = new MemoryStream())
+                {
+                    await file.CopyToAsync(memoryStream);
+                    var fileContent = memoryStream.ToArray();
+                    var fileName = file.FileName;
+                    var fileType = file.ContentType;
+                    var fileExtension = Path.GetExtension(file.FileName);
+
+                    using (var connection = new OracleConnection(_connectionString))
+                    {
+                        await connection.OpenAsync();
+                        using (var command = new OracleCommand("VLOZ_SOUBOR", connection))
+                        {
+                            command.CommandType = CommandType.StoredProcedure;
+                            command.Parameters.Add("p_NAZEV_SOUBORU", OracleDbType.Varchar2).Value = fileName;
+                            command.Parameters.Add("p_TYP_SOUBORU", OracleDbType.Varchar2).Value = fileType;
+                            command.Parameters.Add("p_PRIPONA_SOUBORU", OracleDbType.Varchar2).Value = fileExtension;
+                            command.Parameters.Add("p_DATUM_MODIFIKACE", OracleDbType.Date).Value = DateTime.Now;
+                            command.Parameters.Add("p_OBSAH", OracleDbType.Blob).Value = fileContent;
+                            command.Parameters.Add("p_ID_REGISUZIVATELU", OracleDbType.Int32).Value = await GetUserId(username);
+
+                            await command.ExecuteNonQueryAsync();
+                        }
+                    }
+                }
+            }
+
+            return RedirectToAction("UserProfile");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> DeleteProfilePhoto()
+        {
+            var username = HttpContext.Session.GetString("Username");
+            if (string.IsNullOrEmpty(username))
+                return RedirectToAction("Autorizace", "Home");
+
+            var userId = await GetUserId(username);
+
+            try
+            {
+                int? souborId = null;
+
+                using (var connection = new OracleConnection(_connectionString))
+                {
+                    await connection.OpenAsync();
+
+                    // Знайти ID файлу (IDSOUBORU), який належить користувачу
+                    using (var findCommand = new OracleCommand(
+                        "SELECT IDSOUBORU FROM SOUBOR WHERE ID_REGISUZIVATELU = :userId", connection))
+                    {
+                        findCommand.Parameters.Add("userId", OracleDbType.Int32).Value = userId;
+
+                        using (var reader = await findCommand.ExecuteReaderAsync())
+                        {
+                            if (await reader.ReadAsync())
+                            {
+                                souborId = reader.GetInt32(0);
+                            }
+                        }
+                    }
+
+                    if (souborId == null)
+                    {
+                        TempData["ErrorMessage"] = "Фото профілю не знайдено.";
+                        return RedirectToAction("UserProfile");
+                    }
+
+                    // Виклик процедури для видалення файлу
+                    using (var deleteCommand = new OracleCommand("SMAZ_SOUBOR", connection))
+                    {
+                        deleteCommand.CommandType = CommandType.StoredProcedure;
+                        deleteCommand.Parameters.Add("p_IDSOUBORU", OracleDbType.Int32).Value = souborId;
+                        await deleteCommand.ExecuteNonQueryAsync();
+                    }
+                }
+
+                TempData["SuccessMessage"] = "Фото профілю успішно видалено.";
+            }
+            catch (OracleException ex)
+            {
+                _logger.LogError(ex, "Помилка під час видалення фото профілю.");
+                TempData["ErrorMessage"] = "Не вдалося видалити фото профілю.";
+            }
+
+            return RedirectToAction("UserProfile");
+        }
+
+
+
+    
 
 
 
